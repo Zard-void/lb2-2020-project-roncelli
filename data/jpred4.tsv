@@ -1,0 +1,1349 @@
+DomainID	PDB	SCOPID	SCOPClass	Length	Suprekingdom	TaxaID	TaxaName
+d1a12a_	1a12	b.69.5.1	All beta	401	eukaryota	9606	Homo sapiens
+d1a1xa_	1a1x	b.63.1.1	All beta	106	eukaryota	9606	Homo sapiens
+d1a62a1	1a62	a.140.3.1	All alpha	47	bacteria	469008	Escherichia coli BL21(DE3)
+d1a9xa1	1a9x	a.92.1.1	All alpha	153	bacteria	562	Escherichia coli
+d1acoa1	1aco	c.8.2.1	Alpha and beta (a/b)	226	eukaryota	9913	Bos taurus
+d1acoa2	1aco	c.83.1.1	Alpha and beta (a/b)	527	eukaryota	9913	Bos taurus
+d1ad2a_	1ad2	e.24.1.1	Multi-domain proteins (alpha and beta)	224	bacteria	274	Thermus thermophilus
+d1af7a1	1af7	a.58.1.1	All alpha	81	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d1ah7a_	1ah7	a.124.1.1	All alpha	245	bacteria	1396	Bacillus cereus
+d1aiea_	1aie	a.53.1.1	All alpha	31	eukaryota	9606	Homo sapiens
+d1aola_	1aol	b.20.1.1	All beta	227	viruses	11795	Friend murine leukemia virus
+d1ayoa_	1ayo	b.1.29.1	All beta	130	eukaryota	9913	Bos taurus
+d1b0na1	1b0n	a.34.1.1	All alpha	35	bacteria	1423	Bacillus subtilis
+d1b25a1	1b25	a.110.1.1	All alpha	401	archaea	2261	Pyrococcus furiosus
+d1b25a2	1b25	d.152.1.1	Alpha and beta (a+b)	210	archaea	2261	Pyrococcus furiosus
+d1b33n_	1b33	d.30.1.1	Alpha and beta (a+b)	67	bacteria	83541	Mastigocladus laminosus
+d1b79a_	1b79	a.81.1.1	All alpha	102	bacteria	562	Escherichia coli
+d1bg1a1	1bg1	a.47.1.1	All alpha	177	eukaryota	10090	Mus musculus
+d1bgfa_	1bgf	a.90.1.1	All alpha	124	eukaryota	10090	Mus musculus
+d1bkra_	1bkr	a.40.1.1	All alpha	108	eukaryota	9606	Homo sapiens
+d1bm8a_	1bm8	d.34.1.1	Alpha and beta (a+b)	99	eukaryota	4932	Saccharomyces cerevisiae
+d1boua_	1bou	a.88.1.1	All alpha	132	bacteria	13689	Sphingomonas paucimobilis
+d1boub_	1bou	c.56.6.1	Alpha and beta (a/b)	298	bacteria	13689	Sphingomonas paucimobilis
+d1bx7a_	1bx7	g.3.15.1	Small proteins	51	eukaryota	6421	Hirudo medicinalis
+d1bxya_	1bxy	d.59.1.1	Alpha and beta (a+b)	60	bacteria	274	Thermus thermophilus
+d1byia_	1byi	c.37.1.10	Alpha and beta (a/b)	224	bacteria	562	Escherichia coli
+d1c5ea_	1c5e	b.85.2.1	All beta	95	viruses	10710	Escherichia virus Lambda
+d1cc8a_	1cc8	d.58.17.1	Alpha and beta (a+b)	72	eukaryota	4932	Saccharomyces cerevisiae
+d1ccwb_	1ccw	c.1.19.2	Alpha and beta (a/b)	483	bacteria	1494	Clostridium cochlearium
+d1cfza_	1cfz	c.56.1.1	Alpha and beta (a/b)	162	bacteria	562	Escherichia coli
+d1chda_	1chd	c.40.1.1	Alpha and beta (a/b)	198	bacteria	99287	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+d1ci4a_	1ci4	a.60.5.1	All alpha	89	eukaryota	9606	Homo sapiens
+d1cipa1	1cip	a.66.1.1	All alpha	121	eukaryota	10116	Rattus norvegicus
+d1ciya2	1ciy	b.77.2.1	All beta	206	bacteria	1428	Bacillus thuringiensis
+d1ciya3	1ciy	f.1.3.1	Membrane and cell surface proteins and peptides	223	bacteria	1428	Bacillus thuringiensis
+d1cq3a_	1cq3	b.27.1.1	All beta	224	viruses	10243	Cowpox virus
+d1crua_	1cru	b.68.2.1	All beta	448	bacteria	471	Acinetobacter calcoaceticus
+d1cuka1	1cuk	a.5.1.1	All alpha	48	bacteria	562	Escherichia coli
+d1cxqa_	1cxq	c.55.3.2	Alpha and beta (a/b)	143	viruses	11876	Avian sarcoma virus
+d1cy5a_	1cy5	a.77.1.3	All alpha	92	eukaryota	9606	Homo sapiens
+d1d0qa_	1d0q	g.41.3.2	Small proteins	102	bacteria	1422	Geobacillus stearothermophilus
+d1d3ya_	1d3y	e.12.1.1	Multi-domain proteins (alpha and beta)	289	archaea	2190	Methanocaldococcus jannaschii
+d1dcea2	1dce	b.7.4.1	All beta	109	eukaryota	10116	Rattus norvegicus
+d1dfup_	1dfu	b.53.1.1	All beta	94	bacteria	562	Escherichia coli
+d1dj0a_	1dj0	d.265.1.1	Alpha and beta (a+b)	264	bacteria	562	Escherichia coli
+d1dj8a_	1dj8	a.57.1.1	All alpha	79	bacteria	562	Escherichia coli
+d1dk8a_	1dk8	a.91.1.1	All alpha	147	eukaryota	9606	Homo sapiens
+d1dl5a2	1dl5	d.197.1.1	Alpha and beta (a+b)	104	bacteria	2336	Thermotoga maritima
+d1ds1a_	1ds1	b.82.2.2	All beta	323	bacteria	1901	Streptomyces clavuligerus
+d1dtdb_	1dtd	g.30.1.1	Small proteins	61	eukaryota	9606	Homo sapiens
+d1dvoa_	1dvo	a.136.1.1	All alpha	152	bacteria	562	Escherichia coli
+d1dwka2	1dwk	d.72.1.1	Alpha and beta (a+b)	70	bacteria	562	Escherichia coli
+d1dy5a_	1dy5	d.5.1.1	Alpha and beta (a+b)	124	eukaryota	9913	Bos taurus
+d1dzfa1	1dzf	c.52.3.1	Alpha and beta (a/b)	139	eukaryota	559292	Saccharomyces cerevisiae S288C
+d1dzfa2	1dzf	d.78.1.1	Alpha and beta (a+b)	72	eukaryota	559292	Saccharomyces cerevisiae S288C
+d1e44b_	1e44	b.101.1.1	All beta	96	bacteria	562	Escherichia coli
+d1e58a_	1e58	c.60.1.1	Alpha and beta (a/b)	247	bacteria	83333	Escherichia coli K-12
+d1e7la1	1e7l	a.140.4.1	All alpha	54	viruses	10665	Escherichia virus T4
+d1e8ca1	1e8c	c.98.1.1	Alpha and beta (a/b)	101	bacteria	562	Escherichia coli
+d1eb6a_	1eb6	d.92.1.12	Alpha and beta (a+b)	177	eukaryota	5062	Aspergillus oryzae
+d1ecwa_	1ecw	a.61.1.1	All alpha	114	viruses	11723	Simian immunodeficiency virus
+d1eexb_	1eex	c.51.3.1	Alpha and beta (a/b)	178	bacteria	571	Klebsiella oxytoca
+d1eexg_	1eex	a.23.2.1	All alpha	137	bacteria	571	Klebsiella oxytoca
+d1ef1c_	1ef1	a.137.5.1	All alpha	90	eukaryota	9606	Homo sapiens
+d1egwa_	1egw	d.88.1.1	Alpha and beta (a+b)	71	eukaryota	9606	Homo sapiens
+d1ei5a1	1ei5	b.61.3.1	All beta	82	bacteria	529	Ochrobactrum anthropi
+d1ei7a_	1ei7	a.24.5.1	All alpha	158	viruses	12242	Tobacco mosaic virus
+d1el6a_	1el6	d.182.1.1	Alpha and beta (a+b)	208	viruses	10665	Escherichia virus T4
+d1eu1a1	1eu1	b.52.2.2	All beta	155	bacteria	1063	Rhodobacter sphaeroides
+d1eu1a2	1eu1	c.81.1.1	Alpha and beta (a/b)	612	bacteria	1063	Rhodobacter sphaeroides
+d1euwa_	1euw	b.85.4.1	All beta	136	bacteria	562	Escherichia coli
+d1ewfa1	1ewf	d.83.1.1	Alpha and beta (a+b)	217	eukaryota	9606	Homo sapiens
+d1ezga_	1ezg	b.80.2.1	All beta	82	eukaryota	7067	Tenebrio molitor
+d1f0la1	1f0l	b.2.1.1	All beta	155	bacteria	1717	Corynebacterium diphtheriae
+d1f0la3	1f0l	f.1.2.1	Membrane and cell surface proteins and peptides	178	bacteria	1717	Corynebacterium diphtheriae
+d1f1ea_	1f1e	a.22.1.2	All alpha	151	archaea	2320	Methanopyrus kandleri
+d1f1ma_	1f1m	a.24.12.1	All alpha	162	bacteria	139	Borreliella burgdorferi
+d1f35a_	1f35	b.94.1.1	All beta	162	eukaryota	10090	Mus musculus
+d1f3ua_	1f3u	b.65.1.1	All beta	118	eukaryota	9606	Homo sapiens
+d1f3va_	1f3v	d.58.22.1	Alpha and beta (a+b)	158	eukaryota	9606	Homo sapiens
+d1f60b_	1f60	d.58.12.1	Alpha and beta (a+b)	90	eukaryota	4932	Saccharomyces cerevisiae
+d1f7ua3	1f7u	d.67.2.1	Alpha and beta (a+b)	134	eukaryota	4932	Saccharomyces cerevisiae
+d1f86a_	1f86	b.3.4.1	All beta	115	eukaryota	9606	Homo sapiens
+d1fcya_	1fcy	a.123.1.1	All alpha	236	eukaryota	9606	Homo sapiens
+d1fkma1	1fkm	a.69.2.1	All alpha	194	eukaryota	4932	Saccharomyces cerevisiae
+d1fm0d_	1fm0	d.15.3.1	Alpha and beta (a+b)	81	bacteria	562	Escherichia coli
+d1fm0e_	1fm0	d.41.5.1	Alpha and beta (a+b)	142	bacteria	562	Escherichia coli
+d1fn9a_	1fn9	d.196.1.1	Alpha and beta (a+b)	365	viruses	10891	Reovirus sp.
+d1fpoa2	1fpo	a.23.1.1	All alpha	95	bacteria	562	Escherichia coli
+d1fs1a1	1fs1	a.158.1.1	All alpha	41	eukaryota	9606	Homo sapiens
+d1fsga_	1fsg	c.61.1.1	Alpha and beta (a/b)	233	eukaryota	383379	Toxoplasma gondii RH
+d1fx2a_	1fx2	d.58.29.1	Alpha and beta (a+b)	235	eukaryota	5691	Trypanosoma brucei
+d1fxka_	1fxk	a.2.5.1	All alpha	107	archaea	145262	Methanothermobacter thermautotrophicus
+d1g2ra_	1g2r	d.192.1.1	Alpha and beta (a+b)	94	bacteria	1313	Streptococcus pneumoniae
+d1g2ya_	1g2y	a.34.2.1	All alpha	31	eukaryota	10090	Mus musculus
+d1g3pa1	1g3p	b.37.1.1	All beta	65	viruses	1977402	Escherichia virus M13
+d1g6xa_	1g6x	g.8.1.1	Small proteins	58	eukaryota	9913	Bos taurus
+d1g73a_	1g73	a.7.4.1	All alpha	157	eukaryota	9606	Homo sapiens
+d1g7sa3	1g7s	c.20.1.1	Alpha and beta (a/b)	131	archaea	145262	Methanothermobacter thermautotrophicus
+d1g8ea_	1g8e	a.145.1.1	All alpha	98	bacteria	562	Escherichia coli
+d1g8qa_	1g8q	a.135.1.1	All alpha	90	eukaryota	9606	Homo sapiens
+d1gcia_	1gci	c.41.1.1	Alpha and beta (a/b)	269	bacteria	1467	Bacillus lentus
+d1gd8a_	1gd8	d.188.1.1	Alpha and beta (a+b)	105	bacteria	274	Thermus thermophilus
+d1gmua1	1gmu	b.107.1.1	All beta	70	bacteria	548	Klebsiella aerogenes
+d1gmua2	1gmu	d.58.38.1	Alpha and beta (a+b)	68	bacteria	548	Klebsiella aerogenes
+d1gmxa_	1gmx	c.46.1.3	Alpha and beta (a/b)	108	bacteria	469008	Escherichia coli BL21(DE3)
+d1go3e2	1go3	d.230.1.1	Alpha and beta (a+b)	78	archaea	2190	Methanocaldococcus jannaschii
+d1gp0a_	1gp0	b.64.1.1	All beta	133	eukaryota	9606	Homo sapiens
+d1gpja3	1gpj	d.58.39.1	Alpha and beta (a+b)	143	archaea	2320	Methanopyrus kandleri
+d1gpqa_	1gpq	d.233.1.1	Alpha and beta (a+b)	127	bacteria	83333	Escherichia coli K-12
+d1gqea_	1gqe	e.38.1.1	Multi-domain proteins (alpha and beta)	362	bacteria	83333	Escherichia coli K-12
+d1gqia2	1gqi	d.92.2.2	Alpha and beta (a+b)	147	bacteria	155077	Cellvibrio japonicus
+d1gs9a_	1gs9	a.24.1.1	All alpha	144	eukaryota	9606	Homo sapiens
+d1gtea1	1gte	a.1.2.2	All alpha	182	eukaryota	9823	Sus scrofa
+d1gwea_	1gwe	e.5.1.1	Multi-domain proteins (alpha and beta)	498	bacteria	1270	Micrococcus luteus
+d1gxma_	1gxm	a.102.5.1	All alpha	324	bacteria	155077	Cellvibrio japonicus
+d1gxua_	1gxu	d.58.10.1	Alpha and beta (a+b)	88	bacteria	562	Escherichia coli
+d1gzsb_	1gzs	a.168.1.1	All alpha	165	eukaryota	9606	Homo sapiens
+d1h16a_	1h16	c.7.1.1	Alpha and beta (a/b)	759	bacteria	562	Escherichia coli
+d1h2ca_	1h2c	b.31.1.1	All beta	124	viruses	205488	Ebola virus sp.
+d1h4ra1	1h4r	a.11.2.1	All alpha	111	eukaryota	9606	Homo sapiens
+d1h4xa_	1h4x	c.13.2.1	Alpha and beta (a/b)	111	bacteria	1421	Lysinibacillus sphaericus
+d1h7ca_	1h7c	a.7.5.1	All alpha	103	eukaryota	9606	Homo sapiens
+d1h99a1	1h99	a.142.1.1	All alpha	115	bacteria	1423	Bacillus subtilis
+d1hbna1	1hbn	a.89.1.1	All alpha	279	archaea	145262	Methanothermobacter thermautotrophicus
+d1hbna2	1hbn	d.58.31.2	Alpha and beta (a+b)	268	archaea	145262	Methanothermobacter thermautotrophicus
+d1hc7a3	1hc7	d.68.5.1	Alpha and beta (a+b)	74	bacteria	274	Thermus thermophilus
+d1he1a_	1he1	a.24.11.1	All alpha	135	bacteria	287	Pseudomonas aeruginosa
+d1hf2a1	1hf2	b.80.3.1	All beta	107	bacteria	2336	Thermotoga maritima
+d1hfes_	1hfe	a.137.4.1	All alpha	88	bacteria	882	Desulfovibrio vulgaris str. Hildenborough
+d1hi9a_	1hi9	c.99.1.1	Alpha and beta (a/b)	274	bacteria	1423	Bacillus subtilis
+d1hp1a1	1hp1	d.114.1.1	Alpha and beta (a+b)	188	bacteria	562	Escherichia coli
+d1hq1a_	1hq1	a.36.1.1	All alpha	76	bacteria	562	Escherichia coli
+d1hxra_	1hxr	b.88.1.1	All beta	107	eukaryota	10116	Rattus norvegicus
+d1hyoa1	1hyo	b.34.8.1	All beta	118	eukaryota	10090	Mus musculus
+d1hyoa2	1hyo	d.177.1.1	Alpha and beta (a+b)	298	eukaryota	10090	Mus musculus
+d1i1wa_	1i1w	c.1.8.3	Alpha and beta (a/b)	303	eukaryota	5087	Thermoascus aurantiacus
+d1i2ta_	1i2t	a.144.1.1	All alpha	61	eukaryota	9606	Homo sapiens
+d1i4ja_	1i4j	d.55.1.1	Alpha and beta (a+b)	110	bacteria	274	Thermus thermophilus
+d1i71a_	1i71	g.14.1.1	Small proteins	83	eukaryota	9606	Homo sapiens
+d1ifra_	1ifr	b.1.16.1	All beta	113	eukaryota	9606	Homo sapiens
+d1ijqa1	1ijq	b.68.5.1	All beta	258	eukaryota	9606	Homo sapiens
+d1ijya_	1ijy	a.141.1.1	All alpha	122	eukaryota	10090	Mus musculus
+d1ik9a1	1ik9	b.59.1.1	All beta	113	eukaryota	9606	Homo sapiens
+d1ikpa3	1ikp	f.1.5.1	Membrane and cell surface proteins and peptides	143	bacteria	287	Pseudomonas aeruginosa
+d1in0a1	1in0	d.58.49.1	Alpha and beta (a+b)	88	bacteria	727	Haemophilus influenzae
+d1io0a_	1io0	c.10.1.1	Alpha and beta (a/b)	166	eukaryota	9031	Gallus gallus
+d1io1a_	1io1	e.32.1.1	Multi-domain proteins (alpha and beta)	395	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d1ioma_	1iom	a.103.1.1	All alpha	374	bacteria	300852	Thermus thermophilus HB8
+d1iqza_	1iqz	d.58.1.4	Alpha and beta (a+b)	81	bacteria	1427	Bacillus thermoproteolyticus
+d1irqa_	1irq	a.43.1.4	All alpha	48	bacteria	1314	Streptococcus pyogenes
+d1itxa2	1itx	d.26.3.1	Alpha and beta (a+b)	72	bacteria	1397	Bacillus circulans
+d1ix9a1	1ix9	a.2.11.1	All alpha	90	bacteria	562	Escherichia coli
+d1ix9a2	1ix9	d.44.1.1	Alpha and beta (a+b)	115	bacteria	562	Escherichia coli
+d1izma_	1izm	a.199.1.1	All alpha	170	bacteria	727	Haemophilus influenzae
+d1j09a1	1j09	a.97.1.1	All alpha	163	bacteria	274	Thermus thermophilus
+d1j0pa_	1j0p	a.138.1.1	All alpha	108	bacteria	881	Desulfovibrio vulgaris
+d1j27a_	1j27	d.58.50.1	Alpha and beta (a+b)	98	bacteria	300852	Thermus thermophilus HB8
+d1j3wa_	1j3w	d.110.7.1	Alpha and beta (a+b)	134	bacteria	300852	Thermus thermophilus HB8
+d1j5ua_	1j5u	d.208.1.1	Alpha and beta (a+b)	127	bacteria	2336	Thermotoga maritima
+d1j5ya2	1j5y	d.94.2.1	Alpha and beta (a+b)	107	bacteria	2336	Thermotoga maritima
+d1j98a_	1j98	d.185.1.2	Alpha and beta (a+b)	154	bacteria	1423	Bacillus subtilis
+d1jb0a_	1jb0	f.29.1.1	Membrane and cell surface proteins and peptides	740	bacteria	32046	Synechococcus elongatus
+d1jb0d_	1jb0	d.187.1.1	Alpha and beta (a+b)	138	bacteria	32046	Synechococcus elongatus
+d1jb0f_	1jb0	f.23.16.1	Membrane and cell surface proteins and peptides	141	bacteria	32046	Synechococcus elongatus
+d1jb0j_	1jb0	f.23.18.1	Membrane and cell surface proteins and peptides	41	bacteria	32046	Synechococcus elongatus
+d1jb0l_	1jb0	f.31.1.1	Membrane and cell surface proteins and peptides	151	bacteria	32046	Synechococcus elongatus
+d1jb3a_	1jb3	b.40.3.2	All beta	127	eukaryota	9031	Gallus gallus
+d1jfba_	1jfb	a.104.1.1	All alpha	399	eukaryota	5507	Fusarium oxysporum
+d1jhga_	1jhg	a.4.12.1	All alpha	102	bacteria	562	Escherichia coli
+d1ji7a_	1ji7	a.60.1.1	All alpha	77	eukaryota	9606	Homo sapiens
+d1jida_	1jid	d.201.1.1	Alpha and beta (a+b)	114	eukaryota	9606	Homo sapiens
+d1jkea_	1jke	c.110.1.1	Alpha and beta (a/b)	145	bacteria	562	Escherichia coli
+d1jlya1	1jly	b.42.3.1	All beta	153	eukaryota	3567	Amaranthus caudatus
+d1jnra1	1jnr	a.7.3.1	All alpha	141	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d1jo0a_	1jo0	d.68.4.1	Alpha and beta (a+b)	97	bacteria	727	Haemophilus influenzae
+d1jofa_	1jof	b.69.10.1	All beta	365	eukaryota	5141	Neurospora crassa
+d1josa_	1jos	d.52.7.1	Alpha and beta (a+b)	100	bacteria	727	Haemophilus influenzae
+d1jr8a_	1jr8	a.24.15.1	All alpha	105	eukaryota	4932	Saccharomyces cerevisiae
+d1js8a2	1js8	b.112.1.1	All beta	101	eukaryota	267067	Enteroctopus dofleini
+d1jw9b_	1jw9	c.111.1.1	Alpha and beta (a/b)	240	bacteria	562	Escherichia coli
+d1jx4a1	1jx4	d.240.1.1	Alpha and beta (a+b)	101	archaea	2287	Saccharolobus solfataricus
+d1k04a_	1k04	a.24.14.1	All alpha	142	eukaryota	9606	Homo sapiens
+d1k0ra4	1k0r	d.202.1.1	Alpha and beta (a+b)	326	bacteria	1773	Mycobacterium tuberculosis
+d1k1fa_	1k1f	a.147.1.1	All alpha	67	eukaryota	9606	Homo sapiens
+d1k32a2	1k32	b.68.7.1	All beta	281	archaea	2303	Thermoplasma acidophilum
+d1k32a3	1k32	b.69.9.1	All beta	360	archaea	2303	Thermoplasma acidophilum
+d1k3ia3	1k3i	b.69.1.1	All beta	387	eukaryota	29916	Fusarium sp.
+d1k3xa1	1k3x	a.156.1.2	All alpha	89	bacteria	562	Escherichia coli
+d1k3xa2	1k3x	b.113.1.1	All beta	124	bacteria	562	Escherichia coli
+d1k4ia_	1k4i	d.115.1.2	Alpha and beta (a+b)	216	eukaryota	148305	Pyricularia grisea
+d1k4ta1	1k4t	a.2.8.1	All alpha	72	eukaryota	9606	Homo sapiens
+d1k4za_	1k4z	b.80.5.1	All beta	157	eukaryota	4932	Saccharomyces cerevisiae
+d1k5ca_	1k5c	b.80.1.3	All beta	333	eukaryota	58369	Chondrostereum purpureum
+d1k5na2	1k5n	d.19.1.1	Alpha and beta (a+b)	181	eukaryota	9606	Homo sapiens
+d1k6ka_	1k6k	a.174.1.1	All alpha	142	bacteria	562	Escherichia coli
+d1k6ya1	1k6y	a.4.10.1	All alpha	46	viruses	11676	Human immunodeficiency virus 1
+d1k7ca_	1k7c	c.23.10.4	Alpha and beta (a/b)	233	eukaryota	5053	Aspergillus aculeatus
+d1k8kd1	1k8k	d.198.2.1	Alpha and beta (a+b)	120	eukaryota	9913	Bos taurus
+d1k8ke_	1k8k	a.148.1.1	All alpha	173	eukaryota	9913	Bos taurus
+d1k8kg_	1k8k	a.118.13.1	All alpha	138	eukaryota	9913	Bos taurus
+d1k92a2	1k92	d.210.1.1	Alpha and beta (a+b)	256	bacteria	562	Escherichia coli
+d1ka1a_	1ka1	e.7.1.1	Multi-domain proteins (alpha and beta)	354	eukaryota	4932	Saccharomyces cerevisiae
+d1kafa_	1kaf	d.199.1.1	Alpha and beta (a+b)	108	viruses	10665	Escherichia virus T4
+d1kapp1	1kap	b.80.7.1	All beta	224	bacteria	208964	Pseudomonas aeruginosa PAO1
+d1kgsa1	1kgs	a.4.6.1	All alpha	97	bacteria	2336	Thermotoga maritima
+d1kjna_	1kjn	c.115.1.1	Alpha and beta (a/b)	152	archaea	145262	Methanothermobacter thermautotrophicus
+d1kjqa1	1kjq	b.84.2.1	All beta	74	bacteria	562	Escherichia coli
+d1kjqa2	1kjq	c.30.1.1	Alpha and beta (a/b)	111	bacteria	562	Escherichia coli
+d1kjqa3	1kjq	d.142.1.2	Alpha and beta (a+b)	203	bacteria	562	Escherichia coli
+d1kl9a1	1kl9	a.60.14.1	All alpha	94	eukaryota	9606	Homo sapiens
+d1klxa_	1klx	a.118.18.1	All alpha	133	bacteria	210	Helicobacter pylori
+d1kmva_	1kmv	c.71.1.1	Alpha and beta (a/b)	185	eukaryota	9606	Homo sapiens
+d1knma_	1knm	b.42.2.1	All beta	129	bacteria	1916	Streptomyces lividans
+d1knza_	1knz	e.34.1.1	Multi-domain proteins (alpha and beta)	154	viruses	10923	Simian rotavirus A/SA11
+d1ko7a1	1ko7	c.98.2.1	Alpha and beta (a/b)	129	bacteria	1288	Staphylococcus xylosus
+d1kp6a_	1kp6	d.58.25.1	Alpha and beta (a+b)	79	eukaryota	5270	Ustilago maydis
+d1kpta_	1kpt	d.70.1.1	Alpha and beta (a+b)	105	eukaryota	5270	Ustilago maydis
+d1kq6a_	1kq6	d.189.1.1	Alpha and beta (a+b)	140	eukaryota	9606	Homo sapiens
+d1kqfb2	1kqf	f.23.22.1	Membrane and cell surface proteins and peptides	45	bacteria	562	Escherichia coli
+d1kqfc_	1kqf	f.21.1.1	Membrane and cell surface proteins and peptides	216	bacteria	562	Escherichia coli
+d1kqpa_	1kqp	c.26.2.1	Alpha and beta (a/b)	271	bacteria	1423	Bacillus subtilis
+d1kwfa_	1kwf	a.102.1.2	All alpha	363	bacteria	1515	Hungateiclostridium thermocellum
+d1kyfa1	1kyf	b.1.10.1	All beta	133	eukaryota	10090	Mus musculus
+d1kyqa2	1kyq	e.37.1.1	Multi-domain proteins (alpha and beta)	123	eukaryota	4932	Saccharomyces cerevisiae
+d1l0qa1	1l0q	b.1.3.1	All beta	90	archaea	213585	Methanosarcina mazei S-6
+d1l0sa_	1l0s	b.81.2.1	All beta	88	eukaryota	7141	Choristoneura fumiferana
+d1l2pa_	1l2p	f.23.21.1	Membrane and cell surface proteins and peptides	61	bacteria	562	Escherichia coli
+d1l3ka1	1l3k	d.58.7.1	Alpha and beta (a+b)	84	eukaryota	9606	Homo sapiens
+d1l3la2	1l3l	d.110.5.1	Alpha and beta (a+b)	168	bacteria	358	Agrobacterium tumefaciens
+d1l3pa_	1l3p	a.24.17.1	All alpha	102	eukaryota	15957	Phleum pratense
+d1l5ja1	1l5j	a.118.15.1	All alpha	160	bacteria	562	Escherichia coli
+d1l6pa_	1l6p	b.1.17.1	All beta	121	bacteria	562	Escherichia coli
+d1l9la_	1l9l	a.64.1.1	All alpha	74	eukaryota	9606	Homo sapiens
+d1lfpa_	1lfp	e.39.1.1	Multi-domain proteins (alpha and beta)	243	bacteria	63363	Aquifex aeolicus
+d1lg7a_	1lg7	d.213.1.1	Alpha and beta (a+b)	164	viruses	11276	Vesicular stomatitis virus
+d1lkka_	1lkk	d.93.1.1	Alpha and beta (a+b)	105	eukaryota	9606	Homo sapiens
+d1llaa1	1lla	a.85.1.1	All alpha	99	eukaryota	6850	Limulus polyphemus
+d1lm5a_	1lm5	d.211.2.1	Alpha and beta (a+b)	189	eukaryota	9606	Homo sapiens
+d1lmia_	1lmi	b.1.19.1	All beta	131	bacteria	1773	Mycobacterium tuberculosis
+d1lnsa1	1lns	a.40.2.1	All alpha	145	bacteria	1358	Lactococcus lactis
+d1lpba1	1lpb	g.3.10.1	Small proteins	39	eukaryota	9823	Sus scrofa
+d1ls1a1	1ls1	a.24.13.1	All alpha	88	bacteria	271	Thermus aquaticus
+d1lsha1	1lsh	a.118.4.1	All alpha	336	eukaryota	30308	Ichthyomyzon unicuspis
+d1lsha2	1lsh	f.7.1.1	Membrane and cell surface proteins and peptides	268	eukaryota	30308	Ichthyomyzon unicuspis
+d1lsla1	1lsl	g.60.1.1	Small proteins	54	eukaryota	9606	Homo sapiens
+d1m0ka_	1m0k	f.13.1.1	Membrane and cell surface proteins and peptides	222	archaea	2242	Halobacterium salinarum
+d1m15a1	1m15	a.83.1.1	All alpha	94	eukaryota	6850	Limulus polyphemus
+d1m15a2	1m15	d.128.1.2	Alpha and beta (a+b)	262	eukaryota	6850	Limulus polyphemus
+d1m1eb_	1m1e	a.161.1.1	All alpha	65	eukaryota	10090	Mus musculus
+d1m1fa_	1m1f	b.34.6.2	All beta	107	bacteria	562	Escherichia coli
+d1m1ha1	1m1h	b.114.1.1	All beta	81	bacteria	63363	Aquifex aeolicus
+d1m22a_	1m22	c.117.1.1	Alpha and beta (a/b)	487	bacteria	40324	Stenotrophomonas maltophilia
+d1m55a_	1m55	d.89.1.3	Alpha and beta (a+b)	193	viruses	82300	Adeno-associated virus - 5
+d1m56d_	1m56	f.23.8.1	Membrane and cell surface proteins and peptides	42	bacteria	1063	Rhodobacter sphaeroides
+d1m6ya1	1m6y	a.60.13.1	All alpha	101	bacteria	2336	Thermotoga maritima
+d1mc2a_	1mc2	a.133.1.2	All alpha	122	eukaryota	36307	Deinagkistrodon acutus
+d1mf7a_	1mf7	c.62.1.1	Alpha and beta (a/b)	194	eukaryota	9606	Homo sapiens
+d1mg4a_	1mg4	d.15.11.1	Alpha and beta (a+b)	101	eukaryota	9606	Homo sapiens
+d1mj4a_	1mj4	d.120.1.1	Alpha and beta (a+b)	79	eukaryota	9606	Homo sapiens
+d1mk0a_	1mk0	d.226.1.1	Alpha and beta (a+b)	97	viruses	10665	Escherichia virus T4
+d1mkfa_	1mkf	b.116.1.1	All beta	371	viruses	33708	Murid gammaherpesvirus 4
+d1mkya3	1mky	d.52.5.1	Alpha and beta (a+b)	81	bacteria	2336	Thermotoga maritima
+d1mlaa2	1mla	d.58.23.1	Alpha and beta (a+b)	70	bacteria	562	Escherichia coli
+d1mtyg_	1mty	a.23.3.1	All alpha	162	bacteria	243233	Methylococcus capsulatus str. Bath
+d1muwa_	1muw	c.1.15.3	Alpha and beta (a/b)	386	bacteria	1963	Streptomyces olivochromogenes
+d1mv8a3	1mv8	c.26.3.1	Alpha and beta (a/b)	136	bacteria	287	Pseudomonas aeruginosa
+d1mvfd_	1mvf	b.129.1.1	All beta	44	eukaryota	9838	Camelus dromedarius
+d1mw5a_	1mw5	d.259.1.1	Alpha and beta (a+b)	162	bacteria	727	Haemophilus influenzae
+d1mwpa_	1mwp	d.170.2.1	Alpha and beta (a+b)	96	eukaryota	9606	Homo sapiens
+d1mwqa_	1mwq	d.58.4.7	Alpha and beta (a+b)	99	bacteria	727	Haemophilus influenzae
+d1n3la_	1n3l	c.26.1.1	Alpha and beta (a/b)	332	eukaryota	9606	Homo sapiens
+d1n4wa2	1n4w	d.16.1.1	Alpha and beta (a+b)	132	bacteria	74576	Streptomyces sp. SA-COO
+d1n5ua1	1n5u	a.126.1.1	All alpha	195	eukaryota	9606	Homo sapiens
+d1n62a1	1n62	a.56.1.1	All alpha	82	bacteria	504832	Oligotropha carboxidovorans OM5
+d1n62b1	1n62	d.41.1.1	Alpha and beta (a+b)	141	bacteria	504832	Oligotropha carboxidovorans OM5
+d1n62b2	1n62	d.133.1.1	Alpha and beta (a+b)	663	bacteria	504832	Oligotropha carboxidovorans OM5
+d1n62c1	1n62	d.87.2.1	Alpha and beta (a+b)	109	bacteria	504832	Oligotropha carboxidovorans OM5
+d1n7za_	1n7z	b.127.1.1	All beta	328	viruses	10665	Escherichia virus T4
+d1n81a_	1n81	a.185.1.1	All alpha	186	eukaryota	36329	Plasmodium falciparum 3D7
+d1n8va_	1n8v	a.118.21.1	All alpha	101	eukaryota	55057	Mamestra brassicae
+d1n93x_	1n93	a.206.1.1	All alpha	335	viruses	12455	Borna disease virus
+d1na6a1	1na6	b.142.1.1	All beta	172	bacteria	562	Escherichia coli
+d1nc7a_	1nc7	b.123.1.1	All beta	116	bacteria	2336	Thermotoga maritima
+d1ng6a_	1ng6	a.182.1.1	All alpha	148	bacteria	1423	Bacillus subtilis
+d1nh1a_	1nh1	e.45.1.1	Multi-domain proteins (alpha and beta)	290	bacteria	317	Pseudomonas syringae
+d1nh2b_	1nh2	a.32.1.1	All alpha	46	eukaryota	4932	Saccharomyces cerevisiae
+d1nh2c_	1nh2	b.56.1.1	All beta	50	eukaryota	4932	Saccharomyces cerevisiae
+d1nija2	1nij	d.237.1.1	Alpha and beta (a+b)	95	bacteria	562	Escherichia coli
+d1nkda_	1nkd	a.30.1.1	All alpha	59	bacteria	562	Escherichia coli
+d1nkia_	1nki	d.32.1.2	Alpha and beta (a+b)	134	bacteria	208964	Pseudomonas aeruginosa PAO1
+d1nkpa_	1nkp	a.38.1.1	All alpha	88	eukaryota	9606	Homo sapiens
+d1nkza_	1nkz	f.3.1.1	Membrane and cell surface proteins and peptides	53	bacteria	1074	Rhodoblastus acidophilus
+d1nlqa_	1nlq	b.121.3.1	All beta	105	eukaryota	7227	Drosophila melanogaster
+d1no1a_	1no1	a.179.1.1	All alpha	67	viruses	10724	Bacillus phage SPP1
+d1nqja_	1nqj	b.18.1.36	All beta	96	bacteria	1498	Hathewaya histolytica
+d1nqua_	1nqu	c.16.1.1	Alpha and beta (a/b)	154	bacteria	63363	Aquifex aeolicus
+d1nrja_	1nrj	d.110.4.4	Alpha and beta (a+b)	147	eukaryota	4932	Saccharomyces cerevisiae
+d1ntha_	1nth	c.1.25.1	Alpha and beta (a/b)	457	archaea	2208	Methanosarcina barkeri
+d1ntya1	1nty	a.87.1.1	All alpha	184	eukaryota	9606	Homo sapiens
+d1nu9c1	1nu9	a.8.6.1	All alpha	145	eukaryota	9606	Homo sapiens
+d1nvus_	1nvu	a.117.1.1	All alpha	469	eukaryota	9606	Homo sapiens
+d1nwza_	1nwz	d.110.3.1	Alpha and beta (a+b)	125	bacteria	1053	Halorhodospira halophila
+d1nxja_	1nxj	c.8.7.1	Alpha and beta (a/b)	156	bacteria	1773	Mycobacterium tuberculosis
+d1nyca_	1nyc	b.61.2.2	All beta	111	bacteria	196620	Staphylococcus aureus subsp. aureus MW2
+d1nzea_	1nze	a.24.18.1	All alpha	112	eukaryota	3562	Spinacia oleracea
+d1nzia1	1nzi	b.23.1.1	All beta	114	eukaryota	9606	Homo sapiens
+d1o22a_	1o22	d.238.1.1	Alpha and beta (a+b)	149	bacteria	2336	Thermotoga maritima
+d1o2da_	1o2d	e.22.1.2	Multi-domain proteins (alpha and beta)	358	bacteria	2336	Thermotoga maritima
+d1o3ua_	1o3u	a.24.16.3	All alpha	120	bacteria	2336	Thermotoga maritima
+d1o75a1	1o75	b.1.20.1	All beta	126	bacteria	160	Treponema pallidum
+d1o75a3	1o75	b.120.1.1	All beta	191	bacteria	160	Treponema pallidum
+d1o7ja_	1o7j	c.88.1.1	Alpha and beta (a/b)	325	bacteria	556	Dickeya chrysanthemi
+d1o7qa_	1o7q	c.68.1.9	Alpha and beta (a/b)	287	eukaryota	9913	Bos taurus
+d1o82a_	1o82	a.64.2.1	All alpha	70	bacteria	1351	Enterococcus faecalis
+d1o8ba2	1o8b	d.58.40.1	Alpha and beta (a+b)	72	bacteria	562	Escherichia coli
+d1o98a1	1o98	c.105.1.1	Alpha and beta (a/b)	234	bacteria	1422	Geobacillus stearothermophilus
+d1oa8a_	1oa8	b.145.1.1	All beta	128	eukaryota	9606	Homo sapiens
+d1oaia_	1oai	a.5.2.3	All alpha	59	eukaryota	9606	Homo sapiens
+d1oc0b_	1oc0	g.64.1.1	Small proteins	37	eukaryota	9606	Homo sapiens
+d1ofcx3	1ofc	a.187.1.1	All alpha	87	eukaryota	7227	Drosophila melanogaster
+d1ofda1	1ofd	b.80.4.1	All beta	268	bacteria	1148	Synechocystis sp. PCC 6803
+d1ofza_	1ofz	b.68.8.1	All beta	312	eukaryota	5188	Aleuria aurantia
+d1ogmx1	1ogm	b.133.1.1	All beta	199	eukaryota	28574	Talaromyces minioluteus
+d1oisa_	1ois	e.15.1.1	Multi-domain proteins (alpha and beta)	220	eukaryota	4932	Saccharomyces cerevisiae
+d1ojha_	1ojh	a.214.1.1	All alpha	52	bacteria	103690	Nostoc sp. PCC 7120 = FACHB-418
+d1ok0a_	1ok0	b.5.1.1	All beta	74	bacteria	1932	Streptomyces tendae
+d1okca_	1okc	f.42.1.1	Membrane and cell surface proteins and peptides	292	eukaryota	9913	Bos taurus
+d1oksa_	1oks	a.8.5.1	All alpha	53	viruses	11234	Measles morbillivirus
+d1olza2	1olz	b.69.12.1	All beta	474	eukaryota	9606	Homo sapiens
+d1olza3	1olz	g.16.2.1	Small proteins	56	eukaryota	9606	Homo sapiens
+d1on2a2	1on2	a.76.1.1	All alpha	74	bacteria	1423	Bacillus subtilis
+d1oo0a_	1oo0	d.232.1.1	Alpha and beta (a+b)	144	eukaryota	7227	Drosophila melanogaster
+d1oqja_	1oqj	d.217.1.1	Alpha and beta (a+b)	90	eukaryota	9606	Homo sapiens
+d1or7a2	1or7	a.177.1.1	All alpha	181	bacteria	562	Escherichia coli
+d1or7c_	1or7	a.180.1.1	All alpha	66	bacteria	562	Escherichia coli
+d1orja_	1orj	a.24.19.1	All alpha	126	bacteria	224324	Aquifex aeolicus VF5
+d1osya_	1osy	b.1.21.1	All beta	114	eukaryota	38945	Flammulina velutipes
+d1ou8a_	1ou8	b.136.1.1	All beta	106	bacteria	727	Haemophilus influenzae
+d1ov9a_	1ov9	a.155.1.1	All alpha	45	bacteria	666	Vibrio cholerae
+d1ow1a_	1ow1	b.131.1.3	All beta	167	eukaryota	9606	Homo sapiens
+d1owla1	1owl	a.99.1.1	All alpha	271	bacteria	269084	Synechococcus elongatus PCC 6301
+d1owla2	1owl	c.28.1.1	Alpha and beta (a/b)	202	bacteria	269084	Synechococcus elongatus PCC 6301
+d1oxxk1	1oxx	b.40.6.3	All beta	110	archaea	2287	Saccharolobus solfataricus
+d1ozja_	1ozj	d.164.1.1	Alpha and beta (a+b)	126	eukaryota	9606	Homo sapiens
+d1ozna_	1ozn	c.10.2.7	Alpha and beta (a/b)	284	eukaryota	9606	Homo sapiens
+d1p1xa_	1p1x	c.1.10.1	Alpha and beta (a/b)	250	bacteria	83333	Escherichia coli K-12
+d1p5dx1	1p5d	c.84.1.1	Alpha and beta (a/b)	146	bacteria	287	Pseudomonas aeruginosa
+d1p6oa_	1p6o	c.97.1.2	Alpha and beta (a/b)	156	eukaryota	4932	Saccharomyces cerevisiae
+d1p90a_	1p90	c.55.5.2	Alpha and beta (a/b)	123	bacteria	354	Azotobacter vinelandii
+d1p9ga_	1p9g	g.3.1.1	Small proteins	41	eukaryota	4392	Eucommia ulmoides
+d1p9ya_	1p9y	d.241.2.1	Alpha and beta (a+b)	117	bacteria	562	Escherichia coli
+d1pbyc_	1pby	a.137.9.1	All alpha	79	bacteria	266	Paracoccus denitrificans
+d1pfoa_	1pfo	f.9.1.1	Membrane and cell surface proteins and peptides	471	bacteria	1502	Clostridium perfringens
+d1pfva3	1pfv	g.41.1.1	Small proteins	35	bacteria	562	Escherichia coli
+d1pi1a_	1pi1	a.29.7.1	All alpha	185	eukaryota	9606	Homo sapiens
+d1pm4a_	1pm4	b.135.1.1	All beta	117	bacteria	633	Yersinia pseudotuberculosis
+d1pp0a_	1pp0	d.103.1.1	Alpha and beta (a+b)	191	eukaryota	36659	Volvariella volvacea
+d1ppjc1	1ppj	f.32.1.1	Membrane and cell surface proteins and peptides	119	eukaryota	9913	Bos taurus
+d1ppjd2	1ppj	f.23.11.1	Membrane and cell surface proteins and peptides	46	eukaryota	9913	Bos taurus
+d1ppje2	1ppj	f.23.12.1	Membrane and cell surface proteins and peptides	69	eukaryota	9913	Bos taurus
+d1ppjf_	1ppj	f.27.1.1	Membrane and cell surface proteins and peptides	99	eukaryota	9913	Bos taurus
+d1ppjg_	1ppj	f.23.13.1	Membrane and cell surface proteins and peptides	73	eukaryota	9913	Bos taurus
+d1ppjh_	1ppj	f.28.1.1	Membrane and cell surface proteins and peptides	66	eukaryota	9913	Bos taurus
+d1ppjj_	1ppj	f.23.14.1	Membrane and cell surface proteins and peptides	32	eukaryota	9913	Bos taurus
+d1pprm1	1ppr	a.131.1.1	All alpha	156	eukaryota	2961	Amphidinium carterae
+d1puca_	1puc	d.97.1.1	Alpha and beta (a+b)	101	eukaryota	4896	Schizosaccharomyces pombe
+d1pv5a_	1pv5	d.251.1.1	Alpha and beta (a+b)	261	bacteria	1423	Bacillus subtilis
+d1pvma3	1pvm	g.41.13.1	Small proteins	36	archaea	273075	Thermoplasma acidophilum DSM 1728
+d1px5a1	1px5	a.160.1.2	All alpha	146	eukaryota	9823	Sus scrofa
+d1pz4a_	1pz4	d.106.1.1	Alpha and beta (a+b)	113	eukaryota	7159	Aedes aegypti
+d1q0qa1	1q0q	a.69.3.1	All alpha	98	bacteria	562	Escherichia coli
+d1q2ha_	1q2h	a.34.4.1	All alpha	63	eukaryota	9606	Homo sapiens
+d1q5ya_	1q5y	d.58.18.4	Alpha and beta (a+b)	84	bacteria	562	Escherichia coli
+d1q5za_	1q5z	a.196.1.1	All alpha	145	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d1q6za1	1q6z	c.31.1.3	Alpha and beta (a/b)	160	bacteria	303	Pseudomonas putida
+d1q6za2	1q6z	c.36.1.5	Alpha and beta (a/b)	180	bacteria	303	Pseudomonas putida
+d1q74a_	1q74	c.134.1.1	Alpha and beta (a/b)	287	bacteria	1773	Mycobacterium tuberculosis
+d1q88a_	1q88	e.47.1.1	Multi-domain proteins (alpha and beta)	189	eukaryota	5722	Trichomonas vaginalis
+d1q8da_	1q8d	a.228.1.1	All alpha	100	eukaryota	10116	Rattus norvegicus
+d1q9ua_	1q9u	d.129.7.1	Alpha and beta (a+b)	128	bacteria	1422	Geobacillus stearothermophilus
+d1qd1a1	1qd1	d.58.34.1	Alpha and beta (a+b)	179	eukaryota	9823	Sus scrofa
+d1qexa_	1qex	b.32.1.1	All beta	288	viruses	10665	Escherichia virus T4
+d1qf8a_	1qf8	g.41.4.1	Small proteins	167	eukaryota	9606	Homo sapiens
+d1qksa2	1qks	b.70.2.1	All beta	432	bacteria	82367	Paracoccus pantotrophus
+d1qmha1	1qmh	c.47.2.1	Alpha and beta (a/b)	95	bacteria	83333	Escherichia coli K-12
+d1qw2a_	1qw2	d.249.1.1	Alpha and beta (a+b)	102	archaea	2303	Thermoplasma acidophilum
+d1qwga_	1qwg	c.1.27.1	Alpha and beta (a/b)	251	archaea	2190	Methanocaldococcus jannaschii
+d1r0da_	1r0d	a.216.1.1	All alpha	194	eukaryota	9606	Homo sapiens
+d1r0ma1	1r0m	c.1.11.2	Alpha and beta (a/b)	243	bacteria	1299	Deinococcus radiodurans
+d1r0ri_	1r0r	g.68.1.1	Small proteins	51	bacteria	1402	Bacillus licheniformis
+d1r0va1	1r0v	c.52.2.1	Alpha and beta (a/b)	78	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d1r0va3	1r0v	d.75.1.1	Alpha and beta (a+b)	75	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d1r29a_	1r29	d.42.1.1	Alpha and beta (a+b)	122	eukaryota	9606	Homo sapiens
+d1r5la1	1r5l	a.5.3.1	All alpha	66	eukaryota	9606	Homo sapiens
+d1r5la2	1r5l	c.13.1.1	Alpha and beta (a/b)	185	eukaryota	9606	Homo sapiens
+d1r6ja_	1r6j	b.36.1.1	All beta	82	eukaryota	9606	Homo sapiens
+d1r71a_	1r71	a.4.14.1	All alpha	114	bacteria	562	Escherichia coli
+d1r7la_	1r7l	d.277.1.1	Alpha and beta (a+b)	103	bacteria	1396	Bacillus cereus
+d1r8se_	1r8s	a.118.3.1	All alpha	187	eukaryota	9913	Bos taurus
+d1r9fa_	1r9f	d.255.1.1	Alpha and beta (a+b)	121	viruses	12145	Tomato bushy stunt virus
+d1rc9a2	1rc9	g.19.1.2	Small proteins	57	eukaryota	39682	Trimeresurus stejnegeri
+d1rcqa2	1rcq	c.1.6.1	Alpha and beta (a/b)	226	bacteria	287	Pseudomonas aeruginosa
+d1regx_	1reg	d.58.27.1	Alpha and beta (a+b)	122	viruses	10665	Escherichia virus T4
+d1rfya_	1rfy	a.2.13.1	All alpha	89	bacteria	358	Agrobacterium tumefaciens
+d1rg8a_	1rg8	b.42.1.1	All beta	141	eukaryota	9606	Homo sapiens
+d1rgxa_	1rgx	g.77.1.1	Small proteins	89	eukaryota	10090	Mus musculus
+d1ri6a_	1ri6	b.69.11.1	All beta	333	bacteria	562	Escherichia coli
+d1rk8c_	1rk8	b.72.3.1	All beta	33	eukaryota	7227	Drosophila melanogaster
+d1rkia1	1rki	d.308.1.2	Alpha and beta (a+b)	98	archaea	13773	Pyrobaculum aerophilum
+d1rl6a1	1rl6	d.141.1.1	Alpha and beta (a+b)	75	bacteria	1422	Geobacillus stearothermophilus
+d1rlra1	1rlr	a.98.1.1	All alpha	212	bacteria	562	Escherichia coli
+d1roca_	1roc	b.1.22.1	All beta	155	eukaryota	4932	Saccharomyces cerevisiae
+d1rssa_	1rss	a.75.1.1	All alpha	140	bacteria	274	Thermus thermophilus
+d1rtqa_	1rtq	c.56.5.4	Alpha and beta (a/b)	291	bacteria	671	Vibrio proteolyticus
+d1rwha1	1rwh	a.102.3.2	All alpha	369	bacteria	43663	Paenarthrobacter aurescens
+d1rwha2	1rwh	b.24.1.1	All beta	113	bacteria	43663	Paenarthrobacter aurescens
+d1rwia_	1rwi	b.68.9.1	All beta	256	bacteria	1773	Mycobacterium tuberculosis
+d1ryla_	1ryl	d.276.1.1	Alpha and beta (a+b)	157	bacteria	562	Escherichia coli
+d1ryqa_	1ryq	g.41.9.3	Small proteins	62	archaea	2261	Pyrococcus furiosus
+d1s0pa_	1s0p	a.192.1.1	All alpha	176	eukaryota	44689	Dictyostelium discoideum
+d1s1da_	1s1d	b.67.3.1	All beta	317	eukaryota	9606	Homo sapiens
+d1s2xa_	1s2x	a.47.3.1	All alpha	180	bacteria	210	Helicobacter pylori
+d1s7ma_	1s7m	b.144.1.1	All beta	158	bacteria	727	Haemophilus influenzae
+d1s7za_	1s7z	a.159.3.1	All alpha	106	viruses	10760	Escherichia phage T7
+d1s98a_	1s98	b.124.1.1	All beta	97	bacteria	562	Escherichia coli
+d1s99a_	1s99	d.58.48.2	Alpha and beta (a+b)	186	bacteria	1423	Bacillus subtilis
+d1sbxa_	1sbx	a.6.1.4	All alpha	106	eukaryota	9606	Homo sapiens
+d1sdia_	1sdi	a.198.1.1	All alpha	213	bacteria	562	Escherichia coli
+d1seda_	1sed	a.219.1.1	All alpha	112	bacteria	1423	Bacillus subtilis
+d1seia_	1sei	d.140.1.1	Alpha and beta (a+b)	130	bacteria	1422	Geobacillus stearothermophilus
+d1sf9a_	1sf9	b.34.15.1	All beta	118	bacteria	1423	Bacillus subtilis
+d1sg4a1	1sg4	c.14.1.3	Alpha and beta (a/b)	249	eukaryota	9606	Homo sapiens
+d1sj7a1	1sj7	a.215.1.1	All alpha	167	eukaryota	10090	Mus musculus
+d1sknp_	1skn	a.37.1.1	All alpha	74	eukaryota	6239	Caenorhabditis elegans
+d1slua_	1slu	b.16.1.1	All beta	131	bacteria	562	Escherichia coli
+d1sr8a_	1sr8	e.54.1.1	Multi-domain proteins (alpha and beta)	282	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d1svba2	1svb	f.10.1.1	Membrane and cell surface proteins and peptides	302	viruses	11084	Tick-borne encephalitis virus
+d1syxb_	1syx	d.76.1.1	Alpha and beta (a+b)	62	eukaryota	9606	Homo sapiens
+d1sz7a_	1sz7	d.278.1.2	Alpha and beta (a+b)	159	eukaryota	9606	Homo sapiens
+d1szha_	1szh	a.226.1.1	All alpha	147	eukaryota	6239	Caenorhabditis elegans
+d1t07a_	1t07	d.279.1.1	Alpha and beta (a+b)	81	bacteria	287	Pseudomonas aeruginosa
+d1t11a1	1t11	a.223.1.1	All alpha	129	bacteria	666	Vibrio cholerae
+d1t1ea2	1t1e	d.58.3.2	Alpha and beta (a+b)	179	bacteria	198803	Bacillus sp. MN-32
+d1t1ua1	1t1u	c.43.1.3	Alpha and beta (a/b)	382	eukaryota	10116	Rattus norvegicus
+d1t2da2	1t2d	d.162.1.1	Alpha and beta (a+b)	165	eukaryota	5833	Plasmodium falciparum
+d1t3ua_	1t3u	d.244.1.1	Alpha and beta (a+b)	92	bacteria	208964	Pseudomonas aeruginosa PAO1
+d1t6aa_	1t6a	d.129.8.1	Alpha and beta (a+b)	124	bacteria	1422	Geobacillus stearothermophilus
+d1t6ua_	1t6u	a.24.22.1	All alpha	117	bacteria	1902	Streptomyces coelicolor
+d1t77a1	1t77	a.169.1.1	All alpha	304	eukaryota	9606	Homo sapiens
+d1t8ka_	1t8k	a.28.1.1	All alpha	77	bacteria	562	Escherichia coli
+d1t9ia_	1t9i	d.95.2.1	Alpha and beta (a+b)	153	eukaryota	3055	Chlamydomonas reinhardtii
+d1td6a_	1td6	a.234.1.1	All alpha	286	bacteria	2104	Mycoplasma pneumoniae
+d1tf5a1	1tf5	a.162.1.1	All alpha	122	bacteria	1423	Bacillus subtilis
+d1tf5a2	1tf5	a.172.1.1	All alpha	210	bacteria	1423	Bacillus subtilis
+d1ti6b1	1ti6	b.3.5.1	All beta	79	bacteria	35816	Pelobacter acidigallici
+d1tiga_	1tig	d.68.1.1	Alpha and beta (a+b)	88	bacteria	1422	Geobacillus stearothermophilus
+d1tjxa_	1tjx	b.7.1.2	All beta	156	eukaryota	10116	Rattus norvegicus
+d1tkea2	1tke	d.67.1.1	Alpha and beta (a+b)	162	bacteria	562	Escherichia coli
+d1tl2a_	1tl2	b.67.1.1	All beta	235	eukaryota	6853	Tachypleus tridentatus
+d1ts9a_	1ts9	b.137.1.1	All beta	98	archaea	2234	Archaeoglobus fulgidus
+d1tt8a_	1tt8	d.190.1.1	Alpha and beta (a+b)	164	bacteria	562	Escherichia coli
+d1tuka_	1tuk	a.52.1.1	All alpha	67	eukaryota	4565	Triticum aestivum
+d1tula_	1tul	b.85.5.1	All beta	102	viruses	46015	Autographa californica nucleopolyhedrovirus
+d1twfc2	1twf	d.181.1.1	Alpha and beta (a+b)	131	eukaryota	4932	Saccharomyces cerevisiae
+d1twff_	1twf	a.143.1.2	All alpha	84	eukaryota	4932	Saccharomyces cerevisiae
+d1twfj_	1twf	a.4.11.1	All alpha	65	eukaryota	4932	Saccharomyces cerevisiae
+d1tx4a_	1tx4	a.116.1.1	All alpha	196	eukaryota	9606	Homo sapiens
+d1tzba_	1tzb	c.80.1.1	Alpha and beta (a/b)	301	archaea	178306	Pyrobaculum aerophilum str. IM2
+d1u07a_	1u07	d.212.1.2	Alpha and beta (a+b)	90	bacteria	562	Escherichia coli
+d1u2ca2	1u2c	d.272.1.1	Alpha and beta (a+b)	125	eukaryota	10090	Mus musculus
+d1u2ha_	1u2h	b.1.1.0	All beta	96	eukaryota	9606	Homo sapiens
+d1u5ka2	1u5k	g.45.1.2	Small proteins	157	bacteria	243230	Deinococcus radiodurans R1
+d1u5pa1	1u5p	a.7.1.1	All alpha	110	eukaryota	9031	Gallus gallus
+d1u6ka_	1u6k	c.127.1.1	Alpha and beta (a/b)	282	archaea	2320	Methanopyrus kandleri
+d1u7ga_	1u7g	f.44.1.1	Membrane and cell surface proteins and peptides	383	bacteria	562	Escherichia coli
+d1u7za_	1u7z	c.72.3.1	Alpha and beta (a/b)	216	bacteria	562	Escherichia coli
+d1u84a_	1u84	a.230.1.1	All alpha	81	bacteria	1422	Geobacillus stearothermophilus
+d1u94a2	1u94	d.48.1.1	Alpha and beta (a+b)	60	bacteria	562	Escherichia coli
+d1ucda_	1ucd	d.124.1.1	Alpha and beta (a+b)	190	eukaryota	3673	Momordica charantia
+d1ucsa_	1ucs	b.85.1.1	All beta	64	eukaryota	8201	Lycodichthys dearborni
+d1udxa3	1udx	d.242.1.1	Alpha and beta (a+b)	76	bacteria	300852	Thermus thermophilus HB8
+d1ufia_	1ufi	a.30.4.1	All alpha	48	eukaryota	9606	Homo sapiens
+d1ufya_	1ufy	d.79.1.2	Alpha and beta (a+b)	121	bacteria	300852	Thermus thermophilus HB8
+d1ugia_	1ugi	d.17.5.1	Alpha and beta (a+b)	83	viruses	10684	Bacillus phage PBS2
+d1uj8a1	1uj8	a.159.5.1	All alpha	64	bacteria	562	Escherichia coli
+d1unqa_	1unq	b.55.1.1	All beta	117	eukaryota	9606	Homo sapiens
+d1uoya_	1uoy	g.3.19.1	Small proteins	64	eukaryota	5074	Penicillium brevicompactum
+d1uptb_	1upt	a.193.1.1	All alpha	58	eukaryota	9606	Homo sapiens
+d1us0a_	1us0	c.1.7.1	Alpha and beta (a/b)	313	eukaryota	9606	Homo sapiens
+d1us7b_	1us7	a.205.1.1	All alpha	193	eukaryota	4932	Saccharomyces cerevisiae
+d1usma_	1usm	d.74.1.1	Alpha and beta (a+b)	77	bacteria	300852	Thermus thermophilus HB8
+d1usub_	1usu	d.83.2.1	Alpha and beta (a+b)	132	eukaryota	4932	Saccharomyces cerevisiae
+d1ut7a_	1ut7	b.143.1.1	All beta	147	eukaryota	3702	Arabidopsis thaliana
+d1utga_	1utg	a.101.1.1	All alpha	70	eukaryota	9986	Oryctolagus cuniculus
+d1utya_	1uty	b.147.1.1	All beta	153	viruses	197780	Bluetongue virus 8
+d1uuja_	1uuj	a.221.1.1	All alpha	76	eukaryota	10090	Mus musculus
+d1uuya_	1uuy	c.57.1.1	Alpha and beta (a/b)	161	eukaryota	3702	Arabidopsis thaliana
+d1uv7a_	1uv7	d.67.4.1	Alpha and beta (a+b)	76	bacteria	666	Vibrio cholerae
+d1uwka_	1uwk	e.51.1.1	Multi-domain proteins (alpha and beta)	554	bacteria	303	Pseudomonas putida
+d1ux5a_	1ux5	a.207.1.1	All alpha	411	eukaryota	4932	Saccharomyces cerevisiae
+d1uxya2	1uxy	d.146.1.1	Alpha and beta (a+b)	142	bacteria	562	Escherichia coli
+d1uz3a_	1uz3	a.283.1.1	All alpha	102	eukaryota	9606	Homo sapiens
+d1uz5a1	1uz5	b.85.6.1	All beta	72	archaea	70601	Pyrococcus horikoshii OT3
+d1uz5a2	1uz5	b.103.1.1	All beta	176	archaea	70601	Pyrococcus horikoshii OT3
+d1v30a_	1v30	d.269.1.1	Alpha and beta (a+b)	118	archaea	53953	Pyrococcus horikoshii
+d1v58a2	1v58	d.17.3.1	Alpha and beta (a+b)	60	bacteria	562	Escherichia coli
+d1v6pa_	1v6p	g.7.1.1	Small proteins	62	eukaryota	8656	Naja atra
+d1v74b_	1v74	a.24.20.1	All alpha	87	bacteria	562	Escherichia coli
+d1v7za_	1v7z	c.125.1.1	Alpha and beta (a/b)	257	bacteria	306	Pseudomonas sp.
+d1v8ca2	1v8c	d.129.5.1	Alpha and beta (a+b)	78	bacteria	274	Thermus thermophilus
+d1vaja1	1vaj	d.309.1.1	Alpha and beta (a+b)	203	archaea	53953	Pyrococcus horikoshii
+d1vbwa_	1vbw	d.40.1.1	Alpha and beta (a+b)	68	eukaryota	3673	Momordica charantia
+d1vcca_	1vcc	d.121.1.1	Alpha and beta (a+b)	77	viruses	10254	Vaccinia virus WR
+d1vcla3	1vcl	d.281.1.1	Alpha and beta (a+b)	149	eukaryota	40245	Cucumaria echinata
+d1vd6a_	1vd6	c.1.18.3	Alpha and beta (a/b)	218	bacteria	300852	Thermus thermophilus HB8
+d1vf6a_	1vf6	a.194.1.1	All alpha	58	eukaryota	9606	Homo sapiens
+d1vf7a_	1vf7	f.46.1.1	Membrane and cell surface proteins and peptides	237	bacteria	287	Pseudomonas aeruginosa
+d1vh4a_	1vh4	b.80.6.1	All beta	410	bacteria	562	Escherichia coli
+d1vi6a_	1vi6	c.23.15.1	Alpha and beta (a/b)	193	archaea	2234	Archaeoglobus fulgidus
+d1vioa2	1vio	d.66.1.5	Alpha and beta (a+b)	230	bacteria	727	Haemophilus influenzae
+d1vjla_	1vjl	d.257.1.1	Alpha and beta (a+b)	143	bacteria	2336	Thermotoga maritima
+d1vk1a_	1vk1	d.268.1.2	Alpha and beta (a+b)	232	archaea	2261	Pyrococcus furiosus
+d1vk5a_	1vk5	a.220.1.1	All alpha	121	eukaryota	3702	Arabidopsis thaliana
+d1vkea_	1vke	a.152.1.2	All alpha	117	bacteria	243274	Thermotoga maritima MSB8
+d1vkfa_	1vkf	c.1.29.1	Alpha and beta (a/b)	172	bacteria	243274	Thermotoga maritima MSB8
+d1vkma_	1vkm	c.138.1.1	Alpha and beta (a/b)	291	bacteria	243274	Thermotoga maritima MSB8
+d1vlra2	1vlr	d.246.1.1	Alpha and beta (a+b)	101	eukaryota	10090	Mus musculus
+d1vlya1	1vly	b.44.2.1	All beta	82	bacteria	562	Escherichia coli
+d1vlya2	1vly	d.250.1.1	Alpha and beta (a+b)	241	bacteria	562	Escherichia coli
+d1vmba_	1vmb	d.58.14.1	Alpha and beta (a+b)	107	bacteria	2336	Thermotoga maritima
+d1vmha_	1vmh	d.273.1.1	Alpha and beta (a+b)	128	bacteria	1488	Clostridium acetobutylicum
+d1vmoa_	1vmo	b.77.1.1	All beta	163	eukaryota	9031	Gallus gallus
+d1vp7a_	1vp7	a.7.13.1	All alpha	68	bacteria	257313	Bordetella pertussis Tohama I
+d1vp8a_	1vp8	c.49.1.2	Alpha and beta (a/b)	190	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d1vpba_	1vpb	d.283.1.1	Alpha and beta (a+b)	437	bacteria	226186	Bacteroides thetaiotaomicron VPI-5482
+d1vpqa_	1vpq	c.1.32.1	Alpha and beta (a/b)	260	bacteria	243274	Thermotoga maritima MSB8
+d1vq811	1vq8	g.41.8.2	Small proteins	56	archaea	2238	Haloarcula marismortui
+d1vq821	1vq8	a.137.1.1	All alpha	46	archaea	2238	Haloarcula marismortui
+d1vq8l1	1vq8	c.12.1.1	Alpha and beta (a/b)	145	archaea	2238	Haloarcula marismortui
+d1vq8p1	1vq8	a.94.1.1	All alpha	143	archaea	2238	Haloarcula marismortui
+d1vq8v1	1vq8	a.2.2.1	All alpha	65	archaea	2238	Haloarcula marismortui
+d1vq8x1	1vq8	d.29.1.1	Alpha and beta (a+b)	82	archaea	2238	Haloarcula marismortui
+d1vq8y1	1vq8	c.9.2.1	Alpha and beta (a/b)	142	archaea	2238	Haloarcula marismortui
+d1vr0a1	1vr0	c.148.1.1	Alpha and beta (a/b)	235	bacteria	1488	Clostridium acetobutylicum
+d1vr4a1	1vr4	d.230.5.1	Alpha and beta (a+b)	103	bacteria	226900	Bacillus cereus ATCC 14579
+d1vr7a_	1vr7	d.156.1.2	Alpha and beta (a+b)	120	bacteria	2336	Thermotoga maritima
+d1vrma1	1vrm	d.96.2.1	Alpha and beta (a+b)	309	bacteria	243274	Thermotoga maritima MSB8
+d1vyra_	1vyr	c.1.4.1	Alpha and beta (a/b)	363	bacteria	550	Enterobacter cloacae
+d1vzma_	1vzm	g.32.1.0	Small proteins	43	eukaryota	172269	Argyrosomus regius
+d1vzya1	1vzy	d.193.1.1	Alpha and beta (a+b)	233	bacteria	224308	Bacillus subtilis subsp. subtilis str. 168
+d1vzya2	1vzy	g.81.1.1	Small proteins	57	bacteria	224308	Bacillus subtilis subsp. subtilis str. 168
+d1w0na_	1w0n	b.18.1.28	All beta	120	bacteria	1406	Paenibacillus polymyxa
+d1w23a_	1w23	c.67.1.4	Alpha and beta (a/b)	360	bacteria	1445	Bacillus alcalophilus
+d1w53a_	1w53	a.186.1.2	All alpha	84	bacteria	1423	Bacillus subtilis
+d1w66a1	1w66	d.104.1.3	Alpha and beta (a+b)	216	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d1w6sa_	1w6s	b.70.1.1	All beta	595	bacteria	408	Methylorubrum extorquens
+d1w6sb_	1w6s	a.137.2.1	All alpha	72	bacteria	408	Methylorubrum extorquens
+d1w7ca2	1w7c	d.17.2.1	Alpha and beta (a+b)	127	eukaryota	4922	Komagataella pastoris
+d1w85i_	1w85	a.9.1.1	All alpha	42	bacteria	1422	Geobacillus stearothermophilus
+d1wb9a1	1wb9	a.113.1.1	All alpha	297	bacteria	562	Escherichia coli
+d1wb9a3	1wb9	c.55.6.1	Alpha and beta (a/b)	153	bacteria	562	Escherichia coli
+d1wb9a4	1wb9	d.75.2.1	Alpha and beta (a+b)	115	bacteria	562	Escherichia coli
+d1wcwa_	1wcw	c.113.1.1	Alpha and beta (a/b)	254	bacteria	274	Thermus thermophilus
+d1wd3a2	1wd3	b.42.8.1	All beta	162	eukaryota	40384	Aspergillus kawachii
+d1wdda1	1wdd	c.1.14.1	Alpha and beta (a/b)	325	eukaryota	39947	Oryza sativa Japonica Group
+d1wdda2	1wdd	d.58.9.1	Alpha and beta (a+b)	140	eukaryota	39947	Oryza sativa Japonica Group
+d1weha_	1weh	c.129.1.1	Alpha and beta (a/b)	171	bacteria	300852	Thermus thermophilus HB8
+d1whia_	1whi	b.39.1.1	All beta	122	bacteria	1422	Geobacillus stearothermophilus
+d1whza_	1whz	d.50.3.2	Alpha and beta (a+b)	70	bacteria	274	Thermus thermophilus
+d1wjxa_	1wjx	b.111.1.1	All beta	112	bacteria	274	Thermus thermophilus
+d1wlga_	1wlg	b.152.1.1	All beta	293	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d1wn2a_	1wn2	c.131.1.0	Alpha and beta (a/b)	118	archaea	70601	Pyrococcus horikoshii OT3
+d1wnaa_	1wna	d.319.1.1	Alpha and beta (a+b)	127	bacteria	300852	Thermus thermophilus HB8
+d1wnya_	1wny	b.51.1.1	All beta	180	bacteria	274	Thermus thermophilus
+d1wpba_	1wpb	a.233.1.1	All alpha	168	bacteria	562	Escherichia coli
+d1wpna_	1wpn	c.107.1.1	Alpha and beta (a/b)	187	bacteria	1423	Bacillus subtilis
+d1wqga_	1wqg	d.67.3.1	Alpha and beta (a+b)	184	bacteria	1773	Mycobacterium tuberculosis
+d1wqjb1	1wqj	g.3.9.1	Small proteins	80	eukaryota	9606	Homo sapiens
+d1wtja_	1wtj	c.122.1.0	Alpha and beta (a/b)	332	bacteria	323	Pseudomonas syringae pv. tomato
+d1wu9a1	1wu9	a.245.1.1	All alpha	59	eukaryota	9606	Homo sapiens
+d1wuba_	1wub	b.61.6.1	All beta	176	bacteria	274	Thermus thermophilus
+d1wuil_	1wui	e.18.1.1	Multi-domain proteins (alpha and beta)	534	bacteria	883	Desulfovibrio vulgaris str. 'Miyazaki F'
+d1wuis_	1wui	e.19.1.1	Multi-domain proteins (alpha and beta)	267	bacteria	883	Desulfovibrio vulgaris str. 'Miyazaki F'
+d1wvqa_	1wvq	d.256.1.0	Alpha and beta (a+b)	163	archaea	13773	Pyrobaculum aerophilum
+d1wy5a2	1wy5	d.229.1.1	Alpha and beta (a+b)	95	bacteria	63363	Aquifex aeolicus
+d1wy6a_	1wy6	a.118.20.1	All alpha	159	archaea	111955	Sulfurisphaera tokodaii
+d1x2ia1	1x2i	a.60.2.5	All alpha	68	archaea	2261	Pyrococcus furiosus
+d1x38a2	1x38	c.23.11.1	Alpha and beta (a/b)	214	eukaryota	4513	Hordeum vulgare
+d1x3la_	1x3l	c.118.1.0	Alpha and beta (a/b)	436	archaea	70601	Pyrococcus horikoshii OT3
+d1x6oa1	1x6o	b.34.5.2	All beta	64	eukaryota	5660	Leishmania braziliensis
+d1x8qa_	1x8q	b.60.1.1	All beta	184	eukaryota	13249	Rhodnius prolixus
+d1x91a_	1x91	a.29.6.1	All alpha	149	eukaryota	3702	Arabidopsis thaliana
+d1x9da_	1x9d	a.102.2.1	All alpha	451	eukaryota	9606	Homo sapiens
+d1x9za_	1x9z	d.292.1.1	Alpha and beta (a+b)	182	bacteria	562	Escherichia coli
+d1xaka_	1xak	b.1.24.1	All beta	68	viruses	694009	Severe acute respiratory syndrome-related coronavirus
+d1xbia1	1xbi	d.79.3.1	Alpha and beta (a+b)	115	archaea	2190	Methanocaldococcus jannaschii
+d1xdna_	1xdn	d.142.2.4	Alpha and beta (a+b)	265	eukaryota	5691	Trypanosoma brucei
+d1xeoa_	1xeo	d.167.1.1	Alpha and beta (a+b)	165	bacteria	469008	Escherichia coli BL21(DE3)
+d1xg0a_	1xg0	d.184.1.1	Alpha and beta (a+b)	76	eukaryota	79257	Rhodomonas sp. CS24
+d1xkpb1	1xkp	d.198.1.1	Alpha and beta (a+b)	121	bacteria	632	Yersinia pestis
+d1xkra_	1xkr	d.252.1.1	Alpha and beta (a+b)	205	bacteria	2336	Thermotoga maritima
+d1xlya_	1xly	a.232.1.1	All alpha	224	eukaryota	4932	Saccharomyces cerevisiae
+d1xm3a_	1xm3	c.1.31.1	Alpha and beta (a/b)	244	bacteria	1423	Bacillus subtilis
+d1xmba2	1xmb	d.58.19.1	Alpha and beta (a+b)	102	eukaryota	3702	Arabidopsis thaliana
+d1xmka1	1xmk	a.4.5.19	All alpha	73	eukaryota	9606	Homo sapiens
+d1xppa_	1xpp	d.74.3.2	Alpha and beta (a+b)	99	archaea	2303	Thermoplasma acidophilum
+d1xqoa_	1xqo	a.96.1.6	All alpha	253	archaea	13773	Pyrobaculum aerophilum
+d1xsva_	1xsv	a.4.13.3	All alpha	106	bacteria	46170	Staphylococcus aureus subsp. aureus
+d1xsza2	1xsz	d.129.9.1	Alpha and beta (a+b)	157	bacteria	446	Legionella pneumophila
+d1xu1r_	1xu1	g.24.1.2	Small proteins	38	eukaryota	10090	Mus musculus
+d1xuba1	1xub	d.21.1.2	Alpha and beta (a+b)	128	bacteria	294	Pseudomonas fluorescens
+d1xvsa_	1xvs	b.1.23.1	All beta	124	bacteria	666	Vibrio cholerae
+d1y02a1	1y02	a.140.2.1	All alpha	44	eukaryota	9606	Homo sapiens
+d1y0na_	1y0n	d.291.1.1	Alpha and beta (a+b)	71	bacteria	208964	Pseudomonas aeruginosa PAO1
+d1y0pa3	1y0p	d.168.1.1	Alpha and beta (a+b)	146	bacteria	56812	Shewanella frigidimarina
+d1y6xa1	1y6x	a.204.1.4	All alpha	87	bacteria	1773	Mycobacterium tuberculosis
+d1y9ia_	1y9i	a.195.1.1	All alpha	159	bacteria	1639	Listeria monocytogenes
+d1yb3a1	1yb3	d.296.1.2	Alpha and beta (a+b)	166	archaea	2261	Pyrococcus furiosus
+d1yc9a_	1yc9	f.5.1.0	Membrane and cell surface proteins and peptides	411	bacteria	666	Vibrio cholerae
+d1yfqa_	1yfq	b.69.4.2	All beta	342	eukaryota	4932	Saccharomyces cerevisiae
+d1yfsa1	1yfs	a.203.1.1	All alpha	212	bacteria	63363	Aquifex aeolicus
+d1yk4a_	1yk4	g.41.5.1	Small proteins	52	archaea	29292	Pyrococcus abyssi
+d1ylxa1	1ylx	d.82.5.1	Alpha and beta (a+b)	100	bacteria	1422	Geobacillus stearothermophilus
+d1yoza1	1yoz	a.253.1.1	All alpha	111	archaea	2234	Archaeoglobus fulgidus
+d1yt3a1	1yt3	a.60.8.3	All alpha	101	bacteria	562	Escherichia coli
+d1yu0a1	1yu0	b.163.1.1	All beta	166	viruses	194699	Bordetella virus BPP1
+d1yu5x_	1yu5	a.14.1.1	All alpha	67	eukaryota	9031	Gallus gallus
+d1yvra1	1yvr	a.118.25.1	All alpha	346	eukaryota	8355	Xenopus laevis
+d1yzya1	1yzy	c.146.1.1	Alpha and beta (a/b)	412	bacteria	727	Haemophilus influenzae
+d1z0jb1	1z0j	a.2.19.1	All alpha	51	eukaryota	10090	Mus musculus
+d1z0pa1	1z0p	a.2.18.1	All alpha	73	bacteria	160490	Streptococcus pyogenes M1 GAS
+d1z0wa_	1z0w	d.14.1.0	Alpha and beta (a+b)	203	archaea	2234	Archaeoglobus fulgidus
+d1z2ua1	1z2u	d.20.1.1	Alpha and beta (a+b)	147	eukaryota	6239	Caenorhabditis elegans
+d1z3eb1	1z3e	a.60.3.1	All alpha	67	bacteria	1423	Bacillus subtilis
+d1z3xa2	1z3x	a.261.1.1	All alpha	148	bacteria	146786	Thermosynechococcus elongatus
+d1z67a1	1z67	a.259.1.1	All alpha	127	bacteria	198215	Shigella flexneri 2a str. 2457T
+d1z8ga2	1z8g	d.170.1.2	Alpha and beta (a+b)	110	eukaryota	9606	Homo sapiens
+d1z9ta_	1z9t	d.194.1.2	Alpha and beta (a+b)	240	bacteria	562	Escherichia coli
+d1zata2	1zat	d.335.1.1	Alpha and beta (a+b)	122	bacteria	1352	Enterococcus faecium
+d1zava1	1zav	d.58.62.1	Alpha and beta (a+b)	177	bacteria	2336	Thermotoga maritima
+d1zbpa1	1zbp	e.61.1.1	Multi-domain proteins (alpha and beta)	264	bacteria	223926	Vibrio parahaemolyticus RIMD 2210633
+d1zcea1	1zce	b.122.1.8	All beta	146	bacteria	176299	Agrobacterium fabrum str. C58
+d1zd0a1	1zd0	d.329.1.1	Alpha and beta (a+b)	136	archaea	2261	Pyrococcus furiosus
+d1zela2	1zel	d.377.1.1	Alpha and beta (a+b)	209	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d1zgka1	1zgk	b.68.11.1	All beta	288	eukaryota	9606	Homo sapiens
+d1zhxa_	1zhx	d.338.1.1	Alpha and beta (a+b)	436	eukaryota	4932	Saccharomyces cerevisiae
+d1zina2	1zin	g.41.2.1	Small proteins	35	bacteria	1422	Geobacillus stearothermophilus
+d1zjca1	1zjc	e.60.1.1	Multi-domain proteins (alpha and beta)	413	bacteria	196620	Staphylococcus aureus subsp. aureus MW2
+d1zkea1	1zke	a.30.6.1	All alpha	79	bacteria	85962	Helicobacter pylori 26695
+d1zl0a1	1zl0	c.8.10.1	Alpha and beta (a/b)	138	bacteria	287	Pseudomonas aeruginosa
+d1zmec1	1zme	g.38.1.1	Small proteins	36	eukaryota	4932	Saccharomyces cerevisiae
+d1zoqc_	1zoq	a.153.1.1	All alpha	47	eukaryota	9606	Homo sapiens
+d1zpsa1	1zps	b.168.1.1	All beta	124	archaea	145262	Methanothermobacter thermautotrophicus
+d1zsoa1	1zso	b.166.1.1	All beta	156	eukaryota	5833	Plasmodium falciparum
+d1zt3a_	1zt3	g.28.1.1	Small proteins	80	eukaryota	9606	Homo sapiens
+d1zzka_	1zzk	d.51.1.0	Alpha and beta (a+b)	80	eukaryota	9606	Homo sapiens
+d2a1va1	2a1v	d.198.3.1	Alpha and beta (a+b)	131	bacteria	1299	Deinococcus radiodurans
+d2a26a1	2a26	a.2.16.1	All alpha	47	eukaryota	9606	Homo sapiens
+d2a2la1	2a2l	d.110.9.1	Alpha and beta (a+b)	142	bacteria	573	Klebsiella pneumoniae
+d2a65a1	2a65	f.54.1.1	Membrane and cell surface proteins and peptides	507	bacteria	224324	Aquifex aeolicus VF5
+d2a90a1	2a90	d.289.1.1	Alpha and beta (a+b)	80	eukaryota	7227	Drosophila melanogaster
+d2a9da2	2a9d	d.176.1.1	Alpha and beta (a+b)	246	eukaryota	9031	Gallus gallus
+d2a9sa1	2a9s	c.51.5.1	Alpha and beta (a/b)	167	bacteria	176299	Agrobacterium fabrum str. C58
+d2a9ua1	2a9u	a.118.23.1	All alpha	134	eukaryota	9606	Homo sapiens
+d2aefa2	2aef	d.286.1.1	Alpha and beta (a+b)	92	archaea	145262	Methanothermobacter thermautotrophicus
+d2ag4a_	2ag4	b.95.1.1	All beta	164	eukaryota	9606	Homo sapiens
+d2ahma1	2ahm	a.8.9.1	All alpha	73	viruses	694009	Severe acute respiratory syndrome-related coronavirus
+d2aiba_	2aib	a.134.1.1	All alpha	98	eukaryota	4785	Phytophthora cinnamomi
+d2aj7a1	2aj7	b.158.1.1	All beta	148	bacteria	86665	Bacillus halodurans
+d2ap3a1	2ap3	a.24.27.1	All alpha	180	bacteria	196620	Staphylococcus aureus subsp. aureus MW2
+d2apla1	2apl	a.258.1.1	All alpha	149	bacteria	242619	Porphyromonas gingivalis W83
+d2apob_	2apo	g.41.16.1	Small proteins	55	archaea	2190	Methanocaldococcus jannaschii
+d2arca_	2arc	b.82.4.1	All beta	161	bacteria	562	Escherichia coli
+d2asba2	2asb	d.52.3.1	Alpha and beta (a+b)	79	bacteria	1773	Mycobacterium tuberculosis
+d2aska_	2ask	g.17.1.0	Small proteins	101	eukaryota	9606	Homo sapiens
+d2au5a1	2au5	a.244.1.1	All alpha	128	bacteria	226185	Enterococcus faecalis V583
+d2auwa2	2auw	d.331.1.1	Alpha and beta (a+b)	84	bacteria	915	Nitrosomonas europaea
+d2axwa1	2axw	b.2.3.2	All beta	121	bacteria	562	Escherichia coli
+d2ayda_	2ayd	g.79.1.0	Small proteins	76	eukaryota	3702	Arabidopsis thaliana
+d2b0aa1	2b0a	c.8.8.1	Alpha and beta (a/b)	186	archaea	2190	Methanocaldococcus jannaschii
+d2b1ya1	2b1y	b.156.1.1	All beta	101	bacteria	176299	Agrobacterium fabrum str. C58
+d2b59b2	2b59	b.3.2.2	All beta	96	bacteria	203119	Hungateiclostridium thermocellum ATCC 27405
+d2b97a_	2b97	b.138.1.1	All beta	70	eukaryota	51453	Trichoderma reesei
+d2baya_	2bay	g.44.1.2	Small proteins	56	eukaryota	4932	Saccharomyces cerevisiae
+d2bfdb2	2bfd	c.48.1.2	Alpha and beta (a/b)	138	eukaryota	9606	Homo sapiens
+d2bhua2	2bhu	b.71.1.1	All beta	72	bacteria	243230	Deinococcus radiodurans R1
+d2bjqa1	2bjq	b.169.1.1	All beta	170	eukaryota	6253	Ascaris suum
+d2bkya_	2bky	d.68.6.1	Alpha and beta (a+b)	89	archaea	273057	Saccharolobus solfataricus P2
+d2bl8a1	2bl8	a.29.8.2	All alpha	93	bacteria	1352	Enterococcus faecium
+d2blna1	2bln	b.46.1.1	All beta	101	bacteria	562	Escherichia coli
+d2blna2	2bln	c.65.1.1	Alpha and beta (a/b)	197	bacteria	562	Escherichia coli
+d2bogx_	2bog	c.6.1.1	Alpha and beta (a/b)	280	bacteria	2021	Thermobifida fusca
+d2bopa_	2bop	d.58.8.1	Alpha and beta (a+b)	85	viruses	337052	Deltapapillomavirus 4
+d2btia_	2bti	b.151.1.1	All beta	58	bacteria	630	Yersinia enterocolitica
+d2bv4a_	2bv4	b.115.1.0	All beta	113	bacteria	536	Chromobacterium violaceum
+d2bw3a1	2bw3	a.270.1.1	All alpha	84	eukaryota	7370	Musca domestica
+d2bz1a_	2bz1	c.144.1.1	Alpha and beta (a/b)	173	bacteria	562	Escherichia coli
+d2c0ga1	2c0g	a.71.1.0	All alpha	106	eukaryota	7227	Drosophila melanogaster
+d2c2aa1	2c2a	a.30.2.1	All alpha	89	bacteria	2336	Thermotoga maritima
+d2c60a1	2c60	d.15.2.2	Alpha and beta (a+b)	80	eukaryota	9606	Homo sapiens
+d2c6qa_	2c6q	c.1.5.0	Alpha and beta (a/b)	328	eukaryota	9606	Homo sapiens
+d2c71a1	2c71	c.6.2.3	Alpha and beta (a/b)	204	bacteria	1515	Hungateiclostridium thermocellum
+d2c9wa1	2c9w	a.271.1.1	All alpha	50	eukaryota	9606	Homo sapiens
+d2ca5a1	2ca5	a.2.20.1	All alpha	59	bacteria	623	Shigella flexneri
+d2cara1	2car	c.51.4.1	Alpha and beta (a/b)	194	eukaryota	9606	Homo sapiens
+d2cb8a_	2cb8	a.11.1.1	All alpha	86	eukaryota	9606	Homo sapiens
+d2cc6a_	2cc6	d.230.2.1	Alpha and beta (a+b)	64	archaea	478009	Halobacterium salinarum R1
+d2ccva1	2ccv	b.154.1.1	All beta	99	eukaryota	6536	Helix pomatia
+d2cg7a1	2cg7	g.27.1.1	Small proteins	43	eukaryota	9606	Homo sapiens
+d2choa1	2cho	a.246.1.1	All alpha	154	bacteria	226186	Bacteroides thetaiotaomicron VPI-5482
+d2ci1a_	2ci1	d.126.1.0	Alpha and beta (a+b)	275	eukaryota	9913	Bos taurus
+d2ciwa1	2ciw	a.39.3.1	All alpha	299	eukaryota	5474	Leptoxyphium fumago
+d2cnqa_	2cnq	d.143.1.1	Alpha and beta (a+b)	301	eukaryota	4932	Saccharomyces cerevisiae
+d2cs7a1	2cs7	d.9.2.1	Alpha and beta (a+b)	55	bacteria	1313	Streptococcus pneumoniae
+d2csba5	2csb	a.267.1.1	All alpha	291	archaea	2320	Methanopyrus kandleri
+d2cu2a1	2cu2	b.81.4.1	All beta	67	bacteria	300852	Thermus thermophilus HB8
+d2cvea2	2cve	d.58.11.2	Alpha and beta (a+b)	67	bacteria	300852	Thermus thermophilus HB8
+d2cwya1	2cwy	a.246.2.1	All alpha	94	bacteria	300852	Thermus thermophilus HB8
+d2cx1a2	2cx1	d.17.6.4	Alpha and beta (a+b)	184	archaea	272557	Aeropyrum pernix K1
+d2cxya_	2cxy	a.4.3.1	All alpha	114	eukaryota	9606	Homo sapiens
+d2cyja1	2cyj	c.103.1.1	Alpha and beta (a/b)	118	archaea	70601	Pyrococcus horikoshii OT3
+d2czra1	2czr	c.52.4.1	Alpha and beta (a/b)	218	archaea	69014	Thermococcus kodakarensis KOD1
+d2czvc1	2czv	d.58.59.1	Alpha and beta (a+b)	118	archaea	53953	Pyrococcus horikoshii
+d2d00a1	2d00	c.149.1.1	Alpha and beta (a/b)	104	bacteria	274	Thermus thermophilus
+d2d0oa1	2d0o	c.8.6.1	Alpha and beta (a/b)	162	bacteria	571	Klebsiella oxytoca
+d2d1sa_	2d1s	e.23.1.1	Multi-domain proteins (alpha and beta)	539	eukaryota	7051	Luciola cruciata
+d2d28c1	2d28	d.52.10.1	Alpha and beta (a+b)	144	bacteria	339	Xanthomonas campestris
+d2d8da1	2d8d	a.130.1.1	All alpha	80	bacteria	300852	Thermus thermophilus HB8
+d2d9ra1	2d9r	b.129.2.1	All beta	85	bacteria	242619	Porphyromonas gingivalis W83
+d2db7a1	2db7	a.273.1.1	All alpha	55	eukaryota	9606	Homo sapiens
+d2dbsa1	2dbs	d.374.1.1	Alpha and beta (a+b)	80	bacteria	300852	Thermus thermophilus HB8
+d2deja2	2dej	d.58.26.0	Alpha and beta (a+b)	168	archaea	53953	Pyrococcus horikoshii
+d2dewx1	2dew	b.2.9.1	All beta	165	eukaryota	9606	Homo sapiens
+d2dlba1	2dlb	b.174.1.1	All beta	70	bacteria	1423	Bacillus subtilis
+d2dm9a1	2dm9	d.81.4.1	Alpha and beta (a+b)	118	archaea	70601	Pyrococcus horikoshii OT3
+d2dpfa_	2dpf	b.78.1.0	All beta	111	eukaryota	4676	Molineria latifolia
+d2dpla2	2dpl	d.52.2.0	Alpha and beta (a+b)	119	archaea	70601	Pyrococcus horikoshii OT3
+d2dsya1	2dsy	d.304.1.2	Alpha and beta (a+b)	80	bacteria	274	Thermus thermophilus
+d2dt8a_	2dt8	c.119.1.0	Alpha and beta (a/b)	280	bacteria	300852	Thermus thermophilus HB8
+d2dwka_	2dwk	a.256.1.1	All alpha	162	eukaryota	10090	Mus musculus
+d2dxua2	2dxu	b.34.1.1	All beta	43	archaea	53953	Pyrococcus horikoshii
+d2e0aa1	2e0a	a.29.5.0	All alpha	165	eukaryota	9606	Homo sapiens
+d2e2aa_	2e2a	a.7.2.1	All alpha	104	bacteria	1358	Lactococcus lactis
+d2e3ha1	2e3h	b.34.10.1	All beta	71	eukaryota	9606	Homo sapiens
+d2e9xa1	2e9x	a.278.1.1	All alpha	144	eukaryota	9606	Homo sapiens
+d2e9xb2	2e9x	d.344.1.0	Alpha and beta (a+b)	61	eukaryota	9606	Homo sapiens
+d2ebfx1	2ebf	a.296.1.1	All alpha	300	bacteria	747	Pasteurella multocida
+d2ebsa1	2ebs	b.69.13.1	All beta	427	eukaryota	203496	Geotrichum sp. M128
+d2ed6a1	2ed6	b.170.1.1	All beta	170	viruses	92652	Shrimp white spot syndrome virus
+d2enda_	2end	a.18.1.1	All alpha	137	viruses	10665	Escherichia virus T4
+d2erla_	2erl	a.10.1.1	All alpha	40	eukaryota	5938	Euplotes raikovi
+d2es4d1	2es4	a.137.15.1	All alpha	270	bacteria	337	Burkholderia glumae
+d2es9a1	2es9	a.247.1.1	All alpha	97	bacteria	99287	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+d2euca1	2euc	a.249.1.1	All alpha	108	bacteria	1423	Bacillus subtilis
+d2f01a_	2f01	b.61.1.1	All beta	121	bacteria	1895	Streptomyces avidinii
+d2f22a1	2f22	a.213.1.2	All alpha	141	bacteria	86665	Bacillus halodurans
+d2f23a1	2f23	a.2.1.1	All alpha	75	bacteria	262724	Thermus thermophilus HB27
+d2f2ba_	2f2b	f.19.1.0	Membrane and cell surface proteins and peptides	245	archaea	79929	Methanothermobacter marburgensis str. Marburg
+d2f2ha1	2f2h	b.150.1.1	All beta	108	bacteria	562	Escherichia coli
+d2f4ia1	2f4i	b.40.11.1	All beta	176	bacteria	243274	Thermotoga maritima MSB8
+d2f4mb_	2f4m	a.189.1.1	All alpha	61	eukaryota	10090	Mus musculus
+d2f5tx1	2f5t	b.38.5.1	All beta	92	archaea	2265	Thermococcus litoralis
+d2f69a1	2f69	b.76.2.1	All beta	78	eukaryota	9606	Homo sapiens
+d2f69a2	2f69	b.85.7.1	All beta	166	eukaryota	9606	Homo sapiens
+d2f9ha1	2f9h	b.161.1.1	All beta	121	bacteria	226185	Enterococcus faecalis V583
+d2fb5a1	2fb5	d.320.1.1	Alpha and beta (a+b)	201	bacteria	1396	Bacillus cereus
+d2fcja1	2fcj	c.136.1.1	Alpha and beta (a/b)	114	bacteria	1422	Geobacillus stearothermophilus
+d2fcla1	2fcl	d.218.1.11	Alpha and beta (a+b)	157	bacteria	2336	Thermotoga maritima
+d2fcwa1	2fcw	a.13.1.1	All alpha	105	eukaryota	9606	Homo sapiens
+d2fcwb1	2fcw	g.12.1.1	Small proteins	39	eukaryota	9606	Homo sapiens
+d2fefa1	2fef	a.29.11.1	All alpha	124	bacteria	208964	Pseudomonas aeruginosa PAO1
+d2fefa2	2fef	a.254.1.1	All alpha	156	bacteria	208964	Pseudomonas aeruginosa PAO1
+d2ffga1	2ffg	d.317.1.1	Alpha and beta (a+b)	78	bacteria	1423	Bacillus subtilis
+d2fg1a_	2fg1	c.50.1.2	Alpha and beta (a/b)	157	bacteria	226186	Bacteroides thetaiotaomicron VPI-5482
+d2fgga1	2fgg	d.50.5.1	Alpha and beta (a+b)	84	bacteria	1773	Mycobacterium tuberculosis
+d2fgqx_	2fgq	f.4.3.1	Membrane and cell surface proteins and peptides	330	bacteria	80866	Delftia acidovorans
+d2fhza1	2fhz	d.311.1.1	Alpha and beta (a+b)	83	bacteria	562	Escherichia coli
+d2fhzb_	2fhz	d.243.1.2	Alpha and beta (a+b)	93	bacteria	562	Escherichia coli
+d2fi0a1	2fi0	a.248.1.1	All alpha	79	bacteria	170187	Streptococcus pneumoniae TIGR4
+d2fiya1	2fiy	e.59.1.1	Multi-domain proteins (alpha and beta)	285	bacteria	208964	Pseudomonas aeruginosa PAO1
+d2fj8a1	2fj8	g.3.13.1	Small proteins	59	eukaryota	4513	Hordeum vulgare
+d2fmaa_	2fma	d.230.3.1	Alpha and beta (a+b)	59	eukaryota	9606	Homo sapiens
+d2fpna1	2fpn	d.129.10.1	Alpha and beta (a+b)	205	bacteria	1423	Bacillus subtilis
+d2fqma1	2fqm	d.378.1.1	Alpha and beta (a+b)	65	viruses	11277	Vesicular stomatitis Indiana virus
+d2fsqa1	2fsq	d.61.1.4	Alpha and beta (a+b)	232	bacteria	176299	Agrobacterium fabrum str. C58
+d2fsua1	2fsu	c.67.2.1	Alpha and beta (a/b)	170	bacteria	562	Escherichia coli
+d2ftxa1	2ftx	d.300.1.1	Alpha and beta (a+b)	89	eukaryota	4932	Saccharomyces cerevisiae
+d2fupa1	2fup	a.47.5.1	All alpha	128	bacteria	287	Pseudomonas aeruginosa
+d2fvva1	2fvv	d.113.1.1	Alpha and beta (a+b)	135	eukaryota	9606	Homo sapiens
+d2fvya_	2fvy	c.93.1.1	Alpha and beta (a/b)	305	bacteria	562	Escherichia coli
+d2fyuk_	2fyu	f.23.15.1	Membrane and cell surface proteins and peptides	53	eukaryota	9913	Bos taurus
+d2fyxa1	2fyx	d.58.57.1	Alpha and beta (a+b)	130	bacteria	243230	Deinococcus radiodurans R1
+d2fzpa1	2fzp	d.345.1.1	Alpha and beta (a+b)	125	eukaryota	9606	Homo sapiens
+d2fzta1	2fzt	a.46.3.1	All alpha	78	bacteria	243274	Thermotoga maritima MSB8
+d2g03a1	2g03	a.265.1.1	All alpha	177	bacteria	122586	Neisseria meningitidis MC58
+d2g0da_	2g0d	a.102.6.1	All alpha	404	bacteria	1360	Lactococcus lactis subsp. lactis
+d2g38a1	2g38	a.25.4.1	All alpha	77	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d2g3ra1	2g3r	b.34.9.1	All beta	53	eukaryota	9606	Homo sapiens
+d2g50a1	2g50	b.58.1.1	All beta	102	eukaryota	9986	Oryctolagus cuniculus
+d2g62a1	2g62	a.268.1.1	All alpha	295	eukaryota	9606	Homo sapiens
+d2g7sa2	2g7s	a.121.1.1	All alpha	116	bacteria	176299	Agrobacterium fabrum str. C58
+d2gboa1	2gbo	a.23.6.1	All alpha	82	bacteria	226185	Enterococcus faecalis V583
+d2geca1	2gec	b.148.1.1	All beta	138	viruses	11120	Infectious bronchitis virus
+d2gf4a1	2gf4	a.8.10.1	All alpha	89	archaea	64091	Halobacterium salinarum NRC-1
+d2gfqa1	2gfq	c.56.7.1	Alpha and beta (a/b)	274	archaea	70601	Pyrococcus horikoshii OT3
+d2ghvc1	2ghv	d.318.1.1	Alpha and beta (a+b)	183	viruses	694009	Severe acute respiratory syndrome-related coronavirus
+d2giba1	2gib	d.254.1.2	Alpha and beta (a+b)	97	viruses	694009	Severe acute respiratory syndrome-related coronavirus
+d2gjva1	2gjv	d.323.1.2	Alpha and beta (a+b)	134	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d2gkga_	2gkg	c.23.1.0	Alpha and beta (a/b)	122	bacteria	34	Myxococcus xanthus
+d2goma1	2gom	a.7.17.1	All alpha	61	bacteria	158878	Staphylococcus aureus subsp. aureus Mu50
+d2gpia1	2gpi	d.354.1.1	Alpha and beta (a+b)	90	bacteria	323850	Shewanella loihica PV-4
+d2grrb_	2grr	a.118.12.1	All alpha	157	eukaryota	9606	Homo sapiens
+d2gsva1	2gsv	a.23.7.1	All alpha	67	bacteria	1423	Bacillus subtilis
+d2gtia2	2gti	d.294.1.2	Alpha and beta (a+b)	153	viruses	11142	Murine hepatitis virus strain A59
+d2guda1	2gud	b.77.3.1	All beta	121	eukaryota	35158	Griffithsia
+d2gyka1	2gyk	a.28.2.1	All alpha	83	bacteria	83333	Escherichia coli K-12
+d2h1ta1	2h1t	b.178.1.1	All beta	186	bacteria	287	Pseudomonas aeruginosa
+d2h1va_	2h1v	c.92.1.1	Alpha and beta (a/b)	309	bacteria	1423	Bacillus subtilis
+d2h6fa1	2h6f	a.118.6.1	All alpha	315	eukaryota	9606	Homo sapiens
+d2h6fb1	2h6f	a.102.4.3	All alpha	401	eukaryota	9606	Homo sapiens
+d2h88d_	2h88	f.21.2.2	Membrane and cell surface proteins and peptides	101	eukaryota	9031	Gallus gallus
+d2h8ea_	2h8e	d.79.6.1	Alpha and beta (a+b)	120	bacteria	562	Escherichia coli
+d2hbaa1	2hba	d.100.1.1	Alpha and beta (a+b)	52	bacteria	1422	Geobacillus stearothermophilus
+d2hdza_	2hdz	a.21.1.1	All alpha	66	eukaryota	9606	Homo sapiens
+d2hf1a1	2hf1	b.171.1.1	All beta	59	bacteria	243365	Chromobacterium violaceum ATCC 12472
+d2hiya1	2hiy	d.356.1.1	Alpha and beta (a+b)	179	bacteria	170187	Streptococcus pneumoniae TIGR4
+d2hnga1	2hng	d.33.1.2	Alpha and beta (a+b)	124	bacteria	170187	Streptococcus pneumoniae TIGR4
+d2hnua_	2hnu	b.9.1.1	All beta	83	eukaryota	9913	Bos taurus
+d2hpja_	2hpj	d.314.1.1	Alpha and beta (a+b)	99	eukaryota	10090	Mus musculus
+d2hq4a1	2hq4	d.342.1.1	Alpha and beta (a+b)	149	archaea	53953	Pyrococcus horikoshii
+d2hqsa2	2hqs	c.51.2.1	Alpha and beta (a/b)	139	bacteria	562	Escherichia coli
+d2hqsc_	2hqs	d.79.7.1	Alpha and beta (a+b)	107	bacteria	562	Escherichia coli
+d2hs1a_	2hs1	b.50.1.1	All beta	99	viruses	11676	Human immunodeficiency virus 1
+d2huha1	2huh	b.7.5.1	All beta	147	bacteria	818	Bacteroides thetaiotaomicron
+d2huja1	2huj	a.24.26.1	All alpha	120	bacteria	1642	Listeria innocua
+d2hw4a1	2hw4	d.322.1.1	Alpha and beta (a+b)	110	eukaryota	9606	Homo sapiens
+d2hxma_	2hxm	c.18.1.1	Alpha and beta (a/b)	223	eukaryota	9606	Homo sapiens
+d2hy5a1	2hy5	c.114.1.1	Alpha and beta (a/b)	130	bacteria	1049	Allochromatium vinosum
+d2i06a_	2i06	e.2.1.1	Multi-domain proteins (alpha and beta)	305	bacteria	562	Escherichia coli
+d2i0za2	2i0z	e.74.1.1	Multi-domain proteins (alpha and beta)	165	bacteria	1396	Bacillus cereus
+d2i15a1	2i15	a.291.1.1	All alpha	122	bacteria	2104	Mycoplasma pneumoniae
+d2i1sa1	2i1s	d.343.1.1	Alpha and beta (a+b)	178	archaea	192952	Methanosarcina mazei Go1
+d2i53a1	2i53	a.74.1.1	All alpha	144	eukaryota	9606	Homo sapiens
+d2i5ha1	2i5h	e.71.1.1	Multi-domain proteins (alpha and beta)	178	archaea	2234	Archaeoglobus fulgidus
+d2i5ua1	2i5u	a.275.1.1	All alpha	74	bacteria	226185	Enterococcus faecalis V583
+d2i5vo_	2i5v	b.76.1.1	All beta	246	bacteria	139	Borreliella burgdorferi
+d2i71a1	2i71	e.72.1.1	Multi-domain proteins (alpha and beta)	368	archaea	273057	Saccharolobus solfataricus P2
+d2i9ia1	2i9i	c.51.6.1	Alpha and beta (a/b)	221	bacteria	210	Helicobacter pylori
+d2i9wa2	2i9w	g.74.1.1	Small proteins	39	bacteria	334543	Psychrobacter arcticus
+d2i9xa1	2i9x	d.366.1.1	Alpha and beta (a+b)	84	bacteria	176280	Staphylococcus epidermidis ATCC 12228
+d2ia1a1	2ia1	d.359.1.1	Alpha and beta (a+b)	165	bacteria	86665	Bacillus halodurans
+d2ia7a1	2ia7	d.373.1.1	Alpha and beta (a+b)	111	bacteria	35554	Geobacter sulfurreducens
+d2iafa1	2iaf	d.81.2.1	Alpha and beta (a+b)	140	bacteria	446	Legionella pneumophila
+d2iaya1	2iay	d.376.1.1	Alpha and beta (a+b)	113	bacteria	1590	Lactobacillus plantarum
+d2ic2a1	2ic2	b.1.2.1	All beta	101	eukaryota	7227	Drosophila melanogaster
+d2icha1	2ich	b.176.1.1	All beta	320	bacteria	915	Nitrosomonas europaea
+d2icua_	2icu	d.303.1.0	Alpha and beta (a+b)	210	bacteria	83333	Escherichia coli K-12
+d2icwg_	2icw	a.202.1.1	All alpha	213	eukaryota	9606	Homo sapiens
+d2idob_	2ido	a.237.1.1	All alpha	75	bacteria	562	Escherichia coli
+d2ih2a2	2ih2	d.287.1.1	Alpha and beta (a+b)	170	bacteria	271	Thermus aquaticus
+d2ii1a_	2ii1	b.23.3.0	All beta	297	bacteria	86665	Bacillus halodurans
+d2in5a1	2in5	b.177.1.1	All beta	195	bacteria	83333	Escherichia coli K-12
+d2inwa1	2inw	d.110.8.1	Alpha and beta (a+b)	117	bacteria	623	Shigella flexneri
+d2ivya_	2ivy	d.58.58.1	Alpha and beta (a+b)	88	archaea	273057	Saccharolobus solfataricus P2
+d2iwka1	2iwk	b.69.3.1	All beta	459	bacteria	223	Achromobacter cycloclastes
+d2izxa_	2izx	a.31.1.1	All alpha	39	eukaryota	9606	Homo sapiens
+d2j4wd1	2j4w	g.61.1.1	Small proteins	34	eukaryota	5855	Plasmodium vivax
+d2j5ya_	2j5y	a.8.1.2	All alpha	61	bacteria	1260	Finegoldia magna
+d2j6ba1	2j6b	d.321.1.1	Alpha and beta (a+b)	109	viruses	235266	Acidianus filamentous virus 1
+d2j80a_	2j80	d.110.6.1	Alpha and beta (a+b)	129	bacteria	573	Klebsiella pneumoniae
+d2j8ga1	2j8g	b.109.1.1	All beta	149	viruses	10747	Streptococcus phage Cp1
+d2j8ka1	2j8k	b.80.8.1	All beta	175	bacteria	272131	Nostoc punctiforme
+d2j97a_	2j97	b.140.1.0	All beta	98	viruses	11137	Human coronavirus 229E
+d2j9wa_	2j9w	a.24.28.0	All alpha	101	eukaryota	8355	Xenopus laevis
+d2jdia1	2jdi	a.69.1.1	All alpha	131	eukaryota	9913	Bos taurus
+d2jdia2	2jdi	b.49.1.1	All beta	71	eukaryota	9913	Bos taurus
+d2jdih1	2jdi	a.2.10.1	All alpha	45	eukaryota	9913	Bos taurus
+d2jdqd_	2jdq	d.361.1.1	Alpha and beta (a+b)	63	eukaryota	9606	Homo sapiens
+d2je6a2	2je6	d.101.1.1	Alpha and beta (a+b)	84	archaea	2287	Saccharolobus solfataricus
+d2je6i2	2je6	b.84.4.2	All beta	59	archaea	2287	Saccharolobus solfataricus
+d2jeka1	2jek	a.255.1.1	All alpha	140	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d2jfra_	2jfr	d.219.1.0	Alpha and beta (a+b)	234	bacteria	246196	Mycolicibacterium smegmatis MC2 155
+d2jhfa2	2jhf	c.2.1.1	Alpha and beta (a/b)	176	eukaryota	9796	Equus caballus
+d2jlia_	2jli	d.367.1.0	Alpha and beta (a+b)	100	bacteria	632	Yersinia pestis
+d2liga_	2lig	a.24.2.1	All alpha	158	bacteria	90371	Salmonella enterica subsp. enterica serovar Typhimurium
+d2mcma_	2mcm	b.1.7.1	All beta	112	bacteria	1917	Streptomyces macromomyceticus
+d2mhra_	2mhr	a.24.4.1	All alpha	118	eukaryota	360549	Themiste hennahi
+d2nlsa_	2nls	g.9.1.1	Small proteins	36	eukaryota	9606	Homo sapiens
+d2nlva1	2nlv	d.326.1.1	Alpha and beta (a+b)	111	bacteria	240292	Trichormus variabilis ATCC 29413
+d2nmla1	2nml	d.330.1.1	Alpha and beta (a+b)	100	eukaryota	9606	Homo sapiens
+d2nn4a1	2nn4	a.272.1.1	All alpha	62	bacteria	1423	Bacillus subtilis
+d2nnua_	2nnu	b.91.1.1	All beta	201	viruses	333760	Human papillomavirus type 16
+d2nr5a1	2nr5	a.25.6.1	All alpha	60	bacteria	211586	Shewanella oneidensis MR-1
+d2nsza1	2nsz	a.118.1.14	All alpha	129	eukaryota	10090	Mus musculus
+d2ntka_	2ntk	d.153.2.1	Alpha and beta (a+b)	206	archaea	145262	Methanothermobacter thermautotrophicus
+d2nuga1	2nug	a.149.1.1	All alpha	148	bacteria	63363	Aquifex aeolicus
+d2nuga2	2nug	d.50.1.1	Alpha and beta (a+b)	68	bacteria	63363	Aquifex aeolicus
+d2o2ka_	2o2k	d.173.1.0	Alpha and beta (a+b)	332	eukaryota	9606	Homo sapiens
+d2o37a_	2o37	a.2.3.0	All alpha	81	eukaryota	559292	Saccharomyces cerevisiae S288C
+d2o3bb_	2o3b	d.221.1.1	Alpha and beta (a+b)	135	bacteria	103690	Nostoc sp. PCC 7120 = FACHB-418
+d2o5ha1	2o5h	d.363.1.1	Alpha and beta (a+b)	125	bacteria	122586	Neisseria meningitidis MC58
+d2o6ka1	2o6k	a.60.15.1	All alpha	70	bacteria	196620	Staphylococcus aureus subsp. aureus MW2
+d2o8sa1	2o8s	a.295.1.1	All alpha	220	bacteria	176299	Agrobacterium fabrum str. C58
+d2o9sa_	2o9s	b.34.2.0	All beta	67	eukaryota	9606	Homo sapiens
+d2o9ux_	2o9u	d.17.1.1	Alpha and beta (a+b)	95	eukaryota	3457	Dioscoreophyllum cumminsii
+d2oa5a_	2oa5	d.362.1.1	Alpha and beta (a+b)	92	viruses	33708	Murid gammaherpesvirus 4
+d2ob3a_	2ob3	c.1.9.3	Alpha and beta (a/b)	329	bacteria	293	Brevundimonas diminuta
+d2ob5a1	2ob5	c.133.1.1	Alpha and beta (a/b)	147	bacteria	176299	Agrobacterium fabrum str. C58
+d2od0a1	2od0	d.198.5.2	Alpha and beta (a+b)	103	bacteria	223926	Vibrio parahaemolyticus RIMD 2210633
+d2odka1	2odk	d.306.1.1	Alpha and beta (a+b)	51	bacteria	915	Nitrosomonas europaea
+d2oeba1	2oeb	a.70.2.1	All alpha	152	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d2ofca_	2ofc	b.97.1.2	All beta	141	eukaryota	39291	Athelia rolfsii
+d2ogfa_	2ogf	d.316.1.0	Alpha and beta (a+b)	121	archaea	2190	Methanocaldococcus jannaschii
+d2ohwa1	2ohw	d.79.8.1	Alpha and beta (a+b)	128	bacteria	1423	Bacillus subtilis
+d2oizd_	2oiz	g.21.1.0	Small proteins	110	bacteria	511	Alcaligenes faecalis
+d2okua1	2oku	a.48.5.1	All alpha	122	bacteria	242619	Porphyromonas gingivalis W83
+d2oqza_	2oqz	b.100.1.1	All beta	215	bacteria	198094	Bacillus anthracis str. Ames
+d2ot3a_	2ot3	a.222.1.1	All alpha	253	eukaryota	9606	Homo sapiens
+d2otaa1	2ota	a.284.1.1	All alpha	62	bacteria	167879	Colwellia psychrerythraea 34H
+d2ou3a1	2ou3	a.287.1.1	All alpha	160	bacteria	63737	Nostoc punctiforme PCC 73102
+d2ouxa1	2oux	a.118.26.1	All alpha	130	bacteria	226185	Enterococcus faecalis V583
+d2ov0a_	2ov0	b.6.1.1	All beta	105	bacteria	266	Paracoccus denitrificans
+d2ox7a1	2ox7	b.172.1.1	All beta	143	bacteria	226185	Enterococcus faecalis V583
+d2oy9a1	2oy9	a.276.1.1	All alpha	85	bacteria	272558	Bacillus halodurans C-125
+d2p0ta1	2p0t	a.290.1.1	All alpha	148	bacteria	223283	Pseudomonas syringae pv. tomato str. DC3000
+d2p12a1	2p12	b.175.1.1	All beta	165	bacteria	101510	Rhodococcus jostii RHA1
+d2p1ma2	2p1m	a.157.1.0	All alpha	60	eukaryota	3702	Arabidopsis thaliana
+d2p3ya1	2p3y	e.65.1.1	Multi-domain proteins (alpha and beta)	461	bacteria	223926	Vibrio parahaemolyticus RIMD 2210633
+d2p62a1	2p62	e.67.1.1	Multi-domain proteins (alpha and beta)	241	archaea	70601	Pyrococcus horikoshii OT3
+d2p6va1	2p6v	a.277.1.1	All alpha	97	eukaryota	9606	Homo sapiens
+d2p74a_	2p74	e.3.1.1	Multi-domain proteins (alpha and beta)	263	bacteria	562	Escherichia coli
+d2p8ia_	2p8i	d.58.55.1	Alpha and beta (a+b)	117	bacteria	266265	Paraburkholderia xenovorans LB400
+d2p8qb_	2p8q	g.88.2.1	Small proteins	39	eukaryota	9606	Homo sapiens
+d2p8ta2	2p8t	d.74.4.2	Alpha and beta (a+b)	117	archaea	70601	Pyrococcus horikoshii OT3
+d2p90a1	2p90	c.56.8.1	Alpha and beta (a/b)	269	bacteria	196627	Corynebacterium glutamicum ATCC 13032
+d2pbka_	2pbk	b.57.1.1	All beta	228	viruses	37296	Human gammaherpesvirus 8
+d2phcb2	2phc	d.74.5.1	Alpha and beta (a+b)	84	archaea	70601	Pyrococcus horikoshii OT3
+d2phna_	2phn	d.340.1.1	Alpha and beta (a+b)	248	archaea	224325	Archaeoglobus fulgidus DSM 4304
+d2pifa1	2pif	d.382.1.1	Alpha and beta (a+b)	252	bacteria	223283	Pseudomonas syringae pv. tomato str. DC3000
+d2pjua1	2pju	c.92.3.1	Alpha and beta (a/b)	186	bacteria	562	Escherichia coli
+d2pk8a_	2pk8	d.274.1.1	Alpha and beta (a+b)	94	archaea	186497	Pyrococcus furiosus DSM 3638
+d2pmra1	2pmr	a.8.11.1	All alpha	75	archaea	187420	Methanothermobacter thermautotrophicus str. Delta H
+d2ppva_	2ppv	c.143.1.0	Alpha and beta (a/b)	325	bacteria	176280	Staphylococcus epidermidis ATCC 12228
+d2prva1	2prv	d.369.1.1	Alpha and beta (a+b)	152	bacteria	1423	Bacillus subtilis
+d2psba1	2psb	c.153.1.1	Alpha and beta (a/b)	290	bacteria	1423	Bacillus subtilis
+d2pspa1	2psp	g.16.1.1	Small proteins	53	eukaryota	9823	Sus scrofa
+d2pstx_	2pst	d.100.2.1	Alpha and beta (a+b)	61	bacteria	208964	Pseudomonas aeruginosa PAO1
+d2pu9a_	2pu9	g.36.1.1	Small proteins	110	bacteria	1143	Synechocystis sp.
+d2pv4a1	2pv4	a.286.1.1	All alpha	144	bacteria	326297	Shewanella amazonensis SB2B
+d2pvba_	2pvb	a.39.1.4	All alpha	107	eukaryota	8010	Esox lucius
+d2pwwa1	2pww	d.129.11.1	Alpha and beta (a+b)	114	bacteria	66692	Bacillus clausii KSM-K16
+d2pyqa1	2pyq	a.279.1.1	All alpha	113	bacteria	290400	Jannaschia sp. CCS1
+d2q0zx1	2q0z	a.289.1.1	All alpha	176	eukaryota	9606	Homo sapiens
+d2q22a1	2q22	d.365.1.1	Alpha and beta (a+b)	130	bacteria	240292	Trichormus variabilis ATCC 29413
+d2q2ga1	2q2g	b.4.1.0	All beta	83	eukaryota	353152	Cryptosporidium parvum Iowa II
+d2q66a3	2q66	d.58.16.1	Alpha and beta (a+b)	172	eukaryota	4932	Saccharomyces cerevisiae
+d2q6ka1	2q6k	c.132.1.0	Alpha and beta (a/b)	163	bacteria	369723	Salinispora tropica CNB-440
+d2q6ka2	2q6k	b.141.1.0	All beta	86	bacteria	369723	Salinispora tropica CNB-440
+d2qdla_	2qdl	b.40.7.0	All beta	154	bacteria	273068	Caldanaerobacter subterraneus subsp. tengcongensis MB4
+d2qhfa_	2qhf	d.258.1.0	Alpha and beta (a+b)	392	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d2qklb_	2qkl	a.242.1.1	All alpha	90	eukaryota	4896	Schizosaccharomyces pombe
+d2qsba1	2qsb	a.29.14.1	All alpha	85	archaea	273075	Thermoplasma acidophilum DSM 1728
+d2quda_	2qud	d.85.1.1	Alpha and beta (a+b)	125	viruses	12023	Pseudomonas phage PP7
+d2qupa_	2qup	a.24.29.0	All alpha	119	bacteria	86665	Bacillus halodurans
+d2r0xa_	2r0x	b.45.1.0	All beta	156	bacteria	205914	Histophilus somni 129PT
+d2r31a_	2r31	d.381.1.1	Alpha and beta (a+b)	236	bacteria	318586	Paracoccus denitrificans PD1222
+d2r4qa1	2r4q	c.44.2.2	Alpha and beta (a/b)	101	bacteria	224308	Bacillus subtilis subsp. subtilis str. 168
+d2r7511	2r75	c.32.1.1	Alpha and beta (a/b)	197	bacteria	63363	Aquifex aeolicus
+d2r7512	2r75	d.79.2.1	Alpha and beta (a+b)	126	bacteria	63363	Aquifex aeolicus
+d2rbka_	2rbk	c.108.1.10	Alpha and beta (a/b)	261	bacteria	226186	Bacteroides thetaiotaomicron VPI-5482
+d2rdea1	2rde	b.45.2.1	All beta	110	bacteria	345073	Vibrio cholerae O395
+d2rfra1	2rfr	d.17.4.28	Alpha and beta (a+b)	153	bacteria	279238	Novosphingobium aromaticivorans DSM 12444
+d2rk3a_	2rk3	c.23.16.2	Alpha and beta (a/b)	186	eukaryota	9606	Homo sapiens
+d2rkqa_	2rkq	d.118.1.0	Alpha and beta (a+b)	169	eukaryota	7227	Drosophila melanogaster
+d2rlda1	2rld	a.29.16.1	All alpha	113	bacteria	226186	Bacteroides thetaiotaomicron VPI-5482
+d2saka_	2sak	d.15.5.1	Alpha and beta (a+b)	121	bacteria	1280	Staphylococcus aureus
+d2sici_	2sic	d.84.1.1	Alpha and beta (a+b)	107	bacteria	1390	Bacillus amyloliquefaciens
+d2tpsa_	2tps	c.1.3.1	Alpha and beta (a/b)	226	bacteria	1423	Bacillus subtilis
+d2uv4a_	2uv4	d.37.1.0	Alpha and beta (a+b)	143	eukaryota	9606	Homo sapiens
+d2v3za1	2v3z	c.55.2.1	Alpha and beta (a/b)	176	bacteria	562	Escherichia coli
+d2v6xa_	2v6x	a.7.14.0	All alpha	82	eukaryota	4932	Saccharomyces cerevisiae
+d2v89a_	2v89	g.50.1.2	Small proteins	78	eukaryota	10090	Mus musculus
+d2v8ta_	2v8t	a.25.1.3	All alpha	302	bacteria	262724	Thermus thermophilus HB27
+d2v9la_	2v9l	c.74.1.1	Alpha and beta (a/b)	273	bacteria	562	Escherichia coli
+d2vb1a_	2vb1	d.2.1.2	Alpha and beta (a+b)	129	eukaryota	9031	Gallus gallus
+d2vdra_	2vdr	b.69.8.1	All beta	452	eukaryota	9606	Homo sapiens
+d2vfxa_	2vfx	d.135.1.1	Alpha and beta (a+b)	203	eukaryota	9606	Homo sapiens
+d2vhka_	2vhk	b.25.1.1	All beta	206	eukaryota	4621	Thaumatococcus daniellii
+d2vn6b_	2vn6	a.139.1.0	All alpha	64	bacteria	1521	Ruminiclostridium cellulolyticum
+d2vu9a2	2vu9	b.42.4.2	All beta	218	bacteria	36826	Clostridium botulinum A
+d2vxna_	2vxn	c.1.1.1	Alpha and beta (a/b)	249	eukaryota	5665	Leishmania mexicana
+d2w1va_	2w1v	d.160.1.0	Alpha and beta (a+b)	274	eukaryota	10090	Mus musculus
+d2w6ka1	2w6k	c.151.1.1	Alpha and beta (a/b)	139	bacteria	287	Pseudomonas aeruginosa
+d2wbma1	2wbm	d.235.1.0	Alpha and beta (a+b)	234	archaea	187420	Methanothermobacter thermautotrophicus str. Delta H
+d2wbma2	2wbm	a.5.8.0	All alpha	75	archaea	187420	Methanothermobacter thermautotrophicus str. Delta H
+d2wdsa_	2wds	d.150.1.0	Alpha and beta (a+b)	123	bacteria	1902	Streptomyces coelicolor
+d2we5a_	2we5	c.73.1.1	Alpha and beta (a/b)	309	bacteria	1351	Enterococcus faecalis
+d2wfia_	2wfi	b.62.1.1	All beta	172	eukaryota	9606	Homo sapiens
+d2wkxa1	2wkx	a.20.1.1	All alpha	82	bacteria	83333	Escherichia coli K-12
+d2wlva_	2wlv	a.73.1.1	All alpha	144	viruses	11713	Human immunodeficiency virus type 2 (ISOLATE D194)
+d2wn9a_	2wn9	b.96.1.0	All beta	209	eukaryota	6500	Aplysia californica
+d2wnpf_	2wnp	d.171.1.0	Alpha and beta (a+b)	217	eukaryota	9606	Homo sapiens
+d2woea_	2woe	a.209.1.0	All alpha	291	bacteria	1085	Rhodospirillum rubrum
+d2wqka_	2wqk	c.106.1.0	Alpha and beta (a/b)	248	bacteria	224324	Aquifex aeolicus VF5
+d2wura_	2wur	d.22.1.1	Alpha and beta (a+b)	226	eukaryota	6100	Aequorea victoria
+d2wyta_	2wyt	b.1.8.1	All beta	153	eukaryota	9606	Homo sapiens
+d2wzka_	2wzk	a.118.17.0	All alpha	369	eukaryota	10090	Mus musculus
+d2x42a3	2x42	b.1.31.1	All beta	122	bacteria	309803	Thermotoga neapolitana DSM 4359
+d2x5oa1	2x5o	c.5.1.0	Alpha and beta (a/b)	93	bacteria	668369	Escherichia coli DH5[alpha]
+d2x5oa2	2x5o	c.72.2.1	Alpha and beta (a/b)	204	bacteria	668369	Escherichia coli DH5[alpha]
+d2x5oa3	2x5o	c.59.1.0	Alpha and beta (a/b)	142	bacteria	668369	Escherichia coli DH5[alpha]
+d2xhia1	2xhi	d.129.1.0	Alpha and beta (a+b)	126	eukaryota	9606	Homo sapiens
+d2xi8a_	2xi8	a.35.1.3	All alpha	66	bacteria	1351	Enterococcus faecalis
+d2xjpa_	2xjp	b.179.1.2	All beta	258	eukaryota	559292	Saccharomyces cerevisiae S288C
+d2xola_	2xol	a.184.1.1	All alpha	168	archaea	2234	Archaeoglobus fulgidus
+d2xova_	2xov	f.51.1.1	Membrane and cell surface proteins and peptides	181	bacteria	469008	Escherichia coli BL21(DE3)
+d2xu3a_	2xu3	d.3.1.0	Alpha and beta (a+b)	220	eukaryota	9606	Homo sapiens
+d2xw6a_	2xw6	c.24.1.2	Alpha and beta (a/b)	130	bacteria	405418	Thermus sp. GH5
+d2xzga1	2xzg	b.69.6.1	All beta	358	eukaryota	9606	Homo sapiens
+d2y5fl_	2y5f	g.3.11.1	Small proteins	54	eukaryota	9606	Homo sapiens
+d2y71a_	2y71	c.23.13.1	Alpha and beta (a/b)	138	bacteria	1773	Mycobacterium tuberculosis
+d2y8ya1	2y8y	d.58.53.0	Alpha and beta (a+b)	201	bacteria	300852	Thermus thermophilus HB8
+d2yima_	2yim	c.123.1.1	Alpha and beta (a/b)	355	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d2ykza_	2ykz	a.24.3.2	All alpha	126	bacteria	85698	Achromobacter xylosoxidans
+d2ylba_	2ylb	b.38.1.2	All beta	65	bacteria	99287	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+d2z16a_	2z16	a.95.1.1	All alpha	153	viruses	11320	Influenza A virus
+d2z51a1	2z51	d.52.8.0	Alpha and beta (a+b)	82	eukaryota	3702	Arabidopsis thaliana
+d2z7fi_	2z7f	g.3.14.0	Small proteins	50	eukaryota	9606	Homo sapiens
+d2za4b_	2za4	c.9.1.1	Alpha and beta (a/b)	89	bacteria	1390	Bacillus amyloliquefaciens
+d2zcwa2	2zcw	b.82.3.2	All beta	112	bacteria	274	Thermus thermophilus
+d2zw2a_	2zw2	d.284.1.0	Alpha and beta (a+b)	85	archaea	111955	Sulfurisphaera tokodaii
+d3a38a_	3a38	g.35.1.1	Small proteins	83	bacteria	1050	Thermochromatium tepidum
+d3a4ra_	3a4r	d.15.1.0	Alpha and beta (a+b)	79	eukaryota	10090	Mus musculus
+d3a9sa1	3a9s	c.85.1.0	Alpha and beta (a/b)	359	bacteria	33936	Aeribacillus pallidus
+d3a9sa2	3a9s	b.43.2.0	All beta	230	bacteria	33936	Aeribacillus pallidus
+d3aa0a_	3aa0	e.43.1.1	Multi-domain proteins (alpha and beta)	270	eukaryota	9031	Gallus gallus
+d3ag3c_	3ag3	f.25.1.1	Membrane and cell surface proteins and peptides	259	eukaryota	9913	Bos taurus
+d3ag3d_	3ag3	f.23.1.1	Membrane and cell surface proteins and peptides	144	eukaryota	9913	Bos taurus
+d3ag3e_	3ag3	a.118.11.1	All alpha	105	eukaryota	9913	Bos taurus
+d3ag3g_	3ag3	f.23.2.1	Membrane and cell surface proteins and peptides	84	eukaryota	9913	Bos taurus
+d3ag3h_	3ag3	a.51.1.1	All alpha	79	eukaryota	9913	Bos taurus
+d3ag3i_	3ag3	f.23.3.1	Membrane and cell surface proteins and peptides	73	eukaryota	9913	Bos taurus
+d3ag3j_	3ag3	f.23.4.1	Membrane and cell surface proteins and peptides	58	eukaryota	9913	Bos taurus
+d3ag3k_	3ag3	f.23.5.1	Membrane and cell surface proteins and peptides	49	eukaryota	9913	Bos taurus
+d3ag3l_	3ag3	f.23.6.1	Membrane and cell surface proteins and peptides	46	eukaryota	9913	Bos taurus
+d3ag3m_	3ag3	f.23.7.1	Membrane and cell surface proteins and peptides	43	eukaryota	9913	Bos taurus
+d3agna_	3agn	d.1.1.4	Alpha and beta (a+b)	114	eukaryota	5271	Ustilago sphaerogena
+d3amra_	3amr	b.68.3.1	All beta	352	bacteria	1423	Bacillus subtilis
+d3ar4a2	3ar4	b.82.7.1	All beta	115	eukaryota	9986	Oryctolagus cuniculus
+d3ar4a4	3ar4	d.220.1.1	Alpha and beta (a+b)	239	eukaryota	9986	Oryctolagus cuniculus
+d3arcb_	3arc	f.55.1.1	Membrane and cell surface proteins and peptides	504	bacteria	32053	Thermosynechococcus vulcanus
+d3arce_	3arc	f.23.38.1	Membrane and cell surface proteins and peptides	81	bacteria	32053	Thermosynechococcus vulcanus
+d3arch_	3arc	f.23.33.1	Membrane and cell surface proteins and peptides	65	bacteria	32053	Thermosynechococcus vulcanus
+d3arci_	3arc	f.23.37.1	Membrane and cell surface proteins and peptides	38	bacteria	32053	Thermosynechococcus vulcanus
+d3arck_	3arc	f.23.36.1	Membrane and cell surface proteins and peptides	37	bacteria	32053	Thermosynechococcus vulcanus
+d3awua_	3awu	a.86.1.3	All alpha	278	bacteria	79261	Streptomyces castaneoglobisporus
+d3awub_	3awu	d.386.1.1	Alpha and beta (a+b)	78	bacteria	79261	Streptomyces castaneoglobisporus
+d3axja_	3axj	a.118.16.0	All alpha	225	eukaryota	7227	Drosophila melanogaster
+d3b0ga1	3b0g	d.58.36.0	Alpha and beta (a+b)	157	eukaryota	4097	Nicotiana tabacum
+d3b0ga2	3b0g	d.134.1.0	Alpha and beta (a+b)	171	eukaryota	4097	Nicotiana tabacum
+d3b64a_	3b64	d.80.1.0	Alpha and beta (a+b)	112	eukaryota	5664	Leishmania major
+d3bbba_	3bbb	d.58.6.1	Alpha and beta (a+b)	151	eukaryota	9606	Homo sapiens
+d3bhda_	3bhd	d.63.1.2	Alpha and beta (a+b)	211	eukaryota	9606	Homo sapiens
+d3bhpa_	3bhp	a.2.21.1	All alpha	52	bacteria	1423	Bacillus subtilis
+d3bi1a2	3bi1	c.8.4.1	Alpha and beta (a/b)	233	eukaryota	9606	Homo sapiens
+d3bn0a1	3bn0	d.27.1.1	Alpha and beta (a+b)	95	bacteria	63363	Aquifex aeolicus
+d3bofa2	3bof	c.1.26.1	Alpha and beta (a/b)	300	bacteria	2336	Thermotoga maritima
+d3bp3a_	3bp3	d.95.1.1	Alpha and beta (a+b)	81	bacteria	562	Escherichia coli
+d3bqoa_	3bqo	a.146.1.1	All alpha	202	eukaryota	9606	Homo sapiens
+d3brda3	3brd	b.42.7.1	All beta	157	eukaryota	6239	Caenorhabditis elegans
+d3bula1	3bul	a.46.1.1	All alpha	90	bacteria	562	Escherichia coli
+d3buxb2	3bux	a.48.1.1	All alpha	130	eukaryota	9606	Homo sapiens
+d3bvua1	3bvu	a.8.3.1	All alpha	111	eukaryota	7227	Drosophila melanogaster
+d3bvua2	3bvu	b.30.5.6	All beta	522	eukaryota	7227	Drosophila melanogaster
+d3bwud_	3bwu	b.167.1.1	All beta	121	bacteria	83333	Escherichia coli K-12
+d3bypa1	3byp	d.52.9.1	Alpha and beta (a+b)	82	bacteria	274	Thermus thermophilus
+d3byqa1	3byq	d.79.9.1	Alpha and beta (a+b)	191	bacteria	257310	Bordetella bronchiseptica RB50
+d3bzka3	3bzk	a.294.1.1	All alpha	322	bacteria	287	Pseudomonas aeruginosa
+d3c7xa_	3c7x	b.66.1.0	All beta	196	eukaryota	9606	Homo sapiens
+d3c8ga1	3c8g	a.285.1.1	All alpha	165	bacteria	198215	Shigella flexneri 2a str. 2457T
+d3c8wa1	3c8w	d.347.1.1	Alpha and beta (a+b)	250	bacteria	272624	Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+d3c8ya1	3c8y	c.96.1.1	Alpha and beta (a/b)	365	bacteria	1501	Clostridium pasteurianum
+d3c9ua2	3c9u	d.139.1.1	Alpha and beta (a+b)	169	bacteria	63363	Aquifex aeolicus
+d3ci0k1	3ci0	a.60.16.1	All alpha	64	bacteria	562	Escherichia coli
+d3ci3a_	3ci3	a.25.2.0	All alpha	188	bacteria	1598	Lactobacillus reuteri
+d3cima_	3cim	d.58.56.1	Alpha and beta (a+b)	94	bacteria	1143	Synechocystis sp.
+d3cjsb1	3cjs	d.47.1.1	Alpha and beta (a+b)	70	bacteria	300852	Thermus thermophilus HB8
+d3cr3a1	3cr3	a.208.1.1	All alpha	192	bacteria	272623	Lactococcus lactis subsp. lactis Il1403
+d3ct6a1	3ct6	c.54.1.2	Alpha and beta (a/b)	123	bacteria	1358	Lactococcus lactis
+d3cu9a_	3cu9	b.67.2.1	All beta	314	bacteria	1422	Geobacillus stearothermophilus
+d3cwca_	3cwc	c.141.1.0	Alpha and beta (a/b)	369	bacteria	99287	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+d3czza_	3czz	b.89.1.1	All beta	101	bacteria	45916	Nostoc ellipsosporum
+d3d06a_	3d06	b.2.5.2	All beta	179	eukaryota	9606	Homo sapiens
+d3d36c_	3d36	a.2.12.1	All alpha	42	bacteria	272567	Geobacillus stearothermophilus 10
+d3d3ba_	3d3b	a.79.1.1	All alpha	139	bacteria	83333	Escherichia coli K-12
+d3d3ra1	3d3r	b.40.14.1	All beta	76	bacteria	211586	Shewanella oneidensis MR-1
+d3db7a_	3db7	d.98.2.1	Alpha and beta (a+b)	127	bacteria	818	Bacteroides thetaiotaomicron
+d3dbya1	3dby	a.29.13.1	All alpha	121	bacteria	269801	Bacillus cereus G9241
+d3ddta_	3ddt	g.43.1.1	Small proteins	48	eukaryota	9606	Homo sapiens
+d3dk9a3	3dk9	d.87.1.1	Alpha and beta (a+b)	115	eukaryota	9606	Homo sapiens
+d3dkma_	3dkm	b.34.19.1	All beta	79	eukaryota	9606	Homo sapiens
+d3dnfa_	3dnf	c.155.1.1	Alpha and beta (a/b)	281	bacteria	63363	Aquifex aeolicus
+d3dnja_	3dnj	d.45.1.2	Alpha and beta (a+b)	80	bacteria	155892	Caulobacter vibrioides
+d3dxra_	3dxr	g.83.1.0	Small proteins	69	eukaryota	4932	Saccharomyces cerevisiae
+d3e9va1	3e9v	d.370.1.1	Alpha and beta (a+b)	120	eukaryota	9606	Homo sapiens
+d3ea6a1	3ea6	b.40.2.0	All beta	84	bacteria	1280	Staphylococcus aureus
+d3eeqa2	3eeq	c.152.1.1	Alpha and beta (a/b)	196	archaea	2287	Saccharolobus solfataricus
+d3eera_	3eer	d.227.1.0	Alpha and beta (a+b)	140	bacteria	243277	Vibrio cholerae O1 biovar El Tor str. N16961
+d3eipa_	3eip	d.26.2.1	Alpha and beta (a+b)	84	bacteria	316407	Escherichia coli str. K-12 substr. W3110
+d3eoja_	3eoj	b.75.1.1	All beta	357	bacteria	1102	Prosthecochloris aestuarii
+d3epwa_	3epw	c.70.1.1	Alpha and beta (a/b)	326	eukaryota	5699	Trypanosoma vivax
+d3essa_	3ess	d.166.1.0	Alpha and beta (a+b)	199	bacteria	666	Vibrio cholerae
+d3eyea_	3eye	c.38.1.0	Alpha and beta (a/b)	153	bacteria	83334	Escherichia coli O157:H7
+d3f0da_	3f0d	d.79.5.0	Alpha and beta (a+b)	155	bacteria	28450	Burkholderia pseudomallei
+d3f0pa2	3f0p	d.357.1.2	Alpha and beta (a+b)	128	bacteria	562	Escherichia coli
+d3f42a_	3f42	d.222.1.0	Alpha and beta (a+b)	93	bacteria	210	Helicobacter pylori
+d3f6ya_	3f6y	c.23.14.3	Alpha and beta (a/b)	235	eukaryota	9606	Homo sapiens
+d3faua_	3fau	d.68.8.1	Alpha and beta (a+b)	71	eukaryota	9606	Homo sapiens
+d3fila_	3fil	d.15.7.1	Alpha and beta (a+b)	56	bacteria	1320	Streptococcus sp. 'group G'
+d3fsoa_	3fso	b.1.27.0	All beta	109	eukaryota	9606	Homo sapiens
+d3fsta_	3fst	c.1.23.1	Alpha and beta (a/b)	286	bacteria	83333	Escherichia coli K-12
+d3fx7a_	3fx7	a.25.5.1	All alpha	84	bacteria	210	Helicobacter pylori
+d3fxka2	3fxk	a.159.1.0	All alpha	68	eukaryota	9606	Homo sapiens
+d3fyba_	3fyb	a.293.1.0	All alpha	98	bacteria	393595	Alcanivorax borkumensis SK2
+d3g0ma_	3g0m	d.224.1.1	Alpha and beta (a+b)	138	bacteria	99287	Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+d3g21a_	3g21	a.28.3.1	All alpha	77	viruses	11888	Rous sarcoma virus - Prague C
+d3g91a_	3g91	d.151.1.0	Alpha and beta (a+b)	260	archaea	187420	Methanothermobacter thermautotrophicus str. Delta H
+d3ge3e_	3ge3	d.137.1.1	Alpha and beta (a+b)	102	bacteria	300	Pseudomonas mendocina
+d3gmxa_	3gmx	d.98.1.0	Alpha and beta (a+b)	153	bacteria	1901	Streptomyces clavuligerus
+d3gp6a_	3gp6	f.4.1.2	Membrane and cell surface proteins and peptides	155	bacteria	83333	Escherichia coli K-12
+d3gwkc_	3gwk	a.25.3.0	All alpha	98	bacteria	208435	Streptococcus agalactiae 2603V/R
+d3h0na_	3h0n	d.380.1.1	Alpha and beta (a+b)	184	bacteria	290400	Jannaschia sp. CCS1
+d3h1da_	3h1d	d.148.1.0	Alpha and beta (a+b)	382	eukaryota	9606	Homo sapiens
+d3h63a_	3h63	d.159.1.3	Alpha and beta (a+b)	315	eukaryota	9606	Homo sapiens
+d3h7ia1	3h7i	c.120.1.2	Alpha and beta (a/b)	177	viruses	10665	Escherichia virus T4
+d3h7ia2	3h7i	a.60.7.1	All alpha	125	viruses	10665	Escherichia virus T4
+d3hhta_	3hht	d.149.1.1	Alpha and beta (a+b)	202	bacteria	33936	Aeribacillus pallidus
+d3hmsa_	3hms	g.10.1.1	Small proteins	91	eukaryota	9606	Homo sapiens
+d3hwua_	3hwu	d.290.1.0	Alpha and beta (a+b)	144	bacteria	264198	Cupriavidus pinatubonensis JMP134
+d3i94a_	3i94	d.248.2.1	Alpha and beta (a+b)	243	bacteria	1148	Synechocystis sp. PCC 6803
+d3ijwa_	3ijw	c.140.1.0	Alpha and beta (a/b)	265	bacteria	198094	Bacillus anthracis str. Ames
+d3ilwa_	3ilw	e.11.1.0	Multi-domain proteins (alpha and beta)	464	bacteria	1773	Mycobacterium tuberculosis
+d3ip0a_	3ip0	d.58.30.1	Alpha and beta (a+b)	158	bacteria	83333	Escherichia coli K-12
+d3ip4c_	3ip4	a.137.12.1	All alpha	92	bacteria	158878	Staphylococcus aureus subsp. aureus Mu50
+d3ivva_	3ivv	b.8.1.1	All beta	140	eukaryota	9606	Homo sapiens
+d3jqka_	3jqk	d.58.21.0	Alpha and beta (a+b)	143	bacteria	300852	Thermus thermophilus HB8
+d3ju4a1	3ju4	b.68.1.2	All beta	520	viruses	344021	Enterobacteria phage K1F
+d3ju4a2	3ju4	b.108.1.0	All beta	150	viruses	344021	Enterobacteria phage K1F
+d3jvla_	3jvl	a.29.2.0	All alpha	116	eukaryota	10090	Mus musculus
+d3k2za2	3k2z	b.87.1.0	All beta	126	bacteria	2336	Thermotoga maritima
+d3k34a_	3k34	b.74.1.1	All beta	258	eukaryota	9606	Homo sapiens
+d3k6ia_	3k6i	b.1.6.0	All beta	99	eukaryota	9031	Gallus gallus
+d3klra_	3klr	b.84.1.0	All beta	125	eukaryota	9913	Bos taurus
+d3ksna_	3ksn	b.125.1.1	All beta	177	bacteria	83333	Escherichia coli K-12
+d3ku3a_	3ku3	b.19.1.2	All beta	324	viruses	387161	Influenza A virus (A/Japan/305/1957(H2N2))
+d3kwda_	3kwd	b.81.1.0	All beta	166	bacteria	197221	Thermosynechococcus elongatus BP-1
+d3l00a2	3l00	a.4.2.0	All alpha	88	eukaryota	9606	Homo sapiens
+d3l51b_	3l51	d.215.1.0	Alpha and beta (a+b)	166	eukaryota	10090	Mus musculus
+d3l5oa_	3l5o	c.67.3.1	Alpha and beta (a/b)	247	bacteria	272564	Desulfitobacterium hafniense DCB-2
+d3l8wa1	3l8w	d.96.1.0	Alpha and beta (a+b)	136	eukaryota	5059	Aspergillus flavus
+d3lasa_	3las	c.53.2.0	Alpha and beta (a/b)	166	bacteria	1309	Streptococcus mutans
+d3ldqb_	3ldq	a.7.7.1	All alpha	111	eukaryota	9606	Homo sapiens
+d3llpa1	3llp	b.42.5.1	All beta	129	eukaryota	9606	Homo sapiens
+d3lmna_	3lmn	d.324.1.1	Alpha and beta (a+b)	132	eukaryota	9606	Homo sapiens
+d3lvjc_	3lvj	d.68.3.3	Alpha and beta (a+b)	77	bacteria	155864	Escherichia coli O157:H7 str. EDL933
+d3lyea_	3lye	c.1.12.0	Alpha and beta (a/b)	285	eukaryota	5116	Cryphonectria parasitica
+d3m4ia_	3m4i	e.78.1.1	Multi-domain proteins (alpha and beta)	190	bacteria	1773	Mycobacterium tuberculosis
+d3m5qa_	3m5q	a.93.1.1	All alpha	357	eukaryota	5306	Phanerochaete chrysosporium
+d3m7va2	3m7v	d.327.1.1	Alpha and beta (a+b)	119	bacteria	1309	Streptococcus mutans
+d3m9qa_	3m9q	b.34.13.0	All beta	89	eukaryota	7227	Drosophila melanogaster
+d3mcwa_	3mcw	c.33.1.0	Alpha and beta (a/b)	195	bacteria	243365	Chromobacterium violaceum ATCC 12472
+d3mg3a1	3mg3	a.175.1.1	All alpha	165	bacteria	1148	Synechocystis sp. PCC 6803
+d3mmha_	3mmh	d.110.2.0	Alpha and beta (a+b)	168	bacteria	604162	Neisseria meningitidis 8013
+d3mqda1	3mqd	c.95.1.0	Alpha and beta (a/b)	249	bacteria	359391	Brucella abortus 2308
+d3mzfa2	3mzf	b.105.1.1	All beta	95	bacteria	83333	Escherichia coli K-12
+d3n08a_	3n08	b.17.1.0	All beta	151	bacteria	272561	Chlamydia trachomatis D/UW-3/CX
+d3n2wa_	3n2w	d.154.1.0	Alpha and beta (a+b)	367	bacteria	364098	Sphingosinicella xenopeptidilytica
+d3n4ja_	3n4j	c.116.1.1	Alpha and beta (a/b)	161	bacteria	214092	Yersinia pestis CO92
+d3nfta_	3nft	a.250.1.1	All alpha	262	bacteria	28450	Burkholderia pseudomallei
+d3nira_	3nir	g.13.1.1	Small proteins	46	eukaryota	3721	Crambe hispanica subsp. abyssinica
+d3nvsa_	3nvs	d.68.2.2	Alpha and beta (a+b)	426	bacteria	666	Vibrio cholerae
+d3o4pa_	3o4p	b.68.6.1	All beta	314	eukaryota	6622	Loligo vulgaris
+d3o6ca_	3o6c	c.1.24.0	Alpha and beta (a/b)	259	bacteria	192222	Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819
+d3og2a3	3og2	b.149.1.0	All beta	97	eukaryota	51453	Trichoderma reesei
+d3ojca1	3ojc	c.78.2.0	Alpha and beta (a/b)	116	bacteria	214092	Yersinia pestis CO92
+d3omya_	3omy	a.55.1.0	All alpha	51	bacteria	562	Escherichia coli
+d3orsa_	3ors	c.23.8.0	Alpha and beta (a/b)	161	bacteria	426430	Staphylococcus aureus subsp. aureus str. Newman
+d3os4a1	3os4	d.41.2.0	Alpha and beta (a+b)	138	bacteria	214092	Yersinia pestis CO92
+d3os4a2	3os4	c.1.17.0	Alpha and beta (a/b)	255	bacteria	214092	Yersinia pestis CO92
+d3osea_	3ose	d.129.6.1	Alpha and beta (a+b)	100	eukaryota	9606	Homo sapiens
+d3osxa_	3osx	c.8.5.1	Alpha and beta (a/b)	190	bacteria	628	Xenorhabdus nematophila
+d3oxpa_	3oxp	d.112.1.0	Alpha and beta (a+b)	148	bacteria	214092	Yersinia pestis CO92
+d3pbta1	3pbt	d.175.1.0	Alpha and beta (a+b)	169	bacteria	208964	Pseudomonas aeruginosa PAO1
+d3pc7a_	3pc7	c.15.1.2	Alpha and beta (a/b)	81	eukaryota	9606	Homo sapiens
+d3pdfa1	3pdf	b.61.5.0	All beta	118	eukaryota	9606	Homo sapiens
+d3piwa_	3piw	a.26.1.0	All alpha	154	eukaryota	7955	Danio rerio
+d3pkza_	3pkz	c.53.1.0	Alpha and beta (a/b)	124	bacteria	1280	Staphylococcus aureus
+d3pmsa1	3pms	b.121.1.1	All beta	137	bacteria	238	Elizabethkingia meningoseptica
+d3proc1	3pro	d.52.1.1	Alpha and beta (a+b)	80	bacteria	69	Lysobacter enzymogenes
+d3psma_	3psm	g.3.7.5	Small proteins	47	eukaryota	109171	Pachyrhizus erosus
+d3pzwa2	3pzw	a.119.1.1	All alpha	690	eukaryota	3847	Glycine max
+d3q20a_	3q20	a.280.1.0	All alpha	114	bacteria	197221	Thermosynechococcus elongatus BP-1
+d3q46a_	3q46	b.40.5.1	All beta	176	archaea	277988	Thermococcus thioreducens
+d3qm9a_	3qm9	a.1.1.2	All alpha	144	eukaryota	48168	Thunnus atlanticus
+d3qpaa_	3qpa	c.69.1.30	Alpha and beta (a/b)	197	eukaryota	660122	[Nectria] haematococca mpVI 77-13-4
+d3qq8a2	3qq8	d.31.1.1	Alpha and beta (a+b)	80	eukaryota	9606	Homo sapiens
+d3qzba_	3qzb	b.1.13.0	All beta	131	bacteria	2336	Thermotoga maritima
+d3r87a_	3r87	d.38.1.0	Alpha and beta (a+b)	132	bacteria	74109	Photobacterium profundum
+d3r8ja_	3r8j	d.60.1.0	Alpha and beta (a+b)	180	eukaryota	9606	Homo sapiens
+d3rf3a1	3rf3	a.24.9.1	All alpha	127	eukaryota	9606	Homo sapiens
+d3rjsa_	3rjs	d.39.1.1	Alpha and beta (a+b)	87	eukaryota	5811	Toxoplasma gondii
+d3rlff1	3rlf	e.70.1.1	Multi-domain proteins (alpha and beta)	247	bacteria	83333	Escherichia coli K-12
+d3rlff2	3rlf	f.58.1.1	Membrane and cell surface proteins and peptides	243	bacteria	83333	Escherichia coli K-12
+d3rloa1	3rlo	b.40.16.1	All beta	98	eukaryota	9606	Homo sapiens
+d3rofa_	3rof	c.44.1.0	Alpha and beta (a/b)	158	bacteria	1280	Staphylococcus aureus
+d3rq7a1	3rq7	d.223.1.2	Alpha and beta (a+b)	125	eukaryota	9606	Homo sapiens
+d3rssa1	3rss	c.104.1.1	Alpha and beta (a/b)	494	bacteria	243274	Thermotoga maritima MSB8
+d3rvca_	3rvc	d.299.1.1	Alpha and beta (a+b)	118	viruses	211044	Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+d3rzna_	3rzn	a.224.1.1	All alpha	206	eukaryota	9606	Homo sapiens
+d3s4ea_	3s4e	c.45.1.0	Alpha and beta (a/b)	144	eukaryota	9606	Homo sapiens
+d3s4ya1	3s4y	c.100.1.1	Alpha and beta (a/b)	143	eukaryota	9606	Homo sapiens
+d3s8ga_	3s8g	f.24.1.1	Membrane and cell surface proteins and peptides	554	bacteria	300852	Thermus thermophilus HB8
+d3s9za_	3s9z	c.1.13.1	Alpha and beta (a/b)	715	bacteria	1773	Mycobacterium tuberculosis
+d3sjld_	3sjl	b.69.2.0	All beta	376	bacteria	318586	Paracoccus denitrificans PD1222
+d3sk7a_	3sk7	d.228.1.1	Alpha and beta (a+b)	112	bacteria	417399	Vibrio cholerae NCTC 8457
+d3swoa1	3swo	e.6.1.0	Multi-domain proteins (alpha and beta)	235	bacteria	246196	Mycolicibacterium smegmatis MC2 155
+d3swoa2	3swo	a.29.3.0	All alpha	153	bacteria	246196	Mycolicibacterium smegmatis MC2 155
+d3sxua_	3sxu	c.128.1.1	Alpha and beta (a/b)	146	bacteria	83333	Escherichia coli K-12
+d3t0ha_	3t0h	d.122.1.1	Alpha and beta (a+b)	208	eukaryota	9606	Homo sapiens
+d3t3la_	3t3l	d.82.2.1	Alpha and beta (a+b)	121	eukaryota	9606	Homo sapiens
+d3t63a_	3t63	b.3.6.1	All beta	200	bacteria	303	Pseudomonas putida
+d3tg0a_	3tg0	c.76.1.1	Alpha and beta (a/b)	440	bacteria	83333	Escherichia coli K-12
+d3tn2a_	3tn2	d.9.1.1	Alpha and beta (a+b)	68	eukaryota	9606	Homo sapiens
+d3tvji_	3tvj	g.4.1.1	Small proteins	35	eukaryota	9606	Homo sapiens
+d3u1ua_	3u1u	b.34.21.1	All beta	131	eukaryota	9606	Homo sapiens
+d3u7qa_	3u7q	c.92.2.3	Alpha and beta (a/b)	477	bacteria	354	Azotobacter vinelandii
+d3u81a_	3u81	c.66.1.1	Alpha and beta (a/b)	219	eukaryota	10116	Rattus norvegicus
+d3u9wa1	3u9w	b.98.1.1	All beta	206	eukaryota	9606	Homo sapiens
+d3uawa_	3uaw	c.56.2.1	Alpha and beta (a/b)	233	bacteria	1396	Bacillus cereus
+d3ucia_	3uci	g.20.1.1	Small proteins	72	eukaryota	8717	Calloselasma rhodostoma
+d3ueja_	3uej	g.49.1.1	Small proteins	65	eukaryota	10090	Mus musculus
+d3ui4a_	3ui4	d.26.1.1	Alpha and beta (a+b)	101	eukaryota	9606	Homo sapiens
+d3ulja_	3ulj	b.40.4.0	All beta	87	eukaryota	8364	Xenopus tropicalis
+d3umha_	3umh	a.47.4.1	All alpha	180	eukaryota	9606	Homo sapiens
+d3v5wg_	3v5w	a.137.3.1	All alpha	57	eukaryota	9606	Homo sapiens
+d3vdpa_	3vdp	e.49.1.1	Multi-domain proteins (alpha and beta)	197	bacteria	273068	Caldanaerobacter subterraneus subsp. tengcongensis MB4
+d3w07a_	3w07	c.1.2.3	Alpha and beta (a/b)	215	archaea	187420	Methanothermobacter thermautotrophicus str. Delta H
+d3w5ha1	3w5h	b.43.4.2	All beta	125	eukaryota	9823	Sus scrofa
+d3w5ha2	3w5h	c.25.1.1	Alpha and beta (a/b)	147	eukaryota	9823	Sus scrofa
+d3wcqa_	3wcq	d.15.4.1	Alpha and beta (a+b)	97	eukaryota	45157	Cyanidioschyzon merolae
+d3zhoa_	3zho	c.23.5.8	Alpha and beta (a/b)	194	bacteria	562	Escherichia coli
+d3zqua_	3zqu	c.34.1.0	Alpha and beta (a/b)	207	bacteria	208964	Pseudomonas aeruginosa PAO1
+d3zuca_	3zuc	b.2.2.0	All beta	153	bacteria	35830	Hungateiclostridium cellulolyticum
+d3zyla2	3zyl	a.7.8.0	All alpha	116	eukaryota	10116	Rattus norvegicus
+d3zyqa1	3zyq	a.118.9.0	All alpha	142	eukaryota	9606	Homo sapiens
+d4a02a_	4a02	b.1.18.0	All beta	166	bacteria	1351	Enterococcus faecalis
+d4a1ia1	4a1i	d.7.1.0	Alpha and beta (a+b)	165	bacteria	1423	Bacillus subtilis
+d4a1ia2	4a1i	b.160.1.1	All beta	116	bacteria	1423	Bacillus subtilis
+d4a2va_	4a2v	b.88.2.0	All beta	122	eukaryota	8839	Anas platyrhynchos
+d4a5sa1	4a5s	b.70.3.1	All beta	469	eukaryota	9606	Homo sapiens
+d4a82a1	4a82	f.37.1.1	Membrane and cell surface proteins and peptides	323	eukaryota	9606	Homo sapiens
+d4a8ua_	4a8u	d.129.3.1	Alpha and beta (a+b)	158	eukaryota	3505	Betula pendula
+d4ac7a_	4ac7	d.8.1.1	Alpha and beta (a+b)	100	bacteria	1474	Sporosarcina pasteurii
+d4ac7b_	4ac7	b.85.3.1	All beta	122	bacteria	1474	Sporosarcina pasteurii
+d4acfa1	4acf	d.15.9.0	Alpha and beta (a+b)	101	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d4af1a1	4af1	d.91.1.0	Alpha and beta (a+b)	138	archaea	478009	Halobacterium salinarum R1
+d4af1a2	4af1	c.55.4.0	Alpha and beta (a/b)	133	archaea	478009	Halobacterium salinarum R1
+d4affa_	4aff	d.58.5.1	Alpha and beta (a+b)	110	bacteria	32046	Synechococcus elongatus
+d4agha_	4agh	d.18.1.0	Alpha and beta (a+b)	80	eukaryota	318829	Pyricularia oryzae
+d4aiwa_	4aiw	d.111.1.1	Alpha and beta (a+b)	151	eukaryota	9606	Homo sapiens
+d4al0a_	4al0	f.56.1.0	Membrane and cell surface proteins and peptides	146	eukaryota	9606	Homo sapiens
+d4atma_	4atm	a.238.1.0	All alpha	221	eukaryota	9606	Homo sapiens
+d4au1a_	4au1	c.23.17.1	Alpha and beta (a/b)	208	bacteria	272942	Rhodobacter capsulatus SB 1003
+d4axoa_	4axo	b.82.1.0	All beta	126	bacteria	272563	Clostridioides difficile 630
+d4ay7a_	4ay7	c.1.22.0	Alpha and beta (a/b)	337	archaea	2209	Methanosarcina mazei
+d4b4ua1	4b4u	c.58.1.0	Alpha and beta (a/b)	121	bacteria	575584	Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+d4dhla1	4dhl	b.1.12.0	All beta	113	eukaryota	3885	Phaseolus vulgaris
+d4dnda_	4dnd	a.47.2.1	All alpha	95	eukaryota	9606	Homo sapiens
+d4doia_	4doi	d.36.1.0	Alpha and beta (a+b)	221	eukaryota	3702	Arabidopsis thaliana
+d4drib_	4dri	a.24.7.1	All alpha	96	eukaryota	9606	Homo sapiens
+d4duia_	4dui	d.211.1.1	Alpha and beta (a+b)	164	other/synthetic	32630	synthetic construct
+d4dwra_	4dwr	d.261.1.1	Alpha and beta (a+b)	483	archaea	53953	Pyrococcus horikoshii
+d4e29a_	4e29	d.58.60.1	Alpha and beta (a+b)	232	bacteria	623	Shigella flexneri
+d4e2va_	4e2v	c.1.20.1	Alpha and beta (a/b)	364	bacteria	542	Zymomonas mobilis
+d4e3ya_	4e3y	d.4.1.2	Alpha and beta (a+b)	240	bacteria	615	Serratia marcescens
+d4e4ra_	4e4r	c.77.1.5	Alpha and beta (a/b)	330	bacteria	282458	Staphylococcus aureus subsp. aureus MRSA252
+d4eada2	4ead	c.27.1.1	Alpha and beta (a/b)	265	bacteria	83333	Escherichia coli K-12
+d4eada3	4ead	d.41.3.1	Alpha and beta (a+b)	105	bacteria	83333	Escherichia coli K-12
+d4ee6a_	4ee6	d.313.1.0	Alpha and beta (a+b)	288	bacteria	1900	Streptomyces cinnamonensis
+d4egua_	4egu	d.13.1.0	Alpha and beta (a+b)	118	bacteria	272563	Clostridioides difficile 630
+d4emta_	4emt	d.387.1.1	Alpha and beta (a+b)	175	eukaryota	9606	Homo sapiens
+d4enea_	4ene	f.20.1.1	Membrane and cell surface proteins and peptides	444	bacteria	83333	Escherichia coli K-12
+d4eo7a_	4eo7	c.23.2.0	Alpha and beta (a/b)	143	eukaryota	9606	Homo sapiens
+d4eqpa_	4eqp	b.40.1.1	All beta	129	bacteria	1280	Staphylococcus aureus
+d4esma_	4esm	d.178.1.1	Alpha and beta (a+b)	276	bacteria	243365	Chromobacterium violaceum ATCC 12472
+d4espa_	4esp	d.110.1.1	Alpha and beta (a+b)	130	eukaryota	3818	Arachis hypogaea
+d4f01a1	4f01	b.130.1.1	All beta	122	bacteria	83333	Escherichia coli K-12
+d4f01a2	4f01	a.8.4.1	All alpha	96	bacteria	83333	Escherichia coli K-12
+d4f19a_	4f19	c.94.1.1	Alpha and beta (a/b)	375	bacteria	216595	Pseudomonas fluorescens SBW25
+d4fhrb_	4fhr	a.118.14.1	All alpha	208	bacteria	2336	Thermotoga maritima
+d4fioa_	4fio	d.147.1.0	Alpha and beta (a+b)	321	archaea	634498	Methanobrevibacter ruminantium M1
+d4fw1a2	4fw1	b.34.7.0	All beta	53	viruses	11888	Rous sarcoma virus - Prague C
+d4fyxb1	4fyx	d.58.2.1	Alpha and beta (a+b)	95	bacteria	83333	Escherichia coli K-12
+d4fyxb2	4fyx	g.41.7.1	Small proteins	53	bacteria	83333	Escherichia coli K-12
+d4g1qa1	4g1q	e.8.1.2	Multi-domain proteins (alpha and beta)	556	viruses	11678	Human immunodeficiency virus type 1 BH10
+d4g3na_	4g3n	b.68.10.0	All beta	302	bacteria	83332	Mycobacterium tuberculosis H37Rv
+d4g78a_	4g78	a.24.10.0	All alpha	147	eukaryota	3880	Medicago truncatula
+d4gmua1	4gmu	c.109.1.1	Alpha and beta (a/b)	257	eukaryota	10116	Rattus norvegicus
+d4gt9a_	4gt9	d.207.1.1	Alpha and beta (a+b)	214	bacteria	243274	Thermotoga maritima MSB8
+d4gv2a1	4gv2	a.41.1.0	All alpha	143	eukaryota	9606	Homo sapiens
+d4gwba_	4gwb	d.58.28.1	Alpha and beta (a+b)	164	bacteria	266834	Sinorhizobium meliloti 1021
+d4gwga2	4gwg	a.100.1.1	All alpha	291	eukaryota	9606	Homo sapiens
+d4h27a_	4h27	c.79.1.1	Alpha and beta (a/b)	318	eukaryota	9606	Homo sapiens
+d4h6ca_	4h6c	b.159.1.1	All beta	180	eukaryota	3218	Physcomitrium patens
+d4hdra_	4hdr	c.39.1.0	Alpha and beta (a/b)	335	bacteria	2378	Sporomusa ovata
+d4hl2a_	4hl2	d.157.1.0	Alpha and beta (a+b)	243	bacteria	573	Klebsiella pneumoniae
+d4htga2	4htg	d.50.2.0	Alpha and beta (a+b)	80	eukaryota	3702	Arabidopsis thaliana
+d4hwsa2	4hws	c.51.1.0	Alpha and beta (a/b)	118	bacteria	83333	Escherichia coli K-12
+d4hwwa_	4hww	c.42.1.1	Alpha and beta (a/b)	314	eukaryota	9606	Homo sapiens
+d4hy4a_	4hy4	g.52.1.1	Small proteins	92	eukaryota	9606	Homo sapiens
+d4i6ya2	4i6y	d.58.20.1	Alpha and beta (a+b)	110	bacteria	32044	Pseudomonas mevalonii
+d4i7ea_	4i7e	c.89.1.1	Alpha and beta (a/b)	319	bacteria	1422	Geobacillus stearothermophilus
+d4i8ha_	4i8h	b.47.1.2	All beta	223	eukaryota	9913	Bos taurus
+d4i9oa_	4i9o	a.12.1.1	All alpha	78	eukaryota	10090	Mus musculus
+d4iaua_	4iau	b.11.1.0	All beta	161	eukaryota	6047	Geodia cydonium
+d4j7da_	4j7d	a.42.1.1	All alpha	86	eukaryota	8355	Xenopus laevis
+d4j9yb_	4j9y	f.15.1.1	Membrane and cell surface proteins and peptides	89	eukaryota	10116	Rattus norvegicus
+d4jera_	4jer	d.35.1.0	Alpha and beta (a+b)	181	bacteria	632	Yersinia pestis
+d4jp6a_	4jp6	b.52.1.2	All beta	122	eukaryota	3649	Carica papaya
+d4jxqa_	4jxq	d.108.1.0	Alpha and beta (a+b)	185	bacteria	266834	Sinorhizobium meliloti 1021
+d4kefa_	4kef	d.109.1.2	Alpha and beta (a+b)	133	eukaryota	559292	Saccharomyces cerevisiae S288C
+d4klia1	4kli	a.60.6.1	All alpha	82	eukaryota	9606	Homo sapiens
+d4klia2	4kli	a.60.12.1	All alpha	57	eukaryota	9606	Homo sapiens
+d4lera_	4ler	a.118.8.0	All alpha	457	bacteria	435590	Bacteroides vulgatus ATCC 8482
+d4lrsa2	4lrs	a.5.7.0	All alpha	52	bacteria	471852	Thermomonospora curvata DSM 43183
+d4lwra_	4lwr	c.56.3.0	Alpha and beta (a/b)	196	bacteria	575584	Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+d4mjra1	4mjr	d.131.1.1	Alpha and beta (a+b)	116	bacteria	83333	Escherichia coli K-12
+e1gk9.1A	1gk9	d.153.1.2	Alpha and beta (a+b)	208	bacteria	562	Escherichia coli
+e1gk9.1B	1gk9	d.153.1.2	Alpha and beta (a+b)	557	bacteria	562	Escherichia coli
+e1mtp.1A	1mtp	e.1.1.1	Multi-domain proteins (alpha and beta)	320	bacteria	2021	Thermobifida fusca
+e1mtp.1B	1mtp	e.1.1.1	Multi-domain proteins (alpha and beta)	35	bacteria	2021	Thermobifida fusca
+e1n13.1A	1n13	d.155.1.2	Alpha and beta (a+b)	46	archaea	2190	Methanocaldococcus jannaschii
+e1n13.1B	1n13	d.155.1.2	Alpha and beta (a+b)	112	archaea	2190	Methanocaldococcus jannaschii
+e1qd6.1C	1qd6	f.4.2.1	Membrane and cell surface proteins and peptides	240	bacteria	562	Escherichia coli
+e1qqp.12	1qqp	b.121.4.1	All beta	216	viruses	12110	Foot-and-mouth disease virus
+e1qtn.1A	1qtn	c.17.1.1	Alpha and beta (a/b)	152	eukaryota	9606	Homo sapiens
+e1qtn.1B	1qtn	c.17.1.1	Alpha and beta (a/b)	90	eukaryota	9606	Homo sapiens
