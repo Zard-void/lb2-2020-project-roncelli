@@ -1,11 +1,11 @@
 # Custom function to remap secondary structures to simplified alphabet (C-H-E)
 
 def ss_mapper(structure): 
-    mapped_structure = []
+    mapped_structure = list()
     position = int()
     for secondary in structure:
         if secondary == ' ' or secondary == 'T' or secondary == 'S' or secondary == '-':
-             secondary = 'C'
+            secondary = 'C'
         elif secondary == 'H' or secondary == 'G' or secondary == 'I':
             secondary = 'H'
         elif secondary == 'B' or secondary == 'E':            

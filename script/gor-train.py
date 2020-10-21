@@ -1,9 +1,8 @@
 import argparse
 import os
-import config
 import numpy as np
 import pandas as pd
-from profile_tools import pad_profile, check_columns, convert_to_information, get_window
+from profile_tools import pad_profile, convert_to_information, get_window, check_profile
 from tqdm import tqdm
 
 
@@ -15,20 +14,21 @@ def train(profiles_path, ids, window_size):
         try:
             profile = pd.read_csv(training_id + '.profile', sep='\t')
         except FileNotFoundError:
-            print('Profile file not found for', training_id, '- Skipping this sample.')
+            print('Profile file not found for', training_id, '. Skipping this sample.')
             continue
-        if not profile.iloc[:, 2:].any(axis=None):
-            print('Profile for', training_id, 'has all values equal to 0. Skipping this sample.')
-            continue
-        if not check_columns(profile, training_id):
+        if not check_profile(profile, training_id):
             continue
         profile = pad_profile(profile, window_size).to_numpy()
         for index in range(len(profile)):
             secondary = profile[index, 20]
             if secondary != 'X':
                 window = get_window(profile, index, window_size)
-                gor_model[secondary] = np.add(gor_model[secondary], window)
-                gor_model['R'] = np.add(gor_model['R'], window)
+                if window.sum() == 0:
+                    print('The window indexed at', index, 'of', training_id, 'is all 0. Skipping the window.')
+                    continue
+                else:
+                    gor_model[secondary] = np.add(gor_model[secondary], window)
+                    gor_model['R'] = np.add(gor_model['R'], window)
 
     window_positions = [x for x in range(-(window_size // 2), window_size // 2 + 1)]
     gor_model = pd.concat([pd.DataFrame(v, index=window_positions, columns=RESIDUES) for v in gor_model.values()],
@@ -62,11 +62,10 @@ args = parser.parse_args()
 
 
 STRUCTURE_TYPE = ['H', 'C', 'E', 'R']
-RESIDUES = config.RESIDUES
+RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
 main(args.profiles_path,
      args.ids,
      args.output,
      args.window_size
      )
-

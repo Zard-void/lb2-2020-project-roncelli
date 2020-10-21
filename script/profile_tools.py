@@ -9,7 +9,7 @@ class ProfileIsZero(Warning):
     pass
 
 
-class ColumnMismath(Warning):
+class ColumnMismatch(Warning):
     """Raised when profile columns don't match the expected order"""
     pass
 
@@ -85,7 +85,7 @@ def check_profile(profile, training_id):
         profile_columns = list(profile.columns[2:])
         if profile_columns != RESIDUES:
             warnings.warn(training_id + "The columns of the profile don't match the expected order. Skipping",
-                          category=ColumnMismath)
+                          category=ColumnMismatch)
             return False
         return True
 
