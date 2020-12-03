@@ -1,36 +1,32 @@
 import pandas as pd
 import os
 from tqdm import tqdm
-from profile_tools import pad_profile, get_window, infer_window_size
+from profile_tools import infer_window_size, prepare_query
+from gorpredictor import GORModel
 import argparse
 
 
-window_size = 17
-os.chdir('/home/stefano/PycharmProjects/lb2-2020-project-roncelli/data/training/')
+def main(ids, profiles_path, model_path):
+    with open(ids) as id_file:
+        profile_ids = id_file.read().splitlines()
+    trained_model = pd.read_csv(model_path, sep='\t', index_col=[0, 1]).sort_index()
+    window_size = infer_window_size(trained_model)
+    gor_estimator = GORModel(window_size)
+    gor_estimator.load_model(model_path)
+    for profile_id in tqdm(profile_ids):
+        query = prepare_query(profile_id, profiles_path, window_size)
+        ss_pred = gor_estimator.predict_single(query)
+    exit(0)
 
 
-def predict(gor_model, query):
-    query = pd.read_csv(query, sep='\t')
-    query = pad_profile(query, window_size).to_numpy()
-    predicted_structure = list()
-    for index in range(len(query)):
-        secondary = query[index, 20]
-        if secondary != 'X':
-            window = get_window(query, index, window_size)
-            probabilities = {secondary: (gor_model[secondary] * window).sum()
-                             for secondary in gor_model.keys()}
-            predicted_structure.append((max(probabilities, key=probabilities.get)))
-    predicted_structure = ''.join(predicted_structure)
-    return predicted_structure
-
-
-trained_model = pd.read_csv('gor_model_normalized_SCRIPT.tsv', sep='\t', index_col=[0, 1]).sort_index()
-window_size = infer_window_size(trained_model)
-trained_model = {secondary: trained_model.xs((secondary, ), level=0).to_numpy()
-                 for secondary in trained_model.index.levels[0]
-                 }
-
-print(window_size)
-for item in tqdm(os.listdir('./profile')):
-    with open('./profile/' + item) as handle:
-        ss = predict(trained_model, handle)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_path", help='directory of the trained model. Must be a tab separated file.',
+                        type=os.path.abspath)
+    parser.add_argument("--profiles_path", help='directory of data', type=os.path.abspath)
+    parser.add_argument('--ids', help='List of ID', type=os.path.abspath)
+    args = parser.parse_args()
+    main(args.ids,
+         args.profiles_path,
+         args.model_path
+         )
