@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import os
 from tqdm import tqdm
-import math
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 from sklearn.utils.multiclass import unique_labels
@@ -26,7 +25,9 @@ def _normalize(raw_model):
     raw_model : pandas dataframe
         The normalized model.
     """
-    return raw_model.divide(raw_model.loc[('R',)].sum(axis=1), axis=0, level=1)
+    raw_model = {secondary: raw_model[secondary] / raw_model['R'].sum(axis=1).reshape(17,1) for secondary in raw_model.keys()}
+    #raw_model = raw_model.divide(raw_model.loc[('R',)].sum(axis=1), axis=0, level=1)
+    return raw_model
 
 
 def _convert_to_information(raw_model, ss_prob):
@@ -47,23 +48,13 @@ def _convert_to_information(raw_model, ss_prob):
         The trained model as an information matrix.
     """
 
-    information = raw_model.copy(deep=True)
-    for index in information.index:
-        for column in information.columns:
-            residue = column
-            window_position = index[1]
-            secondary = index[0]
-            if secondary == 'R':
-                continue
-            joint_residue_secondary = information.at[index, column]
-            marginal_residue = raw_model.loc[('R', window_position), residue]
-            marginal_secondary = ss_prob[secondary]
-            information.at[index, column] = math.log2(joint_residue_secondary /
-                                                      (marginal_residue * marginal_secondary))
-    information = {secondary: information.xs((secondary,), level=0).to_numpy()
-                   for secondary in information.index.levels[0]
-                   if secondary != 'R'}
-    return information
+    for secondary in raw_model.keys():
+        raw_model[secondary] /= raw_model['R'].sum(axis=1).reshape(-1, 1)
+    for secondary in ss_prob.keys():
+        raw_model[secondary] /= raw_model['R'] * ss_prob[secondary]
+        raw_model[secondary] = np.log2(raw_model[secondary])
+    raw_model.pop('R')
+    return raw_model
 
 
 class GORModel(BaseEstimator, ClassifierMixin):
@@ -109,34 +100,34 @@ class GORModel(BaseEstimator, ClassifierMixin):
         raw_model = {secondary: np.zeros((self.window_size, 20)) for secondary in self.classes_}
         raw_model['R'] = np.zeros((self.window_size, 20))
 
-        for sample_n in tqdm(range(len(X)), desc='Training'):
-            window = X[sample_n]
-            secondary = y[sample_n]
-            window = np.reshape(window, (self.window_size, 20))
+        for window, secondary in tqdm(zip(X, y), desc='Training', total=len(X)):
+            window = window.reshape(self.window_size, 20)
             ss_count[secondary] += 1
             total_count += 1
-            raw_model[secondary] = np.add(raw_model[secondary], window)
-            raw_model['R'] = np.add(raw_model['R'], window)
+            raw_model[secondary] += window
+            raw_model['R'] += window
 
         ss_prob = {secondary: ss_count[secondary] / total_count for secondary in ss_count.keys()}
         window_positions = [x for x in range(-(self.window_size // 2), self.window_size // 2 + 1)]
-        raw_model = pd.concat(
-            [pd.DataFrame(v, index=window_positions, columns=RESIDUES) for v in raw_model.values()],
-            axis=0,
-            keys=raw_model.keys(),
-            names=['secondary', 'position'])
 
-        _normalize(raw_model)
+        #_normalize(raw_model)
         self.information_ = _convert_to_information(raw_model, ss_prob)
         self.information_tab_ = pd.concat(
             [pd.DataFrame(v, index=window_positions, columns=RESIDUES) for v in self.information_.values()],
             axis=0,
             keys=self.information_.keys(),
-            names=['secondary', 'position'])
+            names=['Structure', 'Position'])
         self.is_fitted_ = True
         return self
 
     def load_model(self, model):
+        """Loads a trained model.
+
+        Parameters
+        ----------
+        model : {path or pd.Dataframe}
+            The trained model. Can be either a path to a tab separated file or a pandas dataframe.
+        """
         if os.path.isfile(model):
             model = pd.read_csv(model, sep='\t', index_col=[0, 1]).sort_index()
         self.information_ = {secondary: model.xs((secondary,), level=0).to_numpy()
@@ -153,10 +144,15 @@ class GORModel(BaseEstimator, ClassifierMixin):
         Training vector, where n_samples is the number of samples and
         n_features is the number of features.
 
+        batch_mode : {bool}
+            If false, the model expects as input a single protein. Useful for generating sequences of unknown proteins.
+            If true, the model expects as input a two or more proteins in the same file.
+            Useful for scoring on sets when the actual predicted sequence is not important.
+
         Returns
         -------
-        predicted_structures : ndarray of shape (n_samples,)
-        Class labels for samples in X.
+        predicted_structure : ndarray of shape (n_samples,)
+            Class labels for samples in X.
         """
 
         check_is_fitted(self, 'is_fitted_')
@@ -170,11 +166,14 @@ class GORModel(BaseEstimator, ClassifierMixin):
                                  for secondary in self.information_.keys()}
                 predicted_structure.append(max(probabilities, key=probabilities.get))
             predicted_structure = np.array(predicted_structure)
-        else:
-            for sample_n in range(X.shape[0]):
-                window = X[sample_n]
-                window = np.reshape(window, (self.window_size, 20))
-                probabilities = {secondary: (self.information_[secondary] * window).sum()
-                                 for secondary in self.information_.keys()}
-                predicted_structure.append(max(probabilities, key=probabilities.get))
+        return predicted_structure
+
+    def predict_single(self, X):
+        predicted_structure = list()
+        for window in X:
+            window = window.reshape(self.window_size, 20)
+            probabilities = {secondary: (self.information_[secondary] * window).sum()
+                             for secondary in self.information_.keys()}
+            predicted_structure.append(str(max(probabilities, key=probabilities.get)))
+        predicted_structure = ''.join(predicted_structure)
         return predicted_structure
