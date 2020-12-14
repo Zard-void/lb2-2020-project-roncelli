@@ -1,0 +1,144 @@
+\begin{thebibliography}{}
+
+\bibitem[Altschul(1997)Altschul]{Altschul1997}
+Altschul, S. (1997).
+\newblock Gapped {BLAST} and {PSI}-{BLAST}: a new generation of protein
+  database search programs.
+\newblock {\em Nucleic Acids Research\/}, {\bf 25}(17), 3389--3402.
+
+\bibitem[Altschul {\em et~al.}(1990)Altschul, Gish, Miller, Myers, and
+  Lipman]{Altschul1990}
+Altschul, S.~F., Gish, W., Miller, W., Myers, E.~W., and Lipman, D.~J. (1990).
+\newblock Basic local alignment search tool.
+\newblock {\em Journal of Molecular Biology\/}, {\bf 215}(3), 403--410.
+
+\bibitem[Berman(2000)Berman]{Berman2000}
+Berman, H.~M. (2000).
+\newblock The protein data bank.
+\newblock {\em Nucleic Acids Research\/}, {\bf 28}(1), 235--242.
+
+\bibitem[Cortes and Vapnik(1995)Cortes and Vapnik]{Cortes1995}
+Cortes, C. and Vapnik, V. (1995).
+\newblock Support-vector networks.
+\newblock {\em Machine Learning\/}, {\bf 20}(3), 273--297.
+
+\bibitem[Drozdetskiy {\em et~al.}(2015)Drozdetskiy, Cole, Procter, and
+  Barton]{Drozdetskiy2015}
+Drozdetskiy, A., Cole, C., Procter, J., and Barton, G.~J. (2015).
+\newblock {JPred}4: a protein secondary structure prediction server.
+\newblock {\em Nucleic Acids Research\/}, {\bf 43}(W1), W389--W394.
+
+\bibitem[Frishman and Argos(1995)Frishman and Argos]{frishman1995knowledge}
+Frishman, D. and Argos, P. (1995).
+\newblock Knowledge-based protein secondary structure assignment.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics\/}, {\bf
+  23}(4), 566--579.
+
+\bibitem[Garnier {\em et~al.}(1978)Garnier, Osguthorpe, and
+  Robson]{Garnier1978}
+Garnier, J., Osguthorpe, D., and Robson, B. (1978).
+\newblock Analysis of the accuracy and implications of simple methods for
+  predicting the secondary structure of globular proteins.
+\newblock {\em Journal of Molecular Biology\/}, {\bf 120}(1), 97--120.
+
+\bibitem[Harris {\em et~al.}(2020)Harris, Millman, van~der Walt, Gommers,
+  Virtanen, Cournapeau, Wieser, Taylor, Berg, Smith, Kern, Picus, Hoyer, van
+  Kerkwijk, Brett, Haldane, del R{'{\i}}o, Wiebe, Peterson,
+  G{'{e}}rard-Marchant, Sheppard, Reddy, Weckesser, Abbasi, Gohlke, and
+  Oliphant]{harris2020array}
+Harris, C.~R., Millman, K.~J., van~der Walt, S.~J., Gommers, R., Virtanen, P.,
+  Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N.~J., Kern, R.,
+  Picus, M., Hoyer, S., van Kerkwijk, M.~H., Brett, M., Haldane, A., del
+  R{'{\i}}o, J.~F., Wiebe, M., Peterson, P., G{'{e}}rard-Marchant, P.,
+  Sheppard, K., Reddy, T., Weckesser, W., Abbasi, H., Gohlke, C., and Oliphant,
+  T.~E. (2020).
+\newblock Array programming with {NumPy}.
+\newblock {\em Nature\/}, {\bf 585}(7825), 357--362.
+
+\bibitem[Heffernan {\em et~al.}(2018)Heffernan, Paliwal, Lyons, Singh, Yang,
+  and Zhou]{Heffernan2018}
+Heffernan, R., Paliwal, K., Lyons, J., Singh, J., Yang, Y., and Zhou, Y.
+  (2018).
+\newblock Single-sequence-based prediction of protein secondary structures and
+  solvent accessibility by deep whole-sequence learning.
+\newblock {\em Journal of Computational Chemistry\/}, {\bf 39}(26), 2210--2216.
+
+\bibitem[Kabsch and Sander(1983)Kabsch and Sander]{Kabsch1983}
+Kabsch, W. and Sander, C. (1983).
+\newblock Dictionary of protein secondary structure: Pattern recognition of
+  hydrogen-bonded and geometrical features.
+\newblock {\em Biopolymers\/}, {\bf 22}(12), 2577--2637.
+
+\bibitem[Karush(1939)Karush]{Karush}
+Karush, W. (1939).
+\newblock {\em Minima of functions of several variables with inequalities as
+  side conditions\/}.
+\newblock Master's thesis, University of Chicago.
+
+\bibitem[Kieslich {\em et~al.}(2016)Kieslich, Smadbeck, Khoury, and
+  Floudas]{Kieslich2016}
+Kieslich, C.~A., Smadbeck, J., Khoury, G.~A., and Floudas, C.~A. (2016).
+\newblock {conSSert}: Consensus {SVM} model for accurate prediction of ordered
+  secondary structure.
+\newblock {\em Journal of Chemical Information and Modeling\/}, {\bf 56}(3),
+  455--461.
+
+\bibitem[Lifson and Roig(1961)Lifson and Roig]{Lifson1961}
+Lifson, S. and Roig, A. (1961).
+\newblock On the theory of helix—coil transition in polypeptides.
+\newblock {\em The Journal of Chemical Physics\/}, {\bf 34}(6), 1963--1974.
+
+\bibitem[Matthews(1975)Matthews]{Matthews1975}
+Matthews, B. (1975).
+\newblock Comparison of the predicted and observed secondary structure of {T4}
+  phage lysozyme.
+\newblock {\em Biochimica et Biophysica Acta ({BBA}) - Protein Structure\/},
+  {\bf 405}(2), 442--451.
+
+\bibitem[Nickolls {\em et~al.}(2008)Nickolls, Buck, Garland, and
+  Skadron]{nickolls2008scalable}
+Nickolls, J., Buck, I., Garland, M., and Skadron, K. (2008).
+\newblock Scalable parallel programming with cuda.
+\newblock {\em Queue\/}, {\bf 6}(2), 40--53.
+
+\bibitem[Rost(2001)Rost]{Rost2001}
+Rost, B. (2001).
+\newblock Review: Protein secondary structure prediction continues to rise.
+\newblock {\em Journal of Structural Biology\/}, {\bf 134}(2-3), 204--218.
+
+\bibitem[Russell and Barton(1993)Russell and Barton]{Russell1993}
+Russell, R.~B. and Barton, G.~J. (1993).
+\newblock The limits of protein secondary structure prediction accuracy from
+  multiple sequence alignment.
+\newblock {\em Journal of Molecular Biology\/}, {\bf 234}(4), 951--957.
+
+\bibitem[Steinegger and S{\"{o}}ding(2017)Steinegger and
+  S{\"{o}}ding]{Steinegger2017}
+Steinegger, M. and S{\"{o}}ding, J. (2017).
+\newblock {MMseqs}2 enables sensitive protein sequence searching for the
+  analysis of massive data sets.
+\newblock {\em Nature Biotechnology\/}, {\bf 35}(11), 1026--1028.
+
+\bibitem[Steinegger and S{\"{o}}ding(2018)Steinegger and
+  S{\"{o}}ding]{Steinegger2018}
+Steinegger, M. and S{\"{o}}ding, J. (2018).
+\newblock Clustering huge protein sequence sets in linear time.
+\newblock {\em Nature Communications\/}, {\bf 9}(1).
+
+\bibitem[{The UniProt Consortium}(2018){The UniProt Consortium}]{2018a}
+{The UniProt Consortium} (2018).
+\newblock {UniProt}: a worldwide hub of protein knowledge.
+\newblock {\em Nucleic Acids Research\/}, {\bf 47}(D1), D506--D515.
+
+\bibitem[Wen {\em et~al.}(2018)Wen, Shi, Li, He, and Chen]{wenthundersvm18}
+Wen, Z., Shi, J., Li, Q., He, B., and Chen, J. (2018).
+\newblock {ThunderSVM}: A fast {SVM} library on {GPUs} and {CPUs}.
+\newblock {\em Journal of Machine Learning Research\/}, {\bf 19}, 797--801.
+
+\bibitem[Zimm and Bragg(1959)Zimm and Bragg]{Zimm1959}
+Zimm, B.~H. and Bragg, J.~K. (1959).
+\newblock Theory of the phase transition between helix and random coil in
+  polypeptide chains.
+\newblock {\em The Journal of Chemical Physics\/}, {\bf 31}(2), 526--535.
+
+\end{thebibliography}
