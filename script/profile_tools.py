@@ -3,6 +3,9 @@ import pandas as pd
 import warnings
 import os
 from tqdm import tqdm
+from collections.abc import Iterable
+from sklearn.metrics import matthews_corrcoef, accuracy_score
+from statistics import mean
 
 RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
@@ -30,7 +33,7 @@ def convert_secondary_to_int(secondary):
     elif secondary == 'C':
         secondary = 3
     else:
-        raise Exception('Secondary structure must be C, H or E. ' + secondary + ' was provided.')
+        raise Exception(f'Secondary structure must be C, H or E: {secondary} was provided.')
     return secondary
 
 
@@ -47,7 +50,7 @@ def convert_int_to_secondary(secondary):
 def check_window(window_size):
     if window_size % 2 == 0:
         raise ValueError('Window size must be an odd integer')
-        exit(1)
+
 
 def pad_profile(profile, window_size):
     """
@@ -143,11 +146,14 @@ def prepare_query(profile_id, profiles_path, window_size):
     return query
 
 
-def prepare_training(ids, profiles_path, window_size, verbosity):
+def prepare_dataset_from_profiles(ids, profiles_path, window_size, verbosity):
     if verbosity == 0:
         warnings.filterwarnings('ignore')
-    with open(ids) as id_file:
-        profile_ids = id_file.read().splitlines()
+    if isinstance(ids, Iterable) and not isinstance(ids, str):
+        profile_ids = ids
+    else:
+        with open(ids) as id_file:
+            profile_ids = id_file.read().splitlines()
     X_train = list()
     y_train = list()
     indices = list()
@@ -168,17 +174,16 @@ def prepare_training(ids, profiles_path, window_size, verbosity):
         for index in range(offset, profile.shape[0] - offset):
             secondary = profile[index, 20]
             window = get_window(profile, index, window_size)
-            #if window.sum() == 0:
-            #    if verbosity == 2:
-            #        print('The window indexed at', index, 'of', profile_id, 'is all 0. Discarding the window.')
-            #    skipped_windows += 1
-            #    continue
+            if window.sum() == 0:
+                if verbosity == 2:
+                    print('The window indexed at', index, 'of', profile_id, 'is all 0. Discarding the window.')
+                skipped_windows += 1
+                continue
             window = window.flatten().tolist()
             secondary = convert_secondary_to_int(secondary)
             X_train.append(window)
             y_train.append(secondary)
             indices.append((profile_id, index - offset))
-
     print('Constructing dataset')
     window_position = [x for x in range(-offset, offset + 1)]
     columns = pd.MultiIndex.from_product([window_position, RESIDUES], names=['Window position', 'Residue'])
@@ -188,5 +193,102 @@ def prepare_training(ids, profiles_path, window_size, verbosity):
     training_full = X_train.copy()
     training_full['Class'] = y_train.astype('category')
     print('Skipped profiles:', skipped_profiles)
-    #print('Skipped windows:', skipped_windows)
+    print('Skipped windows:', skipped_windows)
     return training_full
+
+
+def prepare_test_from_profiles(ids, profiles_path, window_size, verbosity):
+    if verbosity == 0:
+        warnings.filterwarnings('ignore')
+    if isinstance(ids, Iterable) and not isinstance(ids, str):
+        profile_ids = ids
+    else:
+        with open(ids) as id_file:
+            profile_ids = id_file.read().splitlines()
+    X_train = list()
+    y_train = list()
+    indices = list()
+    skipped_profiles = 0
+    offset = window_size // 2
+    number_profiles = 0
+    for profile_id in profile_ids:
+        try:
+            profile = pd.read_csv(os.path.join(profiles_path, profile_id + '.profile'), sep='\t')
+        except FileNotFoundError:
+            print(f'Profile file not found for {profile_id}. Skipping this sample.')
+            skipped_profiles += 1
+            continue
+        if not check_profile(profile, profile_id):
+            skipped_profiles += 1
+            continue
+        profile = pad_profile(profile, window_size).to_numpy()
+        for index in range(offset, profile.shape[0] - offset):
+            secondary = profile[index, 20]
+            window = get_window(profile, index, window_size)
+            window = window.flatten().tolist()
+            secondary = convert_secondary_to_int(secondary)
+            X_train.append(window)
+            y_train.append(secondary)
+            indices.append((profile_id, index - offset))
+        number_profiles += 1
+        if number_profiles == 150:
+            break
+    window_position = [x for x in range(-offset, offset + 1)]
+    columns = pd.MultiIndex.from_product([window_position, RESIDUES], names=['Window position', 'Residue'])
+    indices = pd.MultiIndex.from_tuples(indices, names=['ID', 'Central index'])
+    X_train = pd.DataFrame(X_train, columns=columns, index=indices)
+    y_train = pd.Series(y_train, name='Class', index=indices)
+    training_full = X_train.copy()
+    training_full['Class'] = y_train.astype('category')
+    print('Skipped profiles:', skipped_profiles)
+    return training_full
+
+
+def add_splits(dataset, ids_folder_path):
+    folds = dict()
+    for set_name in sorted(os.listdir(ids_folder_path)):
+        with open(ids_folder_path + set_name) as cv_set:
+            sample_ids = cv_set.read().splitlines()
+            for sample_id in sample_ids:
+                folds[sample_id] = int(set_name[-1])
+
+    folds_df = pd.Series(np.nan, index=dataset.index)
+
+    for index in tqdm(dataset.index, desc='Adding folds'):
+        sample_id = index[0]
+        folds_df.at[index] = folds[sample_id]
+
+    dataset['Set'] = folds_df.astype('int64').astype('category')
+    return dataset
+
+
+def average_mcc(y_true, y_pred, benchmark_mode=False):
+    mcc_dict = dict()
+    mcc_list = list()
+    for secondary in np.unique([y_true, y_pred]):
+        y_true_temp = [secondary if elem == secondary else 0 for elem in y_true]
+        y_pred_temp = [secondary if elem == secondary else 0 for elem in y_pred]
+        curr_mcc = matthews_corrcoef(y_true_temp, y_pred_temp)
+        mcc_dict[secondary] = curr_mcc
+        mcc_list.append(curr_mcc)
+    mcc = mean(mcc_list)
+    if benchmark_mode:
+        mcc_dict['OvR'] = mcc
+        return mcc_dict
+    return mcc
+
+
+def average_acc(y_true, y_pred, benchmark_mode=False):
+    acc_dict = dict()
+    acc_list = list()
+    for secondary in np.unique([y_true, y_pred]):
+        y_true_temp = [secondary if elem == secondary else 0 for elem in y_true]
+        y_pred_temp = [secondary if elem == secondary else 0 for elem in y_pred]
+        curr_acc = accuracy_score(y_true_temp, y_pred_temp)
+        acc_dict[secondary] = curr_acc
+        acc_list.append(curr_acc)
+    acc = mean(acc_list)
+    if benchmark_mode:
+        acc_dict['OvR'] = acc
+        return acc_dict
+    return acc
