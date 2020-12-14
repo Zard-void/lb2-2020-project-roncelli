@@ -112,6 +112,12 @@ Russell, R.~B. and Barton, G.~J. (1993).
   multiple sequence alignment.
 \newblock {\em Journal of Molecular Biology\/}, {\bf 234}(4), 951--957.
 
+\bibitem[Sen {\em et~al.}(2005)Sen, Jernigan, Garnier, and
+  Kloczkowski]{sen2005gor}
+Sen, T.~Z., Jernigan, R.~L., Garnier, J., and Kloczkowski, A. (2005).
+\newblock Gor v server for protein secondary structure prediction.
+\newblock {\em Bioinformatics\/}, {\bf 21}(11), 2787--2788.
+
 \bibitem[Steinegger and S{\"{o}}ding(2017)Steinegger and
   S{\"{o}}ding]{Steinegger2017}
 Steinegger, M. and S{\"{o}}ding, J. (2017).

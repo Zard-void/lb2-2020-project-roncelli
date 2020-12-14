@@ -22,16 +22,16 @@
 
 \subtitle{Project Report}
 	
-\title[short Title]{Secondary structure prediction: a probabilistic and machine learning showdown}
+\title[GOR vs SVM]{Secondary structure prediction: a probabilistic and machine learning showdown}
 \author[Roncelli S.]{Roncelli Stefano\,$^{\text{\sfb 1,}*}$}
 \address{$^{\text{\sf 1}}$International Master in Bioinformatics, Univerisity of Bologna, Bologna}
 \corresp{$^\ast$To whom correspondence should be addressed.}
 \history{}
 \editor{}
-\abstract{\textbf{Motivation:} Protein structure prediction is of paramount importance in many fields. Through the decades many breakthougts allowed to extend the boundaries of sequence based prediction further than the generation before, but still nowhere near structure based methods. Analysis of the most significant innovations is essential in deriving a knowledgebase to devise even powerful methods.\\
-		\textbf{Results:} Powerful models allow to model non-linearity. However, the risk of overfitting is always plaguing complex predictors. More simple probabilistic models can yield comparable results if used in an information-rich context.\\
+\abstract{\textbf{Motivation:} Protein structure prediction is of paramount importance in many fields. Through decades, many breakthougts allowed to extend the boundaries of sequence based prediction further than the generation before, but still nowhere near structure based methods. Analysis of the most significant innovations is essential in deriving a knowledgebase to devise even more accurate methods.\\
+		\textbf{Results:} Powerful models allow to model non-linearity. However, the risk of overfitting is always plaguing complex predictors. More simple probabilistic models can yield adequate results if used in an information-rich context.\\
 		\textbf{Contact:}\href{stefano.roncelli@studio.unibo.it}{stefano.roncelli@studio.unibo.it}\\
-		\textbf{Supplementary information:} Supplementary data are available at github.}
+		\textbf{Supplementary information:} Supplementary data are available at \href{https://github.com/saiden89/lb2-2020-project-roncelli}{GitHub}.}
 \maketitle
 \section{Introduction}
 Prediction and pattern recognition is one of the core topics in all bioinformatic fields.
@@ -41,7 +41,7 @@ Their somewhat respectable performances (if we frame the epoque) were limited by
 It was only with the second generation that the context \citep{Garnier1978} was taken into account for more accurate predictions, which were verging 60\% accuracy.
 This context takes the form of a sliding window centered on the residue for which the effort of predicting its structure resides, but the lack of available known sequences resulted again in difficult estimation of the parameters.
 Only when the numbers finally caught up, the third generation models were able to harness the valuable data provided by evolution, in the form of sequence profiles derived from multiple sequence alignments, and breached the 70\% accuracy threshold.
-Today, state-of-the-art pushed the threshold even higher \citep{bibid}, even though the theoretical limit of 88\% has not yet been achieved \citep{Rost2001}\citep{Russell1993}.
+Today, state-of-the-art pushed the threshold even higher, even though the theoretical limit of 88\% has not yet been achieved \citep{Rost2001}\citep{Russell1993}.
 Thanks to the independent advancements in machine learning, most notably neural networks \citep{Drozdetskiy2015}\citep{Heffernan2018} and Support Vector Machines \citep{Kieslich2016}, the boundary stalls at 82\% accuracy.
 
 Here, we propose a side by side comparison between the old and the new: a performance review between a model based on the time-proven Garnier-Osguthorpe-Robson method \citep{Garnier1978} and a much more modern estimator based on Support Vector Machines \citep{Cortes1995}.
@@ -287,6 +287,9 @@ Where $\sigma$ is the standard deviation.
 Great effort was taken in order to mimic the features of the original test size from JPred as close as possible.
 The distribution of sequence length (\autoref{fig:seq_length}) along with the relative abundance of residues per secondary structure (\autoref{fig:frac_ss}) were consistent between training, testing and Uniprot Swiss-Prot.
 Most notably, the three distributions all have the same shape, with a peak at around 100 residues and a more pronounced decay starting just before 300 residues.
+Moreover, JPred training set shows the same repartition as Swiss-Prot for the SCOP classes (\autoref{fig:scop}). 
+This an important remark, since the reference for the "correct" structure (\textit{i.e.} the PDB) is heavily skewed towards certain SCOP classes, namely, the ones more easily crystallizable (\textit{e.g.} globular proteins).
+
 \autoref{fig:frac_ss} shows how, besides a modest sampling noise, train and test sets are comparable to one another.
 The proportions of classes \autoref{fig:ss_perc} between train and test sets are very comparable, thanks to the introduction of iterative resampling discussed above.
 
@@ -296,11 +299,11 @@ The proportions of classes \autoref{fig:ss_perc} between train and test sets are
 \end{figure*}
 \begin{figure}[!tb]
 	\includegraphics[width=\columnwidth]{secondary.png}
-	\caption{Secondary structure comparison between train and test sets.}\label{fig:ss_perc}
+	\caption{Secondary structure comparison between train (outer circle) and test (inner circle) sets.}\label{fig:ss_perc}
 \end{figure}
 
 \subsection*{GOR}
-Both models performed as expected, with a respective $Q_3$ accuracy of 0.50 and 0.63 (\autopageref{tab:q3}).
+Both models performed as expected, with a respective $Q_3$ accuracy of 0.50 and 0.63 (\autoref{tab:q3}).
 The difference between the results with when no context was given (\autoref{tab:gor_cv_w1}) and when the window was set to 17 (\autoref{tab:gor_test})  clarifies the importance and influence of nearby residues in determining the secondary structure.
 The 5-fold cross validation results of the contextualized model (\autoref{tab:gor_cv}) clearly dismisses the possibility of any particular skew that may have been introduced by the training subsampling. 
 Performance-wise, the MCC reported both during cross validation and testing (\autoref{tab:gor_test}) once again confirms the adequate capabilities of the GOR method to predict secondary structures despite its simplifying assumptions.
@@ -360,20 +363,23 @@ It clearly indicates how the model, even with the modest size of our training se
 It's clear that the modest performances noted are, without a shadow of a doubt, direct implications of the  limitations induced by the three simplifications previously discussed.
 The underlying available probabilities are correctly estimated, but the lack of predictive power resides in the approximations used to extract the information from the trained parameters.
 In other words, the lack of complexity constrains the model to pick up only the most evident patterns: helix and strands.
-Moreover, the paramount importance of the sequence context is confirmed by the sub-par performance of the context-deprived estimator ()\autoref{tab:q3}).
-In synthesis, the gor model trained is as good as it can get (* GOR V accounts for residues pairs and triplets, decision constants in the final prediction, 13 residues window); to achieve higher performances there is the need to look for other approaches.
+Moreover, the paramount importance of the sequence context is confirmed by the sub-par performance of the context-deprived estimator (\autoref{tab:q3}).
+In synthesis, the GOR model trained is as good as it can get, at least with our implementation.
+It is known that a subsequent iteration of the GOR method, namely GOR V, improves its performance by accounting for residues pairs and triplets and some decision constants for the final prediction \citep{sen2005gor}.
+In order to achieve even higher performances, there is the need to look for other approaches.
 In this regard, the SVM classifier consistently outperformed the GOR method, but this has to be expected since it encapsulates decades of machine learning advancements.
-The possibility to model non-linearity, introduced by non-linear functions, was a great achievement.
+The possibility to model non-linearity, introduced by non-linear functions, was undoubtedly a great achievement.
 Unfortunately, our results show that this feature of SVMs was not necessary to achieve satisfactory performances.
-Both the influence of the $\gamma$ parameter and, perhaps surprisingly, the use of non linear kernels clearly were not rewarded.
+Both the influence of the $\gamma$ parameter and, perhaps surprisingly, the use of non-linear kernels clearly were not rewarded.
 To be fair, the performance differences between the linear and non-linear kernels were not that obvious, but the noticeable tendency to overfitting, for the non-linear kernels, should come at least as suspicious.
-In summary, SVMs, when properly optimized, can offer a consistent boost in performance with respect to their probabilistic counterparts.
+\section*{Conclusion}
+In summary, SVMs - when properly optimized - can offer a consistent boost in performance with respect to their probabilistic counterparts.
 However, careful hyperparameter optimization is needed to achieve satisfactory results; a not so trivial use-case given their problem dependence.
 Moreover, the fact that they are more or less "black boxes" makes it difficult to derive biological knowledge, even from well fitted estimators.
 This remark can be juxtaposed to the notion that a deep understanding of the biological reality is perhaps even more important than the sheer power of the model.
-Such consideration inspired by the stunning effect of the sequence context in the accuracy for the model performance.
-More powerful and efficient models (i.e. neural networks) have been proven to work nearby the theoretical upper limit.
-As of today, it is difficult to recommend  support vector machines for secondary structure prediction, at least with their naive implementation.
+Such consideration is inspired by the stunning effect of the sequence context in the accuracy for the model performance.
+More powerful, easier to train, and efficient models (i.e. neural networks) have been proven to work nearby the theoretical upper limit.
+As of today, it is difficult to recommend  support vector machines for secondary structure prediction, at least with a na{\"i}ve implementation.
 
 
 %\bibliographystyle{natbib}
@@ -392,10 +398,8 @@ As of today, it is difficult to recommend  support vector machines for secondary
 
 \begin{supplementary}
 	\section*{Supplementary material}
-
-
 	\begin{table}[h]		
-		\processtable{GOR method train and test MCC.\label{tab:gor_cv}}{
+		\processtable{GOR-17 method train and test MCC.\label{tab:gor_cv}}{
 			\begin{tabular}{lrrrrrr}
 				\toprule Fold  &    1 &    2 &    3 &    4 &    5 & Average \\
 				\midrule
@@ -409,7 +413,8 @@ As of today, it is difficult to recommend  support vector machines for secondary
 	\processtable{MCC train scores for the grid search of the SVM.\label{tab:grid_train}} {
 	\centering
 	\begin{tabular}{lllrrrrrrr}
-		\topruleFold
+		\toprule
+Fold
 		&   &     &              1 &              2 &              3 &              4 &              5 &        Average\\
 		Kernel & $C$ & $\gamma$ &                &                &                &                &                &                &                \\
 		\midrule
@@ -442,7 +447,8 @@ As of today, it is difficult to recommend  support vector machines for secondary
 \vspace{8pt}
 \processtable{MCC test scores for the grid search of the SVM.\label{tab:grid_test}} {
 	\begin{tabular}{lllrrrrrrr}
-		\topruleFold
+		\toprule
+Fold
 		&   &     &              1 &              2 &              3 &              4 &              5 &        Average \\
 		Kernel & $C$ & $\gamma$ &                &                &                &                &                &                &                \\
 		\midrule
@@ -473,7 +479,7 @@ As of today, it is difficult to recommend  support vector machines for secondary
 }
 {}
 
-	\processtable{GOR estimato metrics with window size set to 1.\label{tab:gor_cv_w1}}{
+	\processtable{GOR estimator metrics with window size set to 1.\label{tab:gor_cv_w1}}{
 	\begin{tabular}{lrrrr}
 		\toprule
 		{} &              Helix &              Elongated &              Coil &            OvR             \\
@@ -489,7 +495,8 @@ As of today, it is difficult to recommend  support vector machines for secondary
 	\processtable{GOR estimator blind set metrics with window size set to 17.\label{tab:gor_test}} {
 
 \begin{tabular}{lrrrr}
-	\topruleScore
+	\toprule
+Score
 	{} &              Helix &              Elongated &              Coil &            OvR  \\
 	\midrule
 	Precision                        & \num{0.641402} & \num{0.469575} & \num{0.826408} & \num{0.645795}$\pm$\num{0.103032} \\
@@ -514,12 +521,12 @@ As of today, it is difficult to recommend  support vector machines for secondary
 	\bottomrule
 \end{tabular}
 }
-{The results refer to an estimator trained on the whole training set with a linear kernel, C set to 2 and $\gamma$ set to 0.5.}
+{The results refer to an estimator trained on the whole training set with a linear\\ kernel, C set to 2 and $\gamma$ set to 0.5.}
 \end{table}
 
-\begin{figure}
+\begin{figure*}[!b]
 	\includegraphics[width=\textwidth]{scop.png}
-	\caption{Sequence length comparison between train, test and Uniprot Swiss-Prot datasets.}\label{fig:seq_length}
-\end{figure}
+	\caption{Breakdown of SCOP classes for the training set.}\label{fig:scop}
+\end{figure*}
 \end{supplementary}
 \end{document}
