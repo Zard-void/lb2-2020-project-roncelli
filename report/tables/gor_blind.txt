@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrr}
+\toprule
+{} &              H &              E &              C &            OvR &            Ser \\
+\midrule
+precision                        & \num{0.641402} & \num{0.469575} & \num{0.826408} & \num{0.645795} & \num{0.103032} \\
+recall                           & \num{0.803627} & \num{0.734224} & \num{0.435615} & \num{0.657822} & \num{0.112895} \\
+Accuracy                         & \num{0.774641} & \num{0.768020} & \num{0.711972} & \num{0.751544} & \num{0.019878} \\
+Matthews Correlation Coefficient & \num{0.540730} & \num{0.443918} & \num{0.428262} & \num{0.470970} & \num{0.035171} \\
+\bottomrule
+\end{tabular}

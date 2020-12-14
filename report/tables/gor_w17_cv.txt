@@ -1,0 +1,8 @@
+\begin{tabular}{lrrrrr}
+\toprule
+{} &    0 &    1 &    2 &    3 &    4 \\
+\midrule
+test\_score  & 0.46 & 0.47 & 0.47 & 0.46 & 0.46 \\
+train\_score & 0.46 & 0.47 & 0.46 & 0.47 & 0.46 \\
+\bottomrule
+\end{tabular}
