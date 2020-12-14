@@ -1,13 +1,13 @@
 from gorpredictor import GORModel
 import argparse
 import os
-from profile_tools import prepare_training, check_window
+from profile_tools import prepare_dataset_from_profiles, check_window
 
 
 def main(profiles_path, ids, output, window_size, verbosity):
     check_window(window_size)
 
-    train_dataset = prepare_training(ids, profiles_path, window_size, verbosity)
+    train_dataset = prepare_dataset_from_profiles(ids, profiles_path, window_size, verbosity)
     X_train = train_dataset.drop(columns='Class').to_numpy()
     y_train = train_dataset['Class'].to_numpy().ravel()
     gor_predictor = GORModel(window_size)
