@@ -1,16 +1,17 @@
 import os
 from contextlib import ExitStack
-from tempfile import NamedTemporaryFile, TemporaryDirectory
+from tempfile import NamedTemporaryFile, TemporaryDirectory, gettempdir
 import biotite.application.dssp as dssp
 import biotite.structure as struc
 import biotite.structure.io.pdbx as pdbx
 import biotite.database.rcsb as rcsb
 import pandas as pd
 from Bio import SeqIO
-from Bio.Blast.Applications import NcbipsiblastCommandline
+from Bio.Blast.Applications import NcbipsiblastCommandline, NcbimakeblastdbCommandline
 from sultan.api import Sultan
 from tqdm import tqdm
 from joblib import dump
+from time import sleep
 
 
 def filter_entries(pdb_download):
@@ -73,31 +74,38 @@ if __name__ == '__main__':
     list_h = ['H']
     list_e = ['E', 'B']
 
-    for _, sample in tqdm(clean_test.iterrows(), total=len(clean_test)):
-        with TemporaryDirectory() as struct_tmp:
-            sample_id = sample['ID']
-            chain = sample['Chain']
-            sequence = sample['Sequence']
-            file_name = rcsb.fetch(sample_id, "pdbx", struct_tmp, overwrite=False)
-            pdbx_file = pdbx.PDBxFile.read(f'{struct_tmp}/{sample_id}.pdbx')
-            array = pdbx.get_structure(pdbx_file, model=1)
-            structure = array[struc.filter_amino_acids(array)]
-            structure = structure[structure.chain_id == chain]
-            structure.set_annotation('chain_id', ['A' for el in structure.chain_id])
-            sse = dssp.DsspApp.annotate_sse(structure)
-            sse = ['H' if ss in list_h else 'E' if ss in list_e else 'C' for ss in sse]
-            sse = ''.join(sse)
-            if len(sse) != len(sequence):
-                print(f'Length mesmatch between sequence and structure for {sample_id}_{chain}')
-                continue
-            sample['Structure'] = sse
-            full_test = full_test.append(sample)
+    s.gunzip('-fk ../data/swiss-prot/uniprot_sprot.fasta.gz').run()
+    cmd = NcbimakeblastdbCommandline(input_file='../data/swiss-prot/uniprot_sprot.fasta', dbtype='prot')
+    #cmd()
+    count = 0
+    for _, sample in tqdm(clean_test.iterrows(), total=len(clean_test), desc='Generating DSSP'):
+        sample_id = sample['ID']
+        chain = sample['Chain']
+        sequence = sample['Sequence']
+        file_name = rcsb.fetch(sample_id, "cif", gettempdir(), overwrite=False)
+        mmcif_file = pdbx.PDBxFile.read(file_name)
+        array = pdbx.get_structure(mmcif_file, model=1)
+        structure = array[struc.filter_amino_acids(array)]
+        structure = structure[structure.chain_id == chain]
+        structure.set_annotation('chain_id', ['A' for el in structure.chain_id])
+        sse = dssp.DsspApp.annotate_sse(structure)
+        sse = ['H' if ss in list_h else 'E' if ss in list_e else 'C' for ss in sse]
+        sse = ''.join(sse)
+        if len(sse) != len(sequence):
+            tqdm.write(f'Length mesmatch between sequence and structure for {sample_id}_{chain}')
+            continue
+        sample['Structure'] = sse
+        full_test = full_test.append(sample)
+        count += 1
+        if count == 20:
+            break
 
     full_test.set_index(['ID', 'Chain'], inplace=True)
     if not os.path.exists('../data/test/profile'):
         s.mkdir('../data/test/profile').run()
+
     with TemporaryDirectory() as psi_temp:
-        for _, sample in tqdm(full_test.iterrows(), total=len(full_test)):
+        for _, sample in tqdm(full_test.iterrows(), total=len(full_test), desc='Generating profiles'):
             with NamedTemporaryFile(mode='w') as blast_in:
                 sequence, structure = sample[['Sequence', 'Structure']]
                 sample_id, chain = sample.name[0], sample.name[1]
@@ -118,7 +126,7 @@ if __name__ == '__main__':
                 cmd()
 
                 if not os.path.exists(os.path.join(psi_temp, out_name + '.pssm')):
-                    print(f'Unable to generate profile for {out_name}.')
+                    tqdm.write(f'Unable to generate profile for {out_name}. No hits in the database.')
                     full_test.drop(index=sample.name, inplace=True)
                     continue
                 with open(f'{psi_temp}/{out_name}.pssm', 'r') as pssm_file:
@@ -149,7 +157,6 @@ if __name__ == '__main__':
                     df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
                     df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
                     df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
-                    print(f'saving ../data/test/profile/{sample_id}_{chain}.profile')
                     df.to_csv(f'../data/test/profile/{sample_id}_{chain}.profile', sep='\t', index=False)
-    print('Dumping clean test to data/test/full_test.joblib')
+    print('Dumping clean test to data/test/full_test.joblib. Profiles are generated in data/test/profile.')
     dump(full_test, '../data/test/full_test.joblib')
