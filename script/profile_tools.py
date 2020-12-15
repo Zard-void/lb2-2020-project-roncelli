@@ -6,6 +6,10 @@ from tqdm import tqdm
 from collections.abc import Iterable
 from sklearn.metrics import matthews_corrcoef, accuracy_score
 from statistics import mean
+from sultan.api import Sultan
+from Bio.Blast.Applications import NcbipsiblastCommandline, NcbimakeblastdbCommandline
+from tempfile import TemporaryDirectory, NamedTemporaryFile
+from joblib import dump
 
 RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
@@ -292,3 +296,71 @@ def average_acc(y_true, y_pred, benchmark_mode=False):
         acc_dict['OvR'] = acc
         return acc_dict
     return acc
+
+def generate_profiles(in_dataframe, out_path):
+    dataset = in_dataframe
+    s = Sultan()
+
+    print('Unpacking and generating Uniprot DB.')
+    s.gunzip('-fk ../data/swiss-prot/uniprot_sprot.fasta.gz').run()
+    cmd = NcbimakeblastdbCommandline(input_file='../data/swiss-prot/uniprot_sprot.fasta', dbtype='prot')
+    cmd()
+    if not os.path.exists(os.path.join(out_path, 'profile')):
+        s.mkdir(os.path.join(out_path, 'profile')).run()
+
+    with TemporaryDirectory() as psi_temp:
+        for _, sample in tqdm(dataset.iterrows(), total=len(dataset), desc='Generating profiles'):
+            with NamedTemporaryFile(mode='w') as blast_in:
+                sequence, structure = sample[['Sequence', 'Structure']]
+                sample_id, chain = sample.name[0], sample.name[1]
+                out_name = f'{sample_id}_{chain}'
+                structure = ' ' + structure
+                print(f'>{sample_id}_{chain}', file=blast_in)
+                print(sequence, file=blast_in)
+                blast_in.seek(0)
+                cmd = NcbipsiblastCommandline(query=blast_in.name,
+                                              db='../data/swiss-prot/uniprot_sprot.fasta',
+                                              evalue=0.01,
+                                              num_iterations=3,
+                                              out_ascii_pssm=f'{psi_temp}/{out_name}.pssm',
+                                              num_descriptions=10000,
+                                              num_alignments=10000,
+                                            #  out=f'{psi_temp}{out_name}.alns.blast',
+                                              num_threads=8)
+                cmd()
+
+                if not os.path.exists(os.path.join(psi_temp, out_name + '.pssm')):
+                    tqdm.write(f'Unable to generate profile for {out_name}. No hits in the database.')
+                    dataset.drop(index=sample.name, inplace=True)
+                    continue
+                with open(f'{psi_temp}/{out_name}.pssm', 'r') as pssm_file:
+                    pssm_file.readline()
+                    pssm_file.readline()
+                    file_list = []
+                    offset = False
+                    position = 0
+                    for line in pssm_file:
+                        line = line.rstrip()
+                        if not line:
+                            break
+                        line = line.split()
+                        line.append(structure[position])
+                        position += 1
+                        if not offset:
+                            for i in range(2):
+                                line.insert(0, '')
+                                offset = True
+                        file_list.append(line)
+                    df = pd.DataFrame(file_list)
+                    df.drop((df.columns[col] for col in range(2, 22)), axis=1, inplace=True)
+                    df.drop((df.columns[-3:-1]), axis=1, inplace=True)
+                    df.drop((df.columns[0]), axis=1, inplace=True)
+                    df.columns = df.iloc[0]
+                    df = df[1:]
+                    df.rename(columns={df.columns[0]: "Sequence"}, inplace=True)
+                    df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
+                    df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
+                    df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
+                    df.to_csv(f'{out_path}/profile/{sample_id}_{chain}.profile', sep='\t', index=False)
+    print(f'Dumping clean test to data/test/full_test.joblib. Profiles are generated in {out_path} profile.')
+    dump(dataset, '../data/test/full_test.joblib')
