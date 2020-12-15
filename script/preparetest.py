@@ -76,8 +76,8 @@ if __name__ == '__main__':
 
     s.gunzip('-fk ../data/swiss-prot/uniprot_sprot.fasta.gz').run()
     cmd = NcbimakeblastdbCommandline(input_file='../data/swiss-prot/uniprot_sprot.fasta', dbtype='prot')
-    #cmd()
-    count = 0
+    cmd()
+
     for _, sample in tqdm(clean_test.iterrows(), total=len(clean_test), desc='Generating DSSP'):
         sample_id = sample['ID']
         chain = sample['Chain']
@@ -96,9 +96,7 @@ if __name__ == '__main__':
             continue
         sample['Structure'] = sse
         full_test = full_test.append(sample)
-        count += 1
-        if count == 20:
-            break
+
 
     full_test.set_index(['ID', 'Chain'], inplace=True)
     if not os.path.exists('../data/test/profile'):
