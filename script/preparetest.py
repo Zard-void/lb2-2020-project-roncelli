@@ -4,11 +4,13 @@ from tempfile import NamedTemporaryFile, TemporaryDirectory
 import biotite.application.dssp as dssp
 import biotite.structure as struc
 import biotite.structure.io.pdbx as pdbx
+import biotite.database.rcsb as rcsb
 import pandas as pd
 from Bio import SeqIO
 from Bio.Blast.Applications import NcbipsiblastCommandline
 from sultan.api import Sultan
 from tqdm import tqdm
+from joblib import dump
 
 
 def filter_entries(pdb_download):
@@ -61,89 +63,93 @@ def reduce_redundancy(pdb_download):
 
 
 if __name__ == '__main__':
+    s = Sultan()
     pdb_raw_download = pd.read_csv('../data/test/pdb_raw_download.csv', usecols=[0, 1, 2, 3, 4, 5], header=0)
     pdb_raw_download = filter_entries(pdb_raw_download)
-    full_test = reduce_redundancy(pdb_raw_download)
-    full_test.to_csv('../data/test/full_test.tsv', sep='\t')
-    full_test[['ID', 'Chain']] = full_test['ID'].str.split("_", expand=True)
+    clean_test = reduce_redundancy(pdb_raw_download)
+    clean_test[['ID', 'Chain']] = clean_test['ID'].str.split("_", expand=True)
 
-    new_df = pd.DataFrame()
+    full_test = pd.DataFrame()
     list_h = ['H']
     list_e = ['E', 'B']
 
-    for _, sample in tqdm(full_test.iterrows(), total=len(full_test)):
-        sample_id = sample['ID']
-        chain = sample['Chain']
-        sequence = sample['Sequence']
-        # file_name = rcsb.fetch(sample_id, "pdbx", '../data/test/pdb', overwrite=False)
-        pdbx_file = pdbx.PDBxFile.read(f'../data/test/pdb/{sample_id}.pdbx')
-        array = pdbx.get_structure(pdbx_file, model=1, )
-        structure = array[struc.filter_amino_acids(array)]
-        structure = structure[structure.chain_id == chain]
-        structure.set_annotation('chain_id', ['A' for el in structure.chain_id])
-        sse = dssp.DsspApp.annotate_sse(structure)
-        sse = ['H' if ss in list_h else 'E' if ss in list_e else 'C' for ss in sse]
-        sse = ''.join(sse)
-        if len(sse) != len(sequence):
-            continue
-        sample['Structure'] = sse
-        new_df = new_df.append(sample)
-
-    for _, sample in tqdm(new_df.iterrows(), total=len(new_df)):
-        with NamedTemporaryFile(mode='w') as blast_in:
+    for _, sample in tqdm(clean_test.iterrows(), total=len(clean_test)):
+        with TemporaryDirectory() as struct_tmp:
             sample_id = sample['ID']
             chain = sample['Chain']
-            out_name = sample_id + '_' + chain
             sequence = sample['Sequence']
-            print(f'>{sample_id}_{chain}', file=blast_in)
-            print(sequence, file=blast_in)
-            blast_name = blast_in.name
-            blast_in.seek(0)
-            cmd = NcbipsiblastCommandline(query=blast_name,
-                                          db='../data/swiss-prot/uniprot_sprot.fasta',
-                                          evalue=0.01,
-                                          num_iterations=3,
-                                          out_ascii_pssm='../data/test/pssm/' + out_name + '.pssm',
-                                          num_descriptions=10000,
-                                          num_alignments=10000,
-                                          out='../data/test/alns/' + out_name + '.alns.blast',
-                                          num_threads=8)
+            file_name = rcsb.fetch(sample_id, "pdbx", struct_tmp, overwrite=False)
+            pdbx_file = pdbx.PDBxFile.read(f'{struct_tmp}/{sample_id}.pdbx')
+            array = pdbx.get_structure(pdbx_file, model=1)
+            structure = array[struc.filter_amino_acids(array)]
+            structure = structure[structure.chain_id == chain]
+            structure.set_annotation('chain_id', ['A' for el in structure.chain_id])
+            sse = dssp.DsspApp.annotate_sse(structure)
+            sse = ['H' if ss in list_h else 'E' if ss in list_e else 'C' for ss in sse]
+            sse = ''.join(sse)
+            if len(sse) != len(sequence):
+                print(f'Length mesmatch between sequence and structure for {sample_id}_{chain}')
+                continue
+            sample['Structure'] = sse
+            full_test = full_test.append(sample)
 
-            cmd()
+    full_test.set_index(['ID', 'Chain'], inplace=True)
+    if not os.path.exists('../data/test/profile'):
+        s.mkdir('../data/test/profile').run()
+    with TemporaryDirectory() as psi_temp:
+        for _, sample in tqdm(full_test.iterrows(), total=len(full_test)):
+            with NamedTemporaryFile(mode='w') as blast_in:
+                sequence, structure = sample[['Sequence', 'Structure']]
+                sample_id, chain = sample.name[0], sample.name[1]
+                out_name = f'{sample_id}_{chain}'
+                structure = ' ' + structure
+                print(f'>{sample_id}_{chain}', file=blast_in)
+                print(sequence, file=blast_in)
+                blast_in.seek(0)
+                cmd = NcbipsiblastCommandline(query=blast_in.name,
+                                              db='../data/swiss-prot/uniprot_sprot.fasta',
+                                              evalue=0.01,
+                                              num_iterations=3,
+                                              out_ascii_pssm=f'{psi_temp}/{out_name}.pssm',
+                                              num_descriptions=10000,
+                                              num_alignments=10000,
+                                            #  out=f'{psi_temp}{out_name}.alns.blast',
+                                              num_threads=8)
+                cmd()
 
-    for _, sample in tqdm(new_df.iterrows(), desc='Parsing', total=len(new_df)):
-        structure = sample['Structure']
-        structure = ' ' + structure
-        sample_id = sample['ID']
-        chain = sample['Chain']
-        if not os.path.exists(f'../data/test/pssm/{sample_id}_{chain}.pssm'):
-            continue
-        with open(f'../data/test/pssm/{sample_id}_{chain}.pssm', 'r') as pssm_file:
-            pssm_file.readline()
-            pssm_file.readline()
-            file_list = []
-            offset = False
-            position = 0
-            for line in pssm_file:
-                line = line.rstrip()
-                if not line:
-                    break
-                line = line.split()
-                line.append(structure[position])
-                position += 1
-                if not offset:
-                    for i in range(2):
-                        line.insert(0, '')
-                        offset = True
-                file_list.append(line)
-            df = pd.DataFrame(file_list)
-            df.drop((df.columns[col] for col in range(2, 22)), axis=1, inplace=True)
-            df.drop((df.columns[-3:-1]), axis=1, inplace=True)
-            df.drop((df.columns[0]), axis=1, inplace=True)
-            df.columns = df.iloc[0]
-            df = df[1:]
-            df.rename(columns={df.columns[0]: "Sequence"}, inplace=True)
-            df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
-            df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
-            df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
-            df.to_csv(f'../data/test/profile/{sample_id}_{chain}.profile', sep='\t', index=False)
+                if not os.path.exists(os.path.join(psi_temp, out_name + '.pssm')):
+                    print(f'Unable to generate profile for {out_name}.')
+                    full_test.drop(index=sample.name, inplace=True)
+                    continue
+                with open(f'{psi_temp}/{out_name}.pssm', 'r') as pssm_file:
+                    pssm_file.readline()
+                    pssm_file.readline()
+                    file_list = []
+                    offset = False
+                    position = 0
+                    for line in pssm_file:
+                        line = line.rstrip()
+                        if not line:
+                            break
+                        line = line.split()
+                        line.append(structure[position])
+                        position += 1
+                        if not offset:
+                            for i in range(2):
+                                line.insert(0, '')
+                                offset = True
+                        file_list.append(line)
+                    df = pd.DataFrame(file_list)
+                    df.drop((df.columns[col] for col in range(2, 22)), axis=1, inplace=True)
+                    df.drop((df.columns[-3:-1]), axis=1, inplace=True)
+                    df.drop((df.columns[0]), axis=1, inplace=True)
+                    df.columns = df.iloc[0]
+                    df = df[1:]
+                    df.rename(columns={df.columns[0]: "Sequence"}, inplace=True)
+                    df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
+                    df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
+                    df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
+                    print(f'saving ../data/test/profile/{sample_id}_{chain}.profile')
+                    df.to_csv(f'../data/test/profile/{sample_id}_{chain}.profile', sep='\t', index=False)
+    print('Dumping clean test to data/test/full_test.joblib')
+    dump(full_test, '../data/test/full_test.joblib')
