@@ -26,4 +26,5 @@ if __name__ == '__main':
         else:
             print('All classes are within the tolerance threshold. Done!')
             break
+    print('Dumping the test set to data/test/the_blind_w17.joblib')
     dump(test, '../data/test/the_blind_w17.joblib', compress=5)
