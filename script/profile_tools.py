@@ -371,6 +371,5 @@ def generate_profiles(in_dataframe, out_path):
                     profile = profile[['Structure'] + [col for col in profile.columns if col != 'Structure']]
                     profile.loc[:, 'A':'V'] = profile.loc[:, 'A':'V'].astype(float).divide(100)
                     profile.to_csv(out_path / 'profile' / (out_name + '.profile'), sep='\t', index=False)
-                    break
     print(f'Dumping clean test to {dump_path}. Profiles are generated in {out_path}/profile')
     dump(dataset, dump_path)
