@@ -284,6 +284,27 @@ def average_mcc(y_true, y_pred, benchmark_mode=False):
 
 
 def average_acc(y_true, y_pred, benchmark_mode=False):
+    """Accuracy classification score.
+    In multilabel classification, this function computes accuracy in with
+    an OvR average.
+
+    Parameters
+    ----------
+    y_true : 1d array-like, or label indicator array / sparse matrix
+        Ground truth (correct) labels.
+    y_pred : 1d array-like, or label indicator array / sparse matrix
+        Predicted labels, as returned by a classifier.
+    benchmark_mode : bool, optional (default = False)
+        If False, returns a float of the average OvR accuracy.
+        Otherwise, returns a  tuple where 0 is a dict of the single OvR
+        accuracies, and 1 is the OvR averasge.
+
+    Returns
+    -------
+    score : float
+        If ``benchmark_mode == True``, returns a tuple.
+        Otherwise, returns a float.
+    """
     acc_dict = dict()
     acc_list = list()
     for secondary in np.unique([y_true, y_pred]):
