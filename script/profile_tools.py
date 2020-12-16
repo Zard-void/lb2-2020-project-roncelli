@@ -311,11 +311,15 @@ def generate_profiles(in_dataframe, out_path):
     with TemporaryDirectory() as psi_temp:
         for _, sample in tqdm(dataset.iterrows(), total=len(dataset), desc='Generating profiles'):
             with NamedTemporaryFile(mode='w') as blast_in:
+                if isinstance(sample.name, tuple):
+                    sample_id, chain = sample.name[0], sample.name[1]
+                    out_name = f'{sample_id}_{chain}'
+                else:
+                    sample_id = sample.name
+                    out_name = sample_id
                 sequence, structure = sample[['Sequence', 'Structure']]
-                sample_id, chain = sample.name[0], sample.name[1]
-                out_name = f'{sample_id}_{chain}'
                 structure = ' ' + structure
-                print(f'>{sample_id}_{chain}', file=blast_in)
+                print(f'>{out_name}', file=blast_in)
                 print(sequence, file=blast_in)
                 blast_in.seek(0)
                 cmd = NcbipsiblastCommandline(query=blast_in.name,
@@ -361,6 +365,6 @@ def generate_profiles(in_dataframe, out_path):
                     df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
                     df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
                     df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
-                    df.to_csv(f'{out_path}/profile/{sample_id}_{chain}.profile', sep='\t', index=False)
-    print(f'Dumping clean test to data/test/full_test.joblib. Profiles are generated in {out_path} profile.')
+                    df.to_csv(f'{out_path}/profile/{out_name}.profile', sep='\t', index=False)
+    print(f'Dumping clean test to data/test/full_test.joblib. Profiles are generated in {out_path}profile.')
     dump(dataset, '../data/test/full_test.joblib')
