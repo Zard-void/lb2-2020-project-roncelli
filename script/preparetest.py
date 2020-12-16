@@ -69,7 +69,6 @@ if __name__ == '__main__':
     full_test = pd.DataFrame()
     list_h = ['H']
     list_e = ['E', 'B']
-    count = 0
     for _, sample in tqdm(clean_test.iterrows(), total=len(clean_test), desc='Generating DSSP'):
         sample_id = sample['ID']
         chain = sample['Chain']
@@ -88,9 +87,6 @@ if __name__ == '__main__':
             continue
         sample['Structure'] = sse
         full_test = full_test.append(sample)
-        count += 1
-        if count == 10:
-            break
     full_test.set_index(['ID', 'Chain'], inplace=True)
     generate_profiles(full_test, '../data/test/')
 
