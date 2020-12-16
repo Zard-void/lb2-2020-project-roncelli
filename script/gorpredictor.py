@@ -11,7 +11,6 @@ RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I',
             'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
 
-
 def _convert_to_information(raw_model, ss_prob):
     """
     Constructs the information matrix base on the model in input.
@@ -57,7 +56,6 @@ class GORModel(BaseEstimator, ClassifierMixin):
     """
     def __init__(self, window_size=17):
         self.window_size = window_size
-        self.is_fitted_ = False
 
     def fit(self, X, y):
         """Fit the model according to the given training data.
@@ -116,7 +114,7 @@ class GORModel(BaseEstimator, ClassifierMixin):
                              }
         self.is_fitted_ = True
 
-    def predict(self, X, batch_mode=True):
+    def predict(self, X):
         """Perform classification on samples in X.
 
         Parameters
@@ -139,19 +137,26 @@ class GORModel(BaseEstimator, ClassifierMixin):
         check_is_fitted(self, 'is_fitted_')
         X = check_array(X)
         predicted_structure = list()
-        if batch_mode:
-            for sample_n in tqdm(range(X.shape[0]), desc='Predicting'):
-                window = X[sample_n]
-                window = np.reshape(window, (self.window_size, 20))
-                probabilities = {secondary: (self.information_[secondary] * window).sum()
-                                 for secondary in self.information_.keys()}
-                predicted_structure.append(max(probabilities, key=probabilities.get))
-            predicted_structure = np.array(predicted_structure)
+        for sample_n in tqdm(range(X.shape[0]), desc='Predicting'):
+            window = X[sample_n]
+            if window.sum() == 0:
+                predicted_structure.append(3)
+                continue
+            window = np.reshape(window, (self.window_size, 20))
+            probabilities = {secondary: (self.information_[secondary] * window).sum()
+                             for secondary in self.information_.keys()}
+            predicted_structure.append(max(probabilities, key=probabilities.get))
+        predicted_structure = np.array(predicted_structure)
         return predicted_structure
 
     def predict_single(self, X):
         predicted_structure = list()
         for window in X:
+            print(window.sum())
+            if window.sum() == 0:
+                predicted_structure.append(3)
+                print('hey!')
+                continue
             window = window.reshape(self.window_size, 20)
             probabilities = {secondary: (self.information_[secondary] * window).sum()
                              for secondary in self.information_.keys()}
