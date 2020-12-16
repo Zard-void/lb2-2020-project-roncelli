@@ -11,24 +11,6 @@ RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I',
             'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
 
-def _normalize(raw_model):
-    """Normalizes each observation in the input model. The new ranges will be between 0 and 1.
-
-    Parameters
-    ----------
-
-    raw_model : pandas dataframe
-        The model to normalize.
-
-    Returns
-    -------
-    raw_model : pandas dataframe
-        The normalized model.
-    """
-    raw_model = {secondary: raw_model[secondary] / raw_model['R'].sum(axis=1).reshape(17,1) for secondary in raw_model.keys()}
-    #raw_model = raw_model.divide(raw_model.loc[('R',)].sum(axis=1), axis=0, level=1)
-    return raw_model
-
 
 def _convert_to_information(raw_model, ss_prob):
     """
@@ -110,7 +92,6 @@ class GORModel(BaseEstimator, ClassifierMixin):
         ss_prob = {secondary: ss_count[secondary] / total_count for secondary in ss_count.keys()}
         window_positions = [x for x in range(-(self.window_size // 2), self.window_size // 2 + 1)]
 
-        #_normalize(raw_model)
         self.information_ = _convert_to_information(raw_model, ss_prob)
         self.information_tab_ = pd.concat(
             [pd.DataFrame(v, index=window_positions, columns=RESIDUES) for v in self.information_.values()],
