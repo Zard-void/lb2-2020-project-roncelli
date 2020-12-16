@@ -155,7 +155,6 @@ class GORModel(BaseEstimator, ClassifierMixin):
             print(window.sum())
             if window.sum() == 0:
                 predicted_structure.append(3)
-                print('hey!')
                 continue
             window = window.reshape(self.window_size, 20)
             probabilities = {secondary: (self.information_[secondary] * window).sum()
