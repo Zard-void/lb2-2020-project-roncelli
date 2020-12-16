@@ -345,7 +345,7 @@ def generate_profiles(in_dataframe, out_path):
                 with open(f'{psi_temp}/{out_name}.pssm', 'r') as pssm_file:
                     pssm_file.readline()
                     pssm_file.readline()
-                    file_list = []
+                    profile = []
                     offset = False
                     position = 0
                     for line in pssm_file:
@@ -359,18 +359,18 @@ def generate_profiles(in_dataframe, out_path):
                             for i in range(2):
                                 line.insert(0, '')
                                 offset = True
-                        file_list.append(line)
-                    df = pd.DataFrame(file_list)
-                    df.drop((df.columns[col] for col in range(2, 22)), axis=1, inplace=True)
-                    df.drop((df.columns[-3:-1]), axis=1, inplace=True)
-                    df.drop((df.columns[0]), axis=1, inplace=True)
-                    df.columns = df.iloc[0]
-                    df = df[1:]
-                    df.rename(columns={df.columns[0]: "Sequence"}, inplace=True)
-                    df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
-                    df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
-                    df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
-                    df.to_csv(out_path / 'profile' / (out_name + '.profile'), sep='\t', index=False)
+                        profile.append(line)
+                    profile = pd.DataFrame(profile)
+                    profile.drop((profile.columns[col] for col in range(2, 22)), axis=1, inplace=True)
+                    profile.drop((profile.columns[-3:-1]), axis=1, inplace=True)
+                    profile.drop((profile.columns[0]), axis=1, inplace=True)
+                    profile.columns = profile.iloc[0]
+                    profile = profile[1:]
+                    profile.rename(columns={profile.columns[0]: "Sequence"}, inplace=True)
+                    profile.rename(columns={profile.columns[-1]: "Structure"}, inplace=True)
+                    profile = profile[['Structure'] + [col for col in profile.columns if col != 'Structure']]
+                    profile.loc[:, 'A':'V'] = profile.loc[:, 'A':'V'].astype(float).divide(100)
+                    profile.to_csv(out_path / 'profile' / (out_name + '.profile'), sep='\t', index=False)
                     break
     print(f'Dumping clean test to {dump_path}. Profiles are generated in {out_path}/profile')
     dump(dataset, dump_path)
