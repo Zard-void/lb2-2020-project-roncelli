@@ -1,5 +1,4 @@
-import pandas as pd
-from joblib import dump
+from joblib import dump, load
 from sklearn.model_selection import PredefinedSplit, GridSearchCV
 from thundersvm import SVC
 from sklearn.metrics import make_scorer
@@ -16,7 +15,7 @@ PARAMETERS = {
 
 if __name__ == '__main__':
     svm = SVC(random_state=RANDOM_STATE)
-    jpred = pd.read_csv(DATASET_PATH, sep='\t', header=[0, 1], index_col=[0, 1])
+    jpred = load('../data/training/jpred.joblib')
     X_train = jpred.iloc[:, :-2].to_numpy()
     y_train = jpred['Class'].to_numpy().ravel()
     ps = PredefinedSplit(jpred['Set']).split()
