@@ -10,6 +10,7 @@ from sultan.api import Sultan
 from Bio.Blast.Applications import NcbipsiblastCommandline, NcbimakeblastdbCommandline
 from tempfile import TemporaryDirectory, NamedTemporaryFile
 from joblib import dump
+from pathlib import Path
 
 RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
@@ -298,6 +299,7 @@ def average_acc(y_true, y_pred, benchmark_mode=False):
     return acc
 
 def generate_profiles(in_dataframe, out_path):
+    out_path = Path(out_path)
     dataset = in_dataframe
     s = Sultan()
 
@@ -305,8 +307,8 @@ def generate_profiles(in_dataframe, out_path):
     s.gunzip('-fk ../data/swiss-prot/uniprot_sprot.fasta.gz').run()
     cmd = NcbimakeblastdbCommandline(input_file='../data/swiss-prot/uniprot_sprot.fasta', dbtype='prot')
     cmd()
-    if not os.path.exists(os.path.join(out_path, 'profile')):
-        s.mkdir(os.path.join(out_path, 'profile')).run()
+    if not (out_path / 'profile').exists():
+        s.mkdir(out_path / 'profile').run()
 
     with TemporaryDirectory() as psi_temp:
         for _, sample in tqdm(dataset.iterrows(), total=len(dataset), desc='Generating profiles'):
@@ -314,9 +316,12 @@ def generate_profiles(in_dataframe, out_path):
                 if isinstance(sample.name, tuple):
                     sample_id, chain = sample.name[0], sample.name[1]
                     out_name = f'{sample_id}_{chain}'
+                    dump_path = out_path / 'full_test_summary.joblib'
                 else:
                     sample_id = sample.name
                     out_name = sample_id
+                    dump_path = out_path / 'jpred_summary.joblib'
+
                 sequence, structure = sample[['Sequence', 'Structure']]
                 structure = ' ' + structure
                 print(f'>{out_name}', file=blast_in)
@@ -365,6 +370,7 @@ def generate_profiles(in_dataframe, out_path):
                     df.rename(columns={df.columns[-1]: "Structure"}, inplace=True)
                     df = df[['Structure'] + [col for col in df.columns if col != 'Structure']]
                     df.loc[:, 'A':'V'] = df.loc[:, 'A':'V'].astype(float).divide(100)
-                    df.to_csv(f'{out_path}/profile/{out_name}.profile', sep='\t', index=False)
-    print(f'Dumping clean test to data/test/full_test.joblib. Profiles are generated in {out_path}profile.')
-    dump(dataset, '../data/test/full_test.joblib')
+                    df.to_csv(out_path / 'profile' / (out_name + '.profile'), sep='\t', index=False)
+                    break
+    print(f'Dumping clean test to {dump_path}. Profiles are generated in {out_path}/profile')
+    dump(dataset, dump_path)
