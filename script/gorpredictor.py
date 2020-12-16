@@ -123,11 +123,6 @@ class GORModel(BaseEstimator, ClassifierMixin):
         Training vector, where n_samples is the number of samples and
         n_features is the number of features.
 
-        batch_mode : {bool}
-            If false, the model expects as input a single protein. Useful for generating sequences of unknown proteins.
-            If true, the model expects as input a two or more proteins in the same file.
-            Useful for scoring on sets when the actual predicted sequence is not important.
-
         Returns
         -------
         predicted_structure : ndarray of shape (n_samples,)
@@ -149,7 +144,20 @@ class GORModel(BaseEstimator, ClassifierMixin):
         predicted_structure = np.array(predicted_structure)
         return predicted_structure
 
-    def predict_single(self, X):
+    def predict_single(self, X) -> str:
+        """Performs classification on samples in X. Useful when predicting the structure of a single sequence.
+
+        Parameters
+        ----------
+        X : {array-like, sparse matrix} of shape (n_samples, n_features)
+        Training vector, where n_samples is the number of samples and
+        n_features is the number of features.
+
+       Returns
+        -------
+        predicted_structure : str of length (n_samples,)
+        Class labels for samples in X.
+        """
         predicted_structure = list()
         for window in X:
             print(window.sum())
