@@ -5,7 +5,7 @@ This repository is intended as supplementary material for the Laboratory of bioi
 ## Scripts
 - `preparejpred.py` and `preparetest.py` each execute the pipeline that generated the profiles from the respective datasets.
 The profiles will be places under `data/training/profile` for jpred and `data/test/profile` for the test set.
-The both also dump in their respective locations a summary for each dataset.
+They both also dump in their respective locations a summary for each dataset.
 For the complete generation of the test set, `sampletest.py` offers the code to sample 150 sequences from the test set.
 It may take a long time since it tries to match JPred original secondary structure proportions within a 2% tolerance limit.
 However, the prepared and ready-to-go dataset are also already present, so there is no need to execute the pipeline if not for reproducibility.
