@@ -58,8 +58,7 @@ def check_window(window_size):
 
 
 def pad_profile(profile, window_size):
-    """
-    This function adds rows with zero values at the beginning and the end of each profile.
+    """Adds rows with zero values at the beginning and the end of each profile.
 
     :param profile: A sequence profile
     :param window_size: length of the window: number of total residues before and after the index
@@ -79,11 +78,20 @@ def pad_profile(profile, window_size):
 
 def get_window(profile, index, window_size):
     """
-    :param profile: the profile to extract the window from
-    :param index: the central residue of the window
-    :param window_size: length of the window: number of total residues before and after the index
-    :return: the window
-    :rtype: :class:`pandas.DataFrame`
+
+    Parameters
+    ----------
+    profile
+        Window profile of size {window_size, 20}
+    index : int
+        Position of the central residue in the given profile
+    window_size : int
+        Size of the window around the central residue
+
+    Returns
+    -------
+    window
+        the window of size {window_size, 20} centered on ``index``.
     """
 
     check_window(window_size)
@@ -93,11 +101,10 @@ def get_window(profile, index, window_size):
 
 
 def check_profile(profile, training_id):
-    """
-    Performs a series of check to ensure the profiles are suitable for training.
-    :param profile:
-    :param training_id:
-    :return:
+    """Performs a series of check to ensure the profiles are suitable.
+    Specifically, the columns of the profiles must math the expected order (``check_columns``),
+    and the whole profile must not have 0 in every position (``check_if_zero``).
+
     """
     def check_columns():
         """
@@ -122,11 +129,7 @@ def check_profile(profile, training_id):
 
 
 def infer_window_size(gor_model):
-    """
-    :param gor_model: A trained GOR model
-    :type gor_model: pandas.DataFrame
-    :return: the window size used to train the model
-    :rtype int
+    """Internal function to infer the window size that was used to train a GOR model.
     """
     n_classes = gor_model.index.levels[0].nunique()
     window_size = gor_model.shape[0] // n_classes
@@ -134,6 +137,9 @@ def infer_window_size(gor_model):
 
 
 def prepare_query(profile_id, profiles_path, window_size):
+    """Internal function to prepare a query to be submitted to the GOR estimator.
+
+    """
     check_window(window_size)
     query = list()
     try:
@@ -203,6 +209,8 @@ def prepare_dataset_from_profiles(ids, profiles_path, window_size, verbosity):
 
 
 def prepare_test_from_profiles(ids, profiles_path, window_size, verbosity):
+    """Internal function to prepare a test set compatible with Scikit-learn estimators.
+    """
     if verbosity == 0:
         warnings.filterwarnings('ignore')
     if isinstance(ids, Iterable) and not isinstance(ids, str):
@@ -250,6 +258,9 @@ def prepare_test_from_profiles(ids, profiles_path, window_size, verbosity):
 
 
 def add_splits(dataset, ids_folder_path):
+    """Internal function to add the cross validation splits from a list of files.
+
+    """
     folds = dict()
     for set_name in sorted(os.listdir(ids_folder_path)):
         with open(ids_folder_path + set_name) as cv_set:
@@ -268,6 +279,54 @@ def add_splits(dataset, ids_folder_path):
 
 
 def average_mcc(y_true, y_pred, benchmark_mode=False):
+    """Compute the Matthews correlation coefficient (MCC)
+
+        The Matthews correlation coefficient is used in machine learning as a
+        measure of the quality of binary and multiclass classifications. It takes
+        into account true and false positives and negatives and is generally
+        regarded as a balanced measure which can be used even if the classes are of
+        very different sizes. The MCC is in essence a correlation coefficient value
+        between -1 and +1. A coefficient of +1 represents a perfect prediction, 0
+        an average random prediction and -1 an inverse prediction.  The statistic
+        is also known as the phi coefficient. [source: Wikipedia]
+        Binary and multiclass labels are supported.  For multiclass, the output value
+        will the average of the OneVsRest binary scores.
+
+        Parameters
+        ----------
+        y_true : array, shape = [n_samples]
+            Ground truth (correct) target values.
+        y_pred : array, shape = [n_samples]
+            Estimated targets as returned by a classifier.
+        benchmark_mode : bool, optional (default = False)
+            If False, returns a float of the average OvR MCC.
+            Otherwise, returns a  tuple where 0 is a dict of the single OvR
+            MCCs, and 1 is the OvR average.
+            ù
+        Returns
+        -------
+
+        mcc : float
+            If ``benchmark_mode == True``, returns a tuple.
+            Otherwise, returns a float.
+            The Matthews correlation coefficient (+1 represents a perfect
+            prediction, 0 an average random prediction and -1 and inverse
+            prediction).
+
+        References
+        ----------
+        .. [1] `Baldi, Brunak, Chauvin, Andersen and Nielsen, (2000). Assessing the
+           accuracy of prediction algorithms for classification: an overview
+           <https://doi.org/10.1093/bioinformatics/16.5.412>`_
+        .. [2] `Wikipedia entry for the Matthews Correlation Coefficient
+           <https://en.wikipedia.org/wiki/Matthews_correlation_coefficient>`_
+        .. [3] `Gorodkin, (2004). Comparing two K-category assignments by a
+            K-category correlation coefficient
+            <https://www.sciencedirect.com/science/article/pii/S1476927104000799>`_
+        .. [4] `Jurman, Riccadonna, Furlanello, (2012). A Comparison of MCC and CEN
+            Error Measures in MultiClass Prediction
+            <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0041882>`_
+            """
     mcc_dict = dict()
     mcc_list = list()
     for secondary in np.unique([y_true, y_pred]):
@@ -297,11 +356,11 @@ def average_acc(y_true, y_pred, benchmark_mode=False):
     benchmark_mode : bool, optional (default = False)
         If False, returns a float of the average OvR accuracy.
         Otherwise, returns a  tuple where 0 is a dict of the single OvR
-        accuracies, and 1 is the OvR averasge.
+        accuracies, and 1 is the OvR average.
 
     Returns
     -------
-    score : float
+    acc : float
         If ``benchmark_mode == True``, returns a tuple.
         Otherwise, returns a float.
     """
@@ -320,6 +379,9 @@ def average_acc(y_true, y_pred, benchmark_mode=False):
     return acc
 
 def generate_profiles(in_dataframe, out_path):
+    """Rather complicated and quite honetly ugly looking function used
+    for generating the profiles from a given set of sequences. Intended to be used internally.
+    """
     out_path = Path(out_path)
     dataset = in_dataframe
     s = Sultan()
