@@ -5,6 +5,7 @@ from tqdm import tqdm
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 from sklearn.utils.multiclass import unique_labels
+from profile_tools import convert_int_to_secondary
 
 
 RESIDUES = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I',
@@ -160,13 +161,14 @@ class GORModel(BaseEstimator, ClassifierMixin):
         """
         predicted_structure = list()
         for window in X:
-            print(window.sum())
             if window.sum() == 0:
-                predicted_structure.append(3)
-                continue
-            window = window.reshape(self.window_size, 20)
-            probabilities = {secondary: (self.information_[secondary] * window).sum()
+                predicted_ss = 3
+            else:
+                window = window.reshape(self.window_size, 20)
+                probabilities = {secondary: (self.information_[secondary] * window).sum()
                              for secondary in self.information_.keys()}
-            predicted_structure.append(str(max(probabilities, key=probabilities.get)))
+                predicted_ss = max(probabilities, key=probabilities.get)
+            predicted_ss = convert_int_to_secondary(predicted_ss)
+            predicted_structure.append(predicted_ss)
         predicted_structure = ''.join(predicted_structure)
         return predicted_structure

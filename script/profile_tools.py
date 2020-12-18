@@ -48,7 +48,7 @@ def convert_int_to_secondary(secondary):
     if secondary == 2:
         secondary = 'E'
     if secondary == 3:
-        secondary = 'C'
+        secondary = '-'
     return secondary
 
 
@@ -377,6 +377,7 @@ def average_acc(y_true, y_pred, benchmark_mode=False):
         acc_dict['OvR'] = acc
         return acc_dict
     return acc
+
 
 def generate_profiles(in_dataframe, out_path):
     """Rather complicated and quite honetly ugly looking function used

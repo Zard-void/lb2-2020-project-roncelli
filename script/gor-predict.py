@@ -13,7 +13,7 @@ def main(ids, profiles_path, model_path):
     window_size = infer_window_size(trained_model)
     gor_estimator = GORModel(window_size)
     gor_estimator.load_model(model_path)
-    for profile_id in tqdm(profile_ids):
+    for profile_id in profile_ids:
         query = prepare_query(profile_id, profiles_path, window_size)
         ss_pred = gor_estimator.predict_single(query)
         print(f'>{profile_id}\n{ss_pred}')
